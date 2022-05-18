@@ -13,7 +13,7 @@
             <v-textarea v-text="loot_poor_2"/>
         </div>
         <br>
-        <div class="green">Loot (Low Quality, 5 Gold)</div>
+        <div class="green">Loot (Medium Quality, 5 Gold)</div>
         <div class="text--primary">
             <v-textarea v-text="loot_mid_1"/>
             <v-textarea v-text="loot_mid_2"/>
