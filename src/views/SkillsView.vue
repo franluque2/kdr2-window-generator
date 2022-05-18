@@ -68,7 +68,11 @@
             generate_skills() {
                 this.skill_1 = skills.skills[Math.floor(Math.random() * skills.skills.length)];
                 this.skill_2 = skills.skills[Math.floor(Math.random() * skills.skills.length)];
+                while (this.skill_1 === this.skill_2)
+                    this.skill_2 = skills.skills[Math.floor(Math.random() * skills.skills.length)];
                 this.skill_3 = skills.skills[Math.floor(Math.random() * skills.skills.length)];
+                while ((this.skill_1 === this.skill_3) || (this.skill_2 === this.skill_3))
+                    this.skill_3 = skills.skills[Math.floor(Math.random() * skills.skills.length)];
             }, forceUpdate() {
                 this.key++;
             },

@@ -80,8 +80,8 @@
     import classes from '../assets/kdr-assets/classes-index'
 
     export default {
-        name:"ClassSkillsView",
-        components:{
+        name: "ClassSkillsView",
+        components: {
             pretty_template, discord_template
         },
         data: () => ({
@@ -101,7 +101,11 @@
             generate_skills() {
                 this.skill_1 = classes.classes[this.selectedItem].class_skills[Math.floor(Math.random() * classes.classes[this.selectedItem].class_skills.length)];
                 this.skill_2 = classes.classes[this.selectedItem].class_skills[Math.floor(Math.random() * classes.classes[this.selectedItem].class_skills.length)];
+                while (this.skill_1 === this.skill_2)
+                    this.skill_2 = classes.classes[this.selectedItem].class_skills[Math.floor(Math.random() * classes.classes[this.selectedItem].class_skills.length)];
                 this.skill_3 = classes.classes[this.selectedItem].class_skills[Math.floor(Math.random() * classes.classes[this.selectedItem].class_skills.length)];
+                while ((this.skill_1 === this.skill_3) || (this.skill_2 === this.skill_3))
+                    this.skill_3 = classes.classes[this.selectedItem].class_skills[Math.floor(Math.random() * classes.classes[this.selectedItem].class_skills.length)];
             }, forceUpdate() {
                 this.key++;
             },

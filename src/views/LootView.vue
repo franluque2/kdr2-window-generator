@@ -116,21 +116,37 @@
             key: 0
         }),
         methods: {
-            generate_loot(kdr_class) {
+            generate_loot: function (kdr_class) {
                 this.treasure_1 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
                 this.treasure_2 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
+                while (this.treasure_1 === this.treasure_2)
+                    this.treasure_2 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
                 this.treasure_3 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
+                while ((this.treasure_1 === this.treasure_3) || (this.treasure_2 === this.treasure_3))
+                    this.treasure_3 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
+
 
                 this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                 this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                while ((this.loot_poor_1 === this.loot_poor_2))
+                    this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
 
                 this.loot_mid_1 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 this.loot_mid_2 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+                while ((this.loot_mid_1 === this.loot_mid_2))
+                this.loot_mid_2 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 this.loot_mid_3 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+                while ((this.loot_mid_1 === this.loot_mid_3) || (this.loot_mid_2 === this.loot_mid_3))
+                this.loot_mid_3 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+
 
                 this.loot_high_1 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
                 this.loot_high_2 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
+                while ((this.loot_high_1 === this.loot_high_2))
+                    this.loot_high_2 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
                 this.loot_high_3 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
+                while ((this.loot_high_1 === this.loot_high_3) || (this.loot_high_2 === this.loot_high_3))
+                    this.loot_high_3 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
             }, forceUpdate() {
                 this.key++;
             },

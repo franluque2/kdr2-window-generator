@@ -1,4 +1,4 @@
-# webapp
+# Kdr-2 Admin Tools
 
 ## Project setup
 ```
