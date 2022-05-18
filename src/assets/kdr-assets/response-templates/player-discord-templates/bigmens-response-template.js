@@ -1,10 +1,14 @@
 export default {
     name: 'Bigmen\'s template',
-    discord:true,
-    img: "avatars/bigmen.jpg",
+    discord: true,
+    img: '/avatars/bigmen.jpg',
     template_skills: ' **You got a Skill!** \n' +
+            '\n' +
         'skill_1\n' +
+            '\n' +
+
         'skill_2\n' +
+            '\n' +
         'skill_3\n',
     template_loot: '**You got a Treasure!** (This one is free, pick one)\n' +
         '\n' +

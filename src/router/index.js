@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import SkillsClassicView from "../views/SkillsClassicView";
 import SkillsView from "../views/SkillsView";
 import LootView from "../views/LootView";
+import ClassSkillsView from "../views/ClassSkillsView";
 
 Vue.use(VueRouter)
 
@@ -32,6 +33,10 @@ const routes = [
     path: '/skills-classic',
     name: 'skills-classic',
     component: SkillsClassicView
+  },{
+    path: '/class-skills',
+    name: 'class-skills',
+    component: ClassSkillsView
   }
 ]
 

@@ -41,7 +41,7 @@
                                     :key="i"
                                     :href="'#tab-' + i"
                             >
-                                <v-avatar :src="publicPath + item.img"></v-avatar>
+                                <v-img :src=item.img height="20px" width="50px"></v-img>
                             </v-tab>
                         </v-tabs>
                         <v-tabs-items v-model="tab">
@@ -87,9 +87,6 @@
     import loot_discord_paste_template from '../assets/kdr-assets/response-templates/loot-discord-paste-template'
     import pretty_paste_template from '../assets/kdr-assets/response-templates/loot-pretty-template'
     import treasures from '../assets/kdr-assets/treasures'
-    import process from "node/process";
-
-    console.log(templates.templates);
 
     export default {
         name: "LootView",
@@ -116,8 +113,7 @@
             loot_high_1: '',
             loot_high_2: '',
             loot_high_3: '',
-            key: 0,
-            publicPath: process.env.BASE_URL
+            key: 0
         }),
         methods: {
             generate_loot(kdr_class) {
@@ -144,9 +140,6 @@
             }
 
 
-        },
-        mounted() {
-            this.generate_loot(classes.classes[this.selectedItem])
         }
     }
 </script>

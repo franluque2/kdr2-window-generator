@@ -3,6 +3,8 @@
         <v-navigation-drawer
                 v-model="drawer"
                 app
+                class="blue darken-4"
+                dark
         >
             <v-list-item>
                 <v-list-item-content>
@@ -39,7 +41,7 @@
             <!--  -->
         </v-navigation-drawer>
 
-        <v-app-bar app>
+        <v-app-bar app class="red darken-3" dark>
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
             <v-toolbar-title>Electrumite Never Coming Back</v-toolbar-title>
@@ -61,7 +63,8 @@
             items: [
                 {title: 'KDR-2 Skills', icon: 'mdi-arrow-up-bold', to:'/skills'},
                 {title: 'KDR-2 Loot', icon: 'mdi-treasure-chest', to:'/loot'},
-                {title: 'KDR Classic Skills', icon: 'mdi-folder-clock-outline', to:'/skills-classic'},
+                {title: 'KDR-2 Class Skills', icon: 'mdi-controller-classic-outline',to:'/class-skills'},
+                {title: 'KDR Classic Skills', icon: 'mdi-folder-clock-outline', to:'/skills-classic'}
             ],
             right: null,
             drawer: false
