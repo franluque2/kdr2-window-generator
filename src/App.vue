@@ -1,5 +1,5 @@
 <template>
-    <v-app id="inspire">
+    <v-app>
         <v-navigation-drawer
                 v-model="drawer"
                 app
@@ -7,10 +7,10 @@
             <v-list-item>
                 <v-list-item-content>
                     <v-list-item-title class="text-h6">
-                        Application
+                        KDR Admin Tools
                     </v-list-item-title>
                     <v-list-item-subtitle>
-                        subtext
+                        By Bigmen
                     </v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
@@ -25,6 +25,7 @@
                         v-for="item in items"
                         :key="item.title"
                         link
+                        :to="item.to"
                 >
                     <v-list-item-icon>
                         <v-icon>{{ item.icon }}</v-icon>
@@ -35,34 +36,36 @@
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
+            <!--  -->
         </v-navigation-drawer>
 
         <v-app-bar app>
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-            <v-toolbar-title>Application</v-toolbar-title>
+            <v-toolbar-title>Electrumite Never Coming Back</v-toolbar-title>
         </v-app-bar>
 
+
         <v-main>
-            <!--  -->
+            <router-view/>
         </v-main>
     </v-app>
 </template>
 
 <script>
 
-
     export default {
         name: 'App',
 
         data: () => ({
             items: [
-                {title: 'Dashboard', icon: 'mdi-view-dashboard'},
-                {title: 'Photos', icon: 'mdi-image'},
-                {title: 'About', icon: 'mdi-help-box'},
+                {title: 'KDR-2 Skills', icon: 'mdi-arrow-up-bold', to:'/skills'},
+                {title: 'KDR-2 Loot', icon: 'mdi-treasure-chest', to:'/loot'},
+                {title: 'KDR Classic Skills', icon: 'mdi-folder-clock-outline', to:'/skills-classic'},
             ],
             right: null,
-            drawer: null
+            drawer: false
+            //
         }),
     };
 </script>
