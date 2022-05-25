@@ -7,14 +7,14 @@ export default {
         'Reckless Attack (Once per turn): You can swap the ATK and DEF of a “Neo Aqua Madoor” you control until the end of the turn.',
         'Shattered Mirrors: After completing your Legendary Quest, while you control “Neo Aqua Madoor” you can send Spells from your hand to the GY instead of revealing them to use Mirror Images, and if you do, the Token summoned is not destroyed at the end of turn.',
         'Shining Upgrade! You can tribute “Neo Aqua Madoor” to Special Summon 1 “Lightray Madoor” from your hand, Deck, or GY. Its name becomes “Neo Aqua Madoor” (Add “Lightray Madoor” to your inventory).',
-        'Ice Wall (Once per Duel): After completing your Legendary Quest: Your opponent’s monsters cannot target monsters for attacks except “Neo Aqua Madoor” while you control “Neo Aqua Madoor” until the end of their next turn.'
+        'Ice Wall (Once per Duel): After completing your Legendary Quest: Your opponent’s monsters cannot target monsters for attacks except “Neo Aqua Madoor” while you control “Neo Aqua Madoor” until the end of their next turn.',
 
 
     ],
     loot_poor: [
         'Mystical Space Typhoon',
         'Skill Successor',
-        'Polymerization',
+        'Kuriboh',
         'King of the Swamp',
         'Double Summon',
         'LANphorhynchus',
@@ -36,7 +36,7 @@ export default {
         'Mystic Tomato',
         'Flying Kamakiri #1',
         'UFO Turtle',
-        'Airknight Parshath',
+        'Skull Dice',
         'Axe of Fools',
         'Axe of Despair',
         'Dark Elf',
@@ -63,28 +63,28 @@ export default {
         'Inari Fire',
         'Magical Examplar',
         'Fairy Tail - Rella',
-        'Kycoo the Ghost Destroyer'
+        'Kycoo the Ghost Destroyer',
+
 
     ],
     loot_mid: [
         'Unexpected Dai',
         'Night Beam',
+        'Magic Cylinder',
         'Trap Hole',
         'Scrap Iron Scarecrow',
         'Ancient Rules',
         'Gem-Knight Pearl',
-        'Proxy Dragon',
-        'Magic Cylinder',
-        'Honeybot',
+        'Ryko, Lightsworn Hunter',
         'Link Spider',
         'Swift Scarecrow',
         'Scapegoat',
-        'Number 30: Acid Golem of Destruction',
-        'Number 20: Giga-Brilliant',
+        'Granmarg the Rock Monarch',
+        'Thestalos the Firestorm Monarch',
         'United We Stand',
         'Mage Power',
         'Fairy Tail - Luna',
-        'Injection Fairy Lily',
+        'Dark World Lightning',
         'Gagagashield',
         'Legendary Flame Lord / Incandescent Ordeal',
         'Magician of Black Chaos / Black Magic Ritual /Magician of Black Chaos MAX / Chaos Form',
@@ -99,16 +99,17 @@ export default {
         'Black Fang Magician',
         'Crowley, the First Propheseer',
         'One Shot Wand / Magical Blast',
-        'Diffusion Wave Motion'
+        'Diffusion Wave Motion',
+
 
     ],
     loot_high: [
         'Wall of Disruption',
         'Raiza the Storm Monarch',
-        'Granmarg the Rock Monarch',
-        'Thestalos the Firestorm Monarch',
-        'Treeborn Frog',
         'Mobius the Frost Monarch',
+        'Treeborn Frog',
+        'Chaos Sorcerer',
+        'Instant Fusion / Elder Entity Norden',
         'Stardust Dragon',
         'Decode Talker',
         'Destrudo, the Lost Dragon’s Frisson',
@@ -118,17 +119,18 @@ export default {
         'Bottomless Trap Hole',
         'Card Trooper',
         'Magical Abductor',
-        'Mythical Beast Garuda',
-        'Spellbook of Power / Spellbook of Wisdom / Spellbook of Fate',
+        'Summoner Monk / Performage Trapeze Magician',
+        'Spellbook of Power / Spellbook of Wisdom / Spellbook of Judgment',
         'Mystical Elf - Mystical Burst Stream',
         'Emperor of Prophecy / Spellbook of the Master / Spellbook of Secrets / Spellbook of Knowledge',
-        'Chaos Sorcerer',
+        'Selene, Queen of the Master Magicians',
         'Chaos Scepter Blast',
         'Maha Vailo, Light of the Heavens',
         'Dark Magician / Dark Magician Girl / Magicians’ Souls',
         'Day-Breaker the Shining Magical Warrior',
         'Performapal Laugh Maker',
-        'Anchamoufrite'
+        'Anchamoufrite',
+
 
     ]
 

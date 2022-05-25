@@ -2,17 +2,18 @@ export default {
     name: 'Warrior',
     icon: 'fa-gun',
     class_skills: [
-        'Shield Training Arc: While you control “Gaia the Fierce Knight” equipped with “Millennium Shield”, if “Gaia the Fierce Knight” would be destroyed by battle or card effect, you can destroy “Millennium Shield” instead.',
+        'A Dragon, A Spear, A Shield: When completing your Legendary Quest, you can instead Summon “Gaia the Dragon Champion” from your Extra Deck and equip it with “Millennium Shield”. Its name is treated as “Gaia the Fierce Knight”. While you control “Gaia the Fierce Knight” equipped with “Millennium Shield”, if “Gaia the Fierce Knight” would be destroyed by battle or card effect, you can destroy “Millennium Shield” instead. (Add “Gaia the Dragon Champion” to your inventory).',
         'Cavalry Charge (Once per Duel): If “Gaia the Fierce Knight” destroys a monster by battle, you can Special Summon 1 Warrior type monster from your hand or GY.',
         'Momentum (Once per Battle Phase): If “Gaia the Fierce Knight” destroys a monster by battle, it can attack again.',
         'Dismount (Once per Duel): If “Gaia the Dragon Champion” is destroyed you can Special Summon “Gaia the Fierce Knight” and “Curse of Dragon” from your GY.',
-        'Shield Bash: “Millennium Shield” can attack while in Defense Position. If they do, apply their DEF for damage calculation.',
-        'Reinforcements!: When you complete your Legendary Quest, also Special Summon 1 Level 4 or lower Warrior type monster from your Deck.'
+        'Shield Bash: You can tribute 1 monster to Special Summon 1 “Millennium Shield” from your hand, Deck, or GY. “Millennium Shield” can attack while in Defense Position. If they do, apply their DEF for damage calculation.',
+        'Reinforcements!: When you complete your Legendary Quest, also Special Summon 1 Level 4 or lower Warrior type monster from your Deck.',
+
     ],
     loot_poor: [
         'Mystical Space Typhoon',
         'Skill Successor',
-        'Polymerization',
+        'Kuriboh',
         'King of the Swamp',
         'Double Summon',
         'LANphorhynchus',
@@ -34,7 +35,7 @@ export default {
         'Mystic Tomato',
         'Flying Kamakiri #1',
         'UFO Turtle',
-        'Airknight Parshath',
+        'Skull Dice',
         'Axe of Fools',
         'Axe of Despair',
         'Marauding Captain',
@@ -54,14 +55,15 @@ export default {
         'Silent Swordsman LV3 / Silent Swordsman LV5 / Silent Sword Slash',
         'Puppet King',
         'Chaos Grepher',
-        'Speed Warrior',
+        'Mystic Swordsman LV2',
         'Noble Arms of Destiny',
         'Heroic Challenger - Double Lance',
         'Reinforce Truth',
         'Power Breaker',
         'Field-Commander Rahz',
         'The Kick Man',
-        'Valkyrian Knight'
+        'Valkyrian Knight',
+
 
     ],
     loot_mid: [
@@ -72,19 +74,18 @@ export default {
         'Scrap Iron Scarecrow',
         'Ancient Rules',
         'Gem-Knight Pearl',
-        'Proxy Dragon',
-        'Honeybot',
+        'Ryko, Lightsworn Hunter',
         'Link Spider',
         'Swift Scarecrow',
         'Scapegoat',
-        'Number 30: Acid Golem of Destruction',
-        'Number 20: Giga-Brilliant',
+        'Granmarg the Rock Monarch',
+        'Thestalos the Firestorm Monarch',
         'United We Stand',
         'Mage Power',
         'Fairy Tail - Luna',
-        'Injection Fairy Lily',
+        'Dark World Lightning',
         'Black Luster Soldier / Black Luster Ritual / Pre-Preparation of Rites',
-        'Envoy of Chaos / Beginning Knight / Evening Twilight Knight',
+        'Envoy of Chaos / Beginning Knight',
         'Gaia the Magical Knight',
         'Curse of Dragon, the Magical Knight Dragon / Spiral Fusion / Curse of Dragonfire',
         'The Fiend Megacyber',
@@ -97,16 +98,17 @@ export default {
         'Dragonox, the Empowered Warrior',
         'The A. Forces',
         'War Rock Gactos',
-        'Terratiger, the Empowered Warrior'
+        'Terratiger, the Empowered Warrior',
+
 
     ],
     loot_high: [
         'Wall of Disruption',
         'Raiza the Storm Monarch',
-        'Granmarg the Rock Monarch',
-        'Thestalos the Firestorm Monarch',
-        'Treeborn Frog',
         'Mobius the Frost Monarch',
+        'Treeborn Frog',
+        'Chaos Sorcerer',
+        'Instant Fusion / Elder Entity Norden',
         'Stardust Dragon',
         'Decode Talker',
         'Destrudo, the Lost Dragon’s Frisson',
@@ -126,7 +128,8 @@ export default {
         'Ferocious Flame Swordsman',
         'Empowerment / Dragodies, the Empowered Warrior',
         'Fire Flint Lady',
-        'Magnum Shield'
+        'Magnum Shield',
+
 
     ]
 

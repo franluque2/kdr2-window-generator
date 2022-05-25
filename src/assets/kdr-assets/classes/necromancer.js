@@ -7,13 +7,13 @@ export default {
         'Haunted Grounds (Once per turn): After you completed your Legendary Quest, and after your Zombie monster destroys an opponent’s monster in battle, you can Special Summon 1 “Skull Servant” that’s banished or in your GY during your End Phase.',
         'An Unexpected Haunting (Once per turn): When you complete your Legendary Quest, you can Special Summon 1 Level 1 Non-Effect Zombie Monster from your hand, Deck, or GY. All Level 1 Non-Effect Zombie Monsters you control gain 100 ATK x the number of Zombie monsters in your GY (Add “Bone Mouse” to your inventory).',
         'Despair mortal, despair! (Once per Duel): While you control “Skull Servant”, you can make the first monster your opponent Normal Summons gain the following effect: “If this card is Normal Summoned: Your opponent sends 1 “Despair from the Dark” from their hand or Deck to the GY.” You must have completed your Legendary Quest to resolve this effect (Add “Despair from the Dark” to your inventory).',
-        'Pledge to the New Lord: Replace all mentions of “Skull Servant” in your Legendary Quest with “Vampire Lord”, however, “Vampire Lord” only gains 300 ATK after the Legendary Quest is completed instead of 1000 ATK per “Vampire Lord”. “Vampire Lord” is now your Legendary Monster.'
+        'Pledge to the New Lord: Replace all mentions of “Skull Servant” in your Legendary Quest with “Vampire Lord”, however, “Vampire Lord” only gains 300 ATK after the Legendary Quest is completed instead of 1000 ATK per “Vampire Lord”. “Vampire Lord” is now your Legendary Monster.',
 
     ],
     loot_poor: [
         'Mystical Space Typhoon',
         'Skill Successor',
-        'Polymerization',
+        'Kuriboh',
         'King of the Swamp',
         'Double Summon',
         'LANphorhynchus',
@@ -35,7 +35,7 @@ export default {
         'Mystic Tomato',
         'Flying Kamakiri #1',
         'UFO Turtle',
-        'Airknight Parshath',
+        'Skull Dice',
         'Axe of Fools',
         'Axe of Despair',
         'Tristan, Knight of the Underworld',
@@ -62,28 +62,28 @@ export default {
         'Skull Conductor',
         'Crazy Clown',
         'Doombearer Psychopompos',
-        'Vampire Baron / Vampire Sorcerer'
+        'Vampire Baron / Vampire Sorcerer',
+
 
     ],
     loot_mid: [
         'Unexpected Dai',
         'Night Beam',
+        'Magic Cylinder',
         'Trap Hole',
         'Scrap Iron Scarecrow',
         'Ancient Rules',
         'Gem-Knight Pearl',
-        'Proxy Dragon',
-        'Honeybot',
+        'Ryko, Lightsworn Hunter',
         'Link Spider',
         'Swift Scarecrow',
-        'Magic Cylinder',
         'Scapegoat',
-        'Number 30: Acid Golem of Destruction',
-        'Number 20: Giga-Brilliant',
+        'Granmarg the Rock Monarch',
+        'Thestalos the Firestorm Monarch',
         'United We Stand',
         'Mage Power',
         'Fairy Tail - Luna',
-        'Injection Fairy Lily',
+        'Dark World Lightning',
         'Skull Conductor',
         'Glow-Up Bloom',
         'Return of the Zombies',
@@ -98,16 +98,17 @@ export default {
         'Molten Zombie',
         'Malevolent Mech - Goku En',
         'Foolish Burial',
-        'Bone Crusher'
+        'Bone Crusher',
+
 
     ],
     loot_high: [
         'Wall of Disruption',
         'Raiza the Storm Monarch',
-        'Granmarg the Rock Monarch',
-        'Thestalos the Firestorm Monarch',
-        'Treeborn Frog',
         'Mobius the Frost Monarch',
+        'Treeborn Frog',
+        'Chaos Sorcerer',
+        'Instant Fusion / Elder Entity Norden',
         'Stardust Dragon',
         'Decode Talker',
         'Destrudo, the Lost Dragon’s Frisson',
@@ -127,7 +128,8 @@ export default {
         'Ash Blossom & Joyous Spring',
         'Shiranui Samurai',
         'Samurai Skull / Bacon Saver',
-        'Shiranui Samuraisaga'
+        'Shiranui Samuraisaga',
+
 
     ]
 

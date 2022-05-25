@@ -42,7 +42,7 @@ export default {
         'Rise Up! - You can Flip Summon monsters the turn they are Set.',
 
 
-        'Advanced Worship - You can Tribute Summon the Egyptian God Cards for 1 Tribute instead of 3 for the rest of the run (Add 1 each of the Egyptian God Cards to your Deck, permanently).',
+        'Advanced Worship - You can Tribute Summon the Egyptian God Cards for 2 Tributes instead of 3 for the rest of the run (Add 1 each of the Egyptian God Cards to your Deck, permanently).',
 
 
         'Mutual Benefits (During each End Phase): Both players draw 1 card.',
@@ -57,7 +57,7 @@ export default {
         'Metalmorph (Stackable) - Take 300 damage less from any source of damage.',
 
 
-        'Trade! - After each round, you can offer a singular player in your KDR a trade, so long as it’s equal from each loot type. (Inventory loot, legendary for legendary, treasure for treasure, skill for skill).',
+        'Trade! - After each round, you can offer a singular player in your KDR a trade, so long as it’s equal from each loot type. (Inventory loot, treasure for treasure, skill for skill).',
 
 
         'Unexpected Die (Once per Duel): Add 1 “Unexpected Dai” from your Deck to your hand. (Add “Unexpected Dai” and “Little D” to your inventory.)',
@@ -144,10 +144,25 @@ export default {
         'A Brilliant Birdy Boy (Once per Duel): If you activate a Normal Spell/Trap card, you can make the effect of that Spell/Trap the effect of a Normal Spell/Trap card in your GY instead.',
 
 
-        'Normal Seal - Non-effect monsters and monsters with negated effects on your side of the field gain 300 ATK/DEF while face-up on the field. (Once per Duel): You can negate the effects of a face-up monster you control, or, give a non-effect monster you control 300 ATK.',
+        'Normal Seal: Non-effect monsters and monsters with negated effects on your side of the field gain 300 ATK/DEF while face-up on the field. (Once per Duel): You can negate the effects of a face-up monster you control, or, give a non-effect monster you control 300 ATK.',
 
 
-        'Refund Please: During the Shop Phase, when you buy a random Loot Pool, you can refund it.',
+        'Refund Please: (Once per Round): During the Shop Phase, when you buy a random Loot Pool, you can refund it.',
+
+
+        'Super Smooth Talker: Your required tip amount is reduced by 10.',
+
+
+        'Copium this won’t break anything: Choose 1 card in your Inventory and declare 1 card name. That card in your inventory is always treated as the name of the declared card.',
+
+
+        'Wicked Worship: You can Tribute Summon the Wicked God Cards for 2 Tributes instead of 3 for the rest of the run (Add 1 each of the Wicked God Cards to your Deck, permanently).',
+
+
+        'Last Stand: (Once per Run): If your Life Points are reduced to 0, you can set both players Life Points to 1000. You take no damage for the rest of the turn. During your next End Phase after using this Skill, you lose the Duel.',
+
+
+        'Tapped Potential: You can tribute 1 “Fiend Scorpion” to Special Summon 1 “Millennium Scorpion” from your Deck. “Millennium Scorpion” you control gain 1000 ATK for their effect instead of 500.',
 
     ]
 }

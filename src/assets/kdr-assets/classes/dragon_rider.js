@@ -2,18 +2,18 @@ export default {
     name: 'Dragon Rider',
     icon: 'fa-dragon',
     class_skills: [
-        'Dragon Brigade: When you activate “Mount Up!” you can instead Summon 1 Dragon/Warrior monster that is 1 level higher than the destroyed monster.',
+        'Dragon Brigade: When you activate “Mount Up!” you can instead Summon 1 Warrior monster from your Deck that is 1 level higher than the equipped monster.',
         'Cataclysmic Attack: After you complete your Legendary Quest, add “Burst Stream of Destruction” from your Deck to your hand (Add “Burst Stream of Destruction” to your inventory).',
         'Bigger, Better, Whiter: After you complete your Legendary Quest, Special Summon 1 “The White Stone of Legend” from your hand, Deck, or GY, and Synchro Summon 1 “Azure-Eyes Silver Dragon” (Add 1 copy of “Azure-Eyes Silver Dragon” to your Treasures).',
         'No Maiden? (During your first End Phase): You can discard 1 card, Special Summon “Maiden with Eyes of Blue” from your hand, Deck, or GY (Add 1 copy of “Maiden with Eyes of Blue” to your Treasures).',
         'Stoned (Once per Duel): If a “Blue-Eyes White Dragon” you control is sent to the GY, send 1 “The White Stone of Ancients” from your hand or Deck to the GY (Add 1 copy of “The White Stone of Ancients” to your Treasures”).',
-        'Devastating Burst: If you control a “Blue-Eyes White Dragon”, your opponent cannot activate Spells/Traps during the Battle Phase. If your “Blue-Eyes White Dragon” attacks, destroy all Spell/Traps on the field.'
+        'Devastating Burst: If you control a “Blue-Eyes White Dragon”, your opponent cannot activate Spells/Traps during the Battle Phase. If your “Blue-Eyes White Dragon” attacks, destroy all Spell/Traps on the field.',
 
     ],
     loot_poor: [
         'Mystical Space Typhoon',
         'Skill Successor',
-        'Polymerization',
+        'Kuriboh',
         'King of the Swamp',
         'Double Summon',
         'LANphorhynchus',
@@ -35,7 +35,7 @@ export default {
         'Mystic Tomato',
         'Flying Kamakiri #1',
         'UFO Turtle',
-        'Airknight Parshath',
+        'Skull Dice',
         'Axe of Fools',
         'Axe of Despair',
         'Decoy Dragon',
@@ -62,7 +62,8 @@ export default {
         'Armed Dragon, the Armored Dragon',
         'Stamping Destruction',
         'Spirit Ryu',
-        'Armed Protector Dragon'
+        'Armed Protector Dragon',
+
 
     ],
     loot_mid: [
@@ -73,17 +74,16 @@ export default {
         'Scrap Iron Scarecrow',
         'Ancient Rules',
         'Gem-Knight Pearl',
-        'Proxy Dragon',
-        'Honeybot',
+        'Ryko, Lightsworn Hunter',
         'Link Spider',
         'Swift Scarecrow',
         'Scapegoat',
-        'Number 30: Acid Golem of Destruction',
-        'Number 20: Giga-Brilliant',
+        'Granmarg the Rock Monarch',
+        'Thestalos the Firestorm Monarch',
         'United We Stand',
         'Mage Power',
         'Fairy Tail - Luna',
-        'Injection Fairy Lily',
+        'Dark World Lightning',
         'Cards of Consonance / Flamvell Guard',
         'Debris Dragon / Red Wyvern',
         'Victory Dragon',
@@ -98,16 +98,17 @@ export default {
         'Dragon’s Gunfire',
         'Dragon Shield',
         'Guardragon Shield',
-        'Blizzard Dragon'
+        'Blizzard Dragon',
+
 
     ],
     loot_high: [
         'Wall of Disruption',
         'Raiza the Storm Monarch',
-        'Granmarg the Rock Monarch',
-        'Thestalos the Firestorm Monarch',
-        'Treeborn Frog',
         'Mobius the Frost Monarch',
+        'Treeborn Frog',
+        'Chaos Sorcerer',
+        'Instant Fusion / Elder Entity Norden',
         'Stardust Dragon',
         'Decode Talker',
         'Destrudo, the Lost Dragon’s Frisson',
@@ -121,13 +122,14 @@ export default {
         'Dragon Ravine',
         'Dragon Shrine',
         'Return of the Dragon Lords',
-        'Blue-Eyes Alternative White Dragon / Dragon Spirit of White / Sage with Eyes of Blue',
+        'Dragon Spirit of White / Sage with Eyes of Blue',
         'Dragon Revival Rhapsody / The King of D.',
         'Five-Headed Dragon / Dragon’s Mirror',
-        'Castle of Dragon Souls',
+        'Blue-Eyes Alternative White Dragon',
         'Armed Dragon LV3 / Armed Dragon LV5 / Armed Dragon Flash',
         'Guardragon Pisty / World Legacy Guardragon',
-        'Primal Dragon, the Primordial'
+        'Primal Dragon, the Primordial',
+
 
     ]
 
