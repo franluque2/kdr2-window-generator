@@ -127,7 +127,7 @@ export default {
         'Hellfire Dragon, Ghost Wyvern / Ghost Fusion / Dragonecro Nethersoul Dragon',
         'Ash Blossom & Joyous Spring',
         'Shiranui Samurai',
-        'Samurai Skull / Bacon Saver',
+        'Samurai Skull',
         'Shiranui Samuraisaga',
 
 

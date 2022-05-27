@@ -124,7 +124,7 @@ export default {
         'Return of the Dragon Lords',
         'Dragon Spirit of White / Sage with Eyes of Blue',
         'Dragon Revival Rhapsody / The King of D.',
-        'Five-Headed Dragon / Dragon’s Mirror',
+        'Five-Headed Dragon',
         'Blue-Eyes Alternative White Dragon',
         'Armed Dragon LV3 / Armed Dragon LV5 / Armed Dragon Flash',
         'Guardragon Pisty / World Legacy Guardragon',
