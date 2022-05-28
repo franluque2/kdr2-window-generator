@@ -97,7 +97,6 @@ export default {
         'Fluffal Dog / Fluffal Bear / Fluffal Wings / Toy Vendor',
         'Keldo the Possessed Statue / Kelbek the Ancient Vanguard',
         'Cards from the Sky',
-        'Celestial Transformation',
         'Miraculous Descent',
         'Angel of Zera',
 
