@@ -120,7 +120,7 @@ export default {
         'Card Trooper',
         'Magical Abductor',
         'Summoner Monk / Performage Trapeze Magician',
-        'Spellbook of Power / Spellbook of Wisdom / Spellbook of Judgment',
+        'Spellbook of Power / Spellbook of Wisdom / Crowley, the First Propheseer',
         'Mystical Elf - Mystical Burst Stream',
         'Emperor of Prophecy / Spellbook of the Master / Spellbook of Secrets / Spellbook of Knowledge',
         'Selene, Queen of the Master Magicians',

@@ -153,16 +153,33 @@ export default {
         'Super Smooth Talker: Your required tip amount is reduced by 10.',
 
 
-        'Copium this won’t break anything: Choose 1 card in your Inventory and declare 1 card name. That card in your inventory is always treated as the name of the declared card.',
-
-
         'Wicked Worship: You can Tribute Summon the Wicked God Cards for 2 Tributes instead of 3 for the rest of the run (Add 1 each of the Wicked God Cards to your Deck, permanently).',
 
 
         'Last Stand: (Once per Run): If your Life Points are reduced to 0, you can set both players Life Points to 1000. You take no damage for the rest of the turn. During your next End Phase after using this Skill, you lose the Duel.',
 
 
-        'Tapped Potential: You can tribute 1 “Fiend Scorpion” to Special Summon 1 “Millennium Scorpion” from your Deck. “Millennium Scorpion” you control gain 1000 ATK for their effect instead of 500.',
+        'Tapped Potential: You can tribute 1 “Fiend Scorpion” to Special Summon 1 “Millennium Scorpion” from your Deck. “Millennium Scorpion” you control gain 1000 ATK for their effect instead of 500. (Add “Fiend Scorpion” and “Millennium Scorpion” to your inventory).',
 
+
+        'Archetype Madness: Declare 1 card name in your inventory and 1 archetype name. That card becomes part of that archetype for the rest of the run.',
+
+
+        'UNIQUE FUSION SPELL: (Once per Duel): If you activate “Polymerization”, you can use monsters in your Deck as Fusion Material, but you cannot Special Summon monsters for the rest of the turn, except Fusion Monsters (Add “Time Wizard”, “Baby Dragon”, “Thousand Dragon”, and “Polymerization” to your inventory).',
+
+
+        'I’m something of an FTK enabler myself: If your LP are 4000 or less, you can Special Summon 1 “Magical Scientist” from your hand or Deck. (Add “Magical Scientist”, “Crimson Sunbird”, “Man-Eating Black Shark”, “Darkfire Dragon”, “Zombie Warrior”, and “Allvain the Essence of Vanity” to your inventory.)',
+
+
+        'Lifesteal: If your monster battles an opponent’s monster and inflicts damage to them, gain LP equal to the amount inflicted.',
+
+
+        'Armament: You take 100 less damage from all sources for every CON you have.',
+
+
+        'Squad Gains: Your STR boost only lasts until the end of the next turn, but is applied to all monsters you control.',
+
+
+        'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.'
     ]
 }

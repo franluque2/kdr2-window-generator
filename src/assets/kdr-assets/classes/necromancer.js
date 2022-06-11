@@ -8,7 +8,6 @@ export default {
         'An Unexpected Haunting (Once per turn): When you complete your Legendary Quest, you can Special Summon 1 Level 1 Non-Effect Zombie Monster from your hand, Deck, or GY. All Level 1 Non-Effect Zombie Monsters you control gain 100 ATK x the number of Zombie monsters in your GY (Add “Bone Mouse” to your inventory).',
         'Despair mortal, despair! (Once per Duel): While you control “Skull Servant”, you can make the first monster your opponent Normal Summons gain the following effect: “If this card is Normal Summoned: Your opponent sends 1 “Despair from the Dark” from their hand or Deck to the GY.” You must have completed your Legendary Quest to resolve this effect (Add “Despair from the Dark” to your inventory).',
         'Pledge to the New Lord: Replace all mentions of “Skull Servant” in your Legendary Quest with “Vampire Lord”, however, “Vampire Lord” only gains 300 ATK after the Legendary Quest is completed instead of 1000 ATK per “Vampire Lord”. “Vampire Lord” is now your Legendary Monster.',
-
     ],
     loot_poor: [
         'Mystical Space Typhoon',
