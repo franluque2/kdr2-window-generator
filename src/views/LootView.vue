@@ -1,5 +1,13 @@
 <template>
     <v-container>
+        <v-container>
+            Blacklist:
+            <v-textarea
+                          v-model="blacklist_text"
+                          placeholder=""
+                          solo
+                          @input="updateblacklist"></v-textarea>
+        </v-container>
         <v-row no-gutters>
             <v-col cols="4">
                 <v-card>
@@ -113,46 +121,105 @@
             loot_high_1: '',
             loot_high_2: '',
             loot_high_3: '',
+            blacklist:[],
+            blacklist_text:'',
             key: 0
         }),
         methods: {
             generate_loot: function (kdr_class) {
+
+                var difference_loot_poor = kdr_class.loot_poor.filter(x => !this.blacklist.includes(x))
+                var difference_loot_mid = kdr_class.loot_mid.filter(x => !this.blacklist.includes(x));
+                var difference_loot_high = kdr_class.loot_high.filter(x => !this.blacklist.includes(x));
+
                 this.treasure_1 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
                 this.treasure_2 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
-                while (this.treasure_1 === this.treasure_2)
+                while ((this.treasure_1 === this.treasure_2))
                     this.treasure_2 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
                 this.treasure_3 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
                 while ((this.treasure_1 === this.treasure_3) || (this.treasure_2 === this.treasure_3))
                     this.treasure_3 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
 
-
-                this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
-                this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
-                while ((this.loot_poor_1 === this.loot_poor_2))
+                if (difference_loot_poor.length>1){
+                    this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                    while(this.blacklist.includes(this.loot_poor_1))
+                        this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                     this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                    while ((this.loot_poor_1 === this.loot_poor_2)|| (this.blacklist.includes(this.loot_poor_2)))
+                        this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                }else {
+                    if (difference_loot_poor.length===1){
+                        this.loot_poor_1=difference_loot_poor[0];
+                        this.loot_poor_2='';
+                    } else
+                    {
+                        this.loot_poor_1='';
+                        this.loot_poor_2='';
+                    }}
 
+                if (difference_loot_mid.length>2){
                 this.loot_mid_1 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+                while(this.blacklist.includes(this.loot_mid_1))
+                    this.loot_mid_1 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 this.loot_mid_2 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
-                while ((this.loot_mid_1 === this.loot_mid_2))
-                this.loot_mid_2 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+                while ((this.loot_mid_1 === this.loot_mid_2) || (this.blacklist.includes(this.loot_mid_2)))
+                    this.loot_mid_2 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 this.loot_mid_3 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
-                while ((this.loot_mid_1 === this.loot_mid_3) || (this.loot_mid_2 === this.loot_mid_3))
+                while ((this.loot_mid_1 === this.loot_mid_3) || (this.loot_mid_2 === this.loot_mid_3) || (this.blacklist.includes(this.loot_mid_3)))
                 this.loot_mid_3 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+                }else {
+                    if (difference_loot_mid.length===2){
+                        this.loot_mid_1=difference_loot_mid[0];
+                        this.loot_mid_2=difference_loot_mid[1];
+                        this.loot_mid_3='';
+                    }
+                    else if (difference_loot_mid.length===1){
+                        this.loot_mid_1=difference_loot_mid[0];
+                        this.loot_mid_2='';
+                        this.loot_mid_3='';
+                    } else
+                    {
+                        this.loot_mid_1='';
+                        this.loot_mid_2='';
+                        this.loot_mid_3='';
+                    }}
 
-
-                this.loot_high_1 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
-                this.loot_high_2 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
-                while ((this.loot_high_1 === this.loot_high_2))
+                if (difference_loot_high.length>2) {
+                    this.loot_high_1 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
+                    while (this.blacklist.includes(this.loot_high_1))
+                        this.loot_high_1 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
                     this.loot_high_2 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
-                this.loot_high_3 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
-                while ((this.loot_high_1 === this.loot_high_3) || (this.loot_high_2 === this.loot_high_3))
+                    while ((this.loot_high_1 === this.loot_high_2) || (this.blacklist.includes(this.loot_high_2)))
+                        this.loot_high_2 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
                     this.loot_high_3 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
+                    while ((this.loot_high_1 === this.loot_high_3) || (this.loot_high_2 === this.loot_high_3) || (this.blacklist.includes(this.loot_high_3)))
+                        this.loot_high_3 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
+                } else {
+                    if (difference_loot_high.length===2){
+                        this.loot_high_1=difference_loot_high[0];
+                        this.loot_high_2=difference_loot_high[1];
+                        this.loot_high_3='';
+                    }
+                    else if (difference_loot_high.length===1){
+                        this.loot_high_1=difference_loot_high[0];
+                        this.loot_high_2='';
+                        this.loot_high_3='';
+                    } else
+                    {
+                        this.loot_high_1='';
+                        this.loot_high_2='';
+                        this.loot_high_3='';
+                    }
+                }
             }, forceUpdate() {
                 this.key++;
             },
             click_regenerate() {
                 this.generate_loot(classes.classes[this.selectedItem])
                 this.forceUpdate()
+            },
+            updateblacklist(){
+                this.blacklist=this.blacklist_text.split('\n')
             }
 
 
