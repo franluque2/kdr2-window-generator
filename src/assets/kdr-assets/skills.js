@@ -69,7 +69,7 @@ export default {
         'Hidden Wares: You can reroll your shown loot once per round.',
 
 
-        'The Rich Get Richer: You gain 1 more gold for Interest.',
+        'The Rich Get Richer: You gain 3 gold for interest instead of 2.',
 
 
         'Tipsy Shopkeep: You know how much you need to tip. When you receive your Secret Skill, gain 5 Gold.',
@@ -165,9 +165,6 @@ export default {
         'Archetype Madness: Declare 1 card name in your inventory and 1 archetype name. That card becomes part of that archetype for the rest of the run.',
 
 
-        'UNIQUE FUSION SPELL: (Once per Duel): If you activate “Polymerization”, you can use monsters in your Deck as Fusion Material, but you cannot Special Summon monsters for the rest of the turn, except Fusion Monsters (Add “Time Wizard”, “Baby Dragon”, “Thousand Dragon”, and “Polymerization” to your inventory).',
-
-
         'I’m something of an FTK enabler myself: If your LP are 4000 or less, you can Special Summon 1 “Magical Scientist” from your hand or Deck. (Add “Magical Scientist”, “Crimson Sunbird”, “Man-Eating Black Shark”, “Darkfire Dragon”, “Zombie Warrior”, and “Allvain the Essence of Vanity” to your inventory.)',
 
 
@@ -180,6 +177,9 @@ export default {
         'Squad Gains: Your STR boost only lasts until the end of the next turn, but is applied to all monsters you control.',
 
 
-        'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.'
+        'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.',
+        
+        
+        'The Tragedy: If a monster you control is destroyed by battle you can add 1 “Tragoedia” from your Deck to your hand. (Add 1 “Tragoedia” to your Deck permanently.)'
     ]
 }
