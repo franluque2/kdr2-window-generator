@@ -150,7 +150,7 @@ export default {
 'Boot-Up Admiral - Destroyer Dynamo',
 'Speedroid Pachingo-Kart / Speedroid Gum Prize / Hi-Speedroid Chanbara',
 'Platinum Gadget',
-'Jinzo / Gearspring Spirit',
+'Jinzo',
 'Power Bond / Pair Cycroid / Emergeroid Call',
 'Machina Fortress / Machina Resavenger',
 'Cyber Eltanin / Orbital Hydralander',
