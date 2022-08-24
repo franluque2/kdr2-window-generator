@@ -145,7 +145,7 @@ export default {
         'Adamancipator Signs / Adamancipator Friends',
         'Brilliant Fusion / Gem-Knight Zirconia',
         'Alpha The Electromagnet Warrior / Beta The Electromagnet Warrior / Gamma The Electromagnet Warrior',
-        'Delta The Magnet Warrior / Epsilon The Magnet Warrior / Magnetic Field',
+        'Delta The Magnet Warrior / Epsilon The Magnet Warrior',
         'Daigusto Emeral',
         'Koa\'ki Meiru Guardian',
         'Fossil Fusion / Fossil Machine Skull Buggy / Fossil Warrior Skull Bone',
