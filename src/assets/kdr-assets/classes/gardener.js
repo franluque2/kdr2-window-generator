@@ -101,7 +101,7 @@ export default {
         'Gagaga Cowboy',
         'Thought Ruler Archfiend',
         'Caius the Shadow Monarch',
-'Sylvan Marshalleaf / Mount Sylvania',
+'Mount Sylvania',
 'Sylvan Lotuswain / Sylvan Blessing',
 'Sylvan Peaskeeper',
 'Talaya, Princess of Cherry Blossoms',
