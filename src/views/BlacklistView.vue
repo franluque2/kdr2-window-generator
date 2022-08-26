@@ -83,18 +83,21 @@
                                                 v-model="item.isstaff"
                                                 label="Staff?"
                                                 :disabled="item.isstaff===true"
+                                                @click="function(){db.ref('players/'+item['.key']).update({isstaff:item.isstaff})}"
                                         ></v-checkbox>
 
                                         <div class="text--primary">Can see the Tip:</div>
                                         <v-checkbox
                                                 v-model="item.knownvalue"
                                                 :disabled="item.knownvalue===true"
+                                                @click="function(){db.ref('players/'+item['.key']).update({knownvalue:item.knownvalue})}"
                                         ></v-checkbox>
 
                                         <div class="text--primary">Tip Reduced (Super Smooth talker):</div>
                                         <v-checkbox
                                                 v-model="item.reducedcost"
                                                 :disabled="item.reducedcost===true"
+                                                @click="function(){db.ref('players/'+item['.key']).update({reducedcost:item.reducedcost})}"
                                                 @click="function(){db.ref('players/'+item['.key']).update({tiprequired:item.tiprequired-10})}"
                                         ></v-checkbox>
                                         <div class="text--primary">Blacklist:</div>
