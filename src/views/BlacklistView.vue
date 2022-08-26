@@ -97,8 +97,7 @@
                                         <v-checkbox
                                                 v-model="item.reducedcost"
                                                 :disabled="item.reducedcost===true"
-                                                @click="function(){db.ref('players/'+item['.key']).update({reducedcost:item.reducedcost})}"
-                                                @click="function(){db.ref('players/'+item['.key']).update({tiprequired:item.tiprequired-10})}"
+                                                @click="function(){db.ref('players/'+item['.key']).update({tiprequired:item.tiprequired-10,reducedcost:item.reducedcost})}"
                                         ></v-checkbox>
                                         <div class="text--primary">Blacklist:</div>
                                         <v-card-text v-text="item.blacklist" style="white-space: pre-line"></v-card-text>
