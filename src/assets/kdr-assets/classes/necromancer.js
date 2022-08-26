@@ -1,6 +1,8 @@
 export default {
     name: 'Necromancer',
     icon: 'fa-skull',
+    tip_min:20,
+    tip_max:24,
     class_skills: [
         'Dead Man’s Hand (Once per turn): After you’ve completed your Legendary Quest, you can activate this Skill. During your Draw Phase, you can add the top card of your Deck to your hand instead of drawing it. If you added a monster, you can discard it, then send the top card of your Deck to the GY.',
         'Bottle of Milk (Once per turn): After you complete your Legendary Quest, if you Special Summon a Zombie, you can banish 1 Zombie monster in your GY, then gain LP equal to the Summoned monster’s attack.',

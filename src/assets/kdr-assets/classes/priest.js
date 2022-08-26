@@ -1,6 +1,8 @@
 export default {
     name: 'Priest',
     icon: 'fa-cross',
+    tip_min:16,
+    tip_max:21,
     class_skills: [
         'Immortal Rebirth: When the “Wingweaver” you Summoned off of your Legendary Quest leaves the field, Special Summon a Level 4 or lower Fairy type monster from your Deck. Destroy it during your next End Phase, and if you do, Special Summon “Wingweaver” from your hand or GY.',
         'Fairy’s Hand: Every third time you use “Bestow the Light”, draw a card.',

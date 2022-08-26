@@ -1,6 +1,8 @@
 export default {
     name: 'Warrior',
     icon: 'fa-gun',
+    tip_min:11,
+    tip_max:15,
     class_skills: [
         'A Dragon, A Spear, A Shield: When completing your Legendary Quest, you can instead Summon “Gaia the Dragon Champion” from your Extra Deck and equip it with “Millennium Shield”. Its name is treated as “Gaia the Fierce Knight”. While you control “Gaia the Fierce Knight” equipped with “Millennium Shield”, if “Gaia the Fierce Knight” would be destroyed by battle or card effect, you can destroy “Millennium Shield” instead. (Add “Gaia the Dragon Champion” to your inventory).',
 'Cavalry Charge (Once per Duel): If “Gaia the Fierce Knight” destroys a monster by battle, you can Special Summon 1 Warrior type monster from your hand or GY.',

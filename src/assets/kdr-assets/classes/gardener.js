@@ -1,6 +1,8 @@
 export default {
     name: 'Gardener',
     icon: 'mdi-flower',
+    tip_min:20,
+    tip_max:25,
     class_skills: [
     'A True Miracle - (Once per Duel) (During your Draw Phase): You can discard 1 monster, then activate “Miracle Fertilizer” from your hand or Deck, also, it cannot be destroyed. You cannot Normal Summon for the rest of the Duel while that card is on the field.',
     'Trenticles - Your Legendary Quest is no longer once per duel, but instead once per turn. The effect to gain ATK/DEF stacks. ',

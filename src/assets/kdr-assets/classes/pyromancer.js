@@ -1,6 +1,8 @@
 export default {
     name: 'Pyromancer',
     icon: 'mdi-fire',
+    tip_min:17,
+    tip_max:22,
     class_skills: [
         'King and his Dragon (Once per Duel): After you complete your Legendary Quest, if Twin-Headed Fire Dragon destroys an opponent’s monster by battle, you can Special Summon 1 “King Pyron” from your hand, Deck, or GY, then, Normal Summon it.',
     'Phoenix Flames: After you complete your Legendary Quest, place 2 Burn Counters each End Phase instead of 1.',

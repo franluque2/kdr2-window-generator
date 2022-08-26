@@ -1,6 +1,8 @@
 export default {
     name: 'Miner',
     icon: 'mdi-pickaxe',
+    tip_min:24,
+    tip_max:32,
     class_skills: [
         'Magnets! How do they work?: (Once per Duel): If an Attack Position “Magnet Warrior” monster you control is destroyed by battle, you can Special Summon 1 “Magnet Warrior” with a different name from your hand or GY in Defense Position.',
         'Stepping on a Lego, a fate worse than death: You cannot Special Summon “Block Dragon” unless you have completed your Legendary Quest. After completing your Legendary Quest, you can banish 3 EARTH monsters from your GY, to send 1 “Block Dragon from your Deck to the GY. (Add 1 copy of “Block Dragon” to your treasures.)',

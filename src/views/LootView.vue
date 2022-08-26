@@ -1,15 +1,30 @@
 <template>
     <v-container>
-        <v-container>
-            Blacklist:
-            <v-textarea
-                          v-model="blacklist_text"
-                          placeholder=""
-                          solo
-                          @input="updateblacklist"></v-textarea>
-        </v-container>
         <v-row no-gutters>
             <v-col cols="4">
+                <v-card>
+                    <v-container>
+                        <v-list shaped>
+                            <v-subheader>KDRS</v-subheader>
+                            <v-list-item-group
+                                    v-model="selectedkdr"
+                                    color="primary"
+                            >
+                                <v-list-item
+                                        v-for="(item, i) in players.filter(playerfilter)"
+                                        :key="i"
+                                >
+                                    <v-list-item-icon>
+                                        <v-img  :src="'/avatars/kdr' + i.toString() + '.jpg'" height="120px" width="80px"></v-img>
+                                    </v-list-item-icon>
+                                    <v-list-item-content>
+                                        <v-list-item-title v-text="i+1"></v-list-item-title>
+                                    </v-list-item-content>
+                                </v-list-item>
+                            </v-list-item-group>
+                        </v-list>
+                    </v-container>
+                </v-card>
                 <v-card>
                     <v-container>
                         <v-list shaped>
@@ -36,7 +51,9 @@
             </v-col>
             <v-col cols="8">
                 <v-card>
+
                     <v-container>
+
                         <v-tabs
                                 v-model="tab"
                                 centered
@@ -86,6 +103,7 @@
                 </v-card>
             </v-col>
         </v-row>
+        <ConfirmDlg ref="confirm" />
     </v-container>
 </template>
 
@@ -95,12 +113,14 @@
     import loot_discord_paste_template from '../assets/kdr-assets/response-templates/loot-discord-paste-template'
     import pretty_paste_template from '../assets/kdr-assets/response-templates/loot-pretty-template'
     import treasures from '../assets/kdr-assets/treasures'
+    import {db} from '../db'
 
     export default {
         name: "LootView",
         components: {
             loot_discord_paste_template,
-            pretty_paste_template
+            pretty_paste_template,
+            ConfirmDlg: () => import('../components/ConfirmDlg'),
         },
         data: () => ({
 
@@ -123,10 +143,21 @@
             loot_high_3: '',
             blacklist:[],
             blacklist_text:'',
-            key: 0
+            key: 0,
+            players:[],
+            selectedkdr:0
         }),
+    firebase: {
+        players: db.ref('players')
+    },
         methods: {
+        playerfilter(player){
+            return (player.classid===this.selectedItem)
+        },
             generate_loot: function (kdr_class) {
+                const selecteditem=this.selectedItem
+                const selectedkdr=this.selectedkdr
+                this.blacklist=this.players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===selectedkdr}).blacklist.split('\n');
 
                 var difference_loot_poor = kdr_class.loot_poor.filter(x => !this.blacklist.includes(x))
                 var difference_loot_mid = kdr_class.loot_mid.filter(x => !this.blacklist.includes(x));

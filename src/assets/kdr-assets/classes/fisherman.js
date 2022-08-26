@@ -1,6 +1,8 @@
 export default {
     name: 'Fisherman',
     icon: 'fa-fish',
+    tip_min:16,
+    tip_max:22,
     class_skills: [
         'Fly Fishing! (Once per turn): After you Summon a WATER monster who’s original level is 5 or higher, you can perform 1 Normal Summon.',
         'King of the Seven Seas: After you complete your Legendary Quest, you can add 1 “Umi” from your Deck to your hand. While “Umi” is face-up on the field, “Terrorking Salmon” you control cannot be destroyed by battle or card effect.',

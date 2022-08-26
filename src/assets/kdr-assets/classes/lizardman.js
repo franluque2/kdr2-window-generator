@@ -1,6 +1,8 @@
 export default {
     name: 'Lizardman',
     icon: 'fa-frog',
+    tip_min:15,
+    tip_max:20,
     class_skills: [
         'Go! Gogiga Gagagigo! Go!: When you complete your Legendary Quest, “Gogiga Gagagigo” can attack once immediately (this does not use your Battle Phase). Your opponent cannot activate cards or effects in response to this attack.',
     'Susssssspiciousss Molting (Once per Duel): You can Xyz Summon “Gagagigo the Risen” using 1 “Gigo” monster as an Xyz Material.',

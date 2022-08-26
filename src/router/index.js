@@ -40,8 +40,8 @@ const routes = [
     component: ClassSkillsView
   },
   {
-    path: '/blacklist',
-    name:'blacklist',
+    path: '/blacklists',
+    name:'blacklists',
     component:BlacklistView
   }
 ]

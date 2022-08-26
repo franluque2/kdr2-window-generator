@@ -1,6 +1,8 @@
 export default {
     name: 'Artificer',
     icon: 'mdi-hammer-wrench',
+    tip_min:16 ,
+    tip_max:20,
     class_skills: [
         'Double Completion: When you complete your Legendary Quest, equip 1 “7 Completed” to a “Launcher Spider” you control.',
     'Unionization: Monsters equipped with Union monsters gain 100 ATK x the level of the Union monster equipped.',

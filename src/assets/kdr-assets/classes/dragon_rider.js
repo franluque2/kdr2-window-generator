@@ -1,6 +1,8 @@
 export default {
     name: 'Dragon Rider',
     icon: 'fa-dragon',
+    tip_min:26,
+    tip_max:34,
     class_skills: [
         'Dragon Brigade: When you activate “Mount Up!” you can instead Summon 1 Warrior monster from your Deck that is 1 level higher than the equipped monster.',
         'Cataclysmic Attack: After you complete your Legendary Quest, add “Burst Stream of Destruction” from your Deck to your hand (Add “Burst Stream of Destruction” to your inventory).',
