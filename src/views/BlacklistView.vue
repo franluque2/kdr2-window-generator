@@ -58,7 +58,7 @@
                                 <v-card flat>
                                     <v-btn @click="refreshclass">Reset Class?</v-btn>
                                     <v-card-text>
-                                        <v-text-field v-model="item.name" label="Player Name"></v-text-field>
+                                        <v-text-field v-model="item.name" label="Player Name" @change="function(){db.ref('players/'+item['.key']).update({name:item.name})}"></v-text-field>
                                         <div class="text--primary">
                                             Tips so Far:</div>
                                             <v-card-text v-text="item.tip"></v-card-text>
