@@ -180,6 +180,14 @@ export default {
         'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.',
         
         
-        'The Tragedy: If a monster you control is destroyed by battle you can add 1 “Tragoedia” from your Deck to your hand. (Add 1 “Tragoedia” to your Deck permanently.)'
+        'The Tragedy: If a monster you control is destroyed by battle you can add 1 “Tragoedia” from your Deck to your hand. (Add 1 “Tragoedia” to your Deck permanently.)',
+        
+        'Heavy Sack: Gain 10 gold at the end of this round, after you collect interest.',
+        
+        'Trade Request: You can run a 35 card deck, but change your LP to 6000 after you apply CON.',
+        
+        'Daring Duelist: You can run a 25 card deck, but change your LP to 4000 after you apply CON.',
+        
+        'Ratios? Consistency? Yes.: You can run a 10 card deck, but change your LP to 1000 after you apply CON.'
     ]
 }
