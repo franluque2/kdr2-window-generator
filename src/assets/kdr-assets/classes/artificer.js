@@ -87,6 +87,7 @@ export default {
     loot_mid: [
         'Unexpected Dai',
         'Night Beam',
+        'Cosmic Cyclone',
         'Magic Cylinder',
         'Trap Hole',
         'Scrap Iron Scarecrow',
