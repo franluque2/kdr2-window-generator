@@ -80,6 +80,7 @@ export default {
     loot_mid: [
         'Unexpected Dai',
         'Night Beam',
+        'Cosmic Cyclone',
         'Magic Cylinder',
         'Trap Hole',
         'Scrap Iron Scarecrow',
@@ -123,14 +124,11 @@ export default {
 
     ],
     loot_high: [
-       'Wall of Disruption',
 'Treeborn Frog',
 'Chaos Sorcerer',
 'Instant Fusion / Elder Entity Norden',
 'Stardust Dragon',
-'Decode Talker',
-'Knightmare Phoenix',
-'Knightmare Cerberus',
+'Decode Talker'
 'Saryuja Skull Dread',
 'Brute Enforcer',
 'Destrudo, the Lost Dragon’s Frisson',
@@ -141,7 +139,7 @@ export default {
 'Wind-Up Zenmaines',
 'Number 50: Blackship of Corn',
         'Neo-Spacian Grand Mole / Soul of Silvermountain',
-        'Triamid Sphinx / Triamid Kingolem / Triamid Loading',
+        'Triamid Sphinx / Triamid Kingolem',
         'Dodododwarf Gogogoglove / Gogogo Gigas / Gallant Granite',
         'Gem-Knight Fusion / Gem-Knight Obsidian / Gem-Knight Alexandrite / Gem-Knight Crystal / Gem-Knight Master Diamond',
         'Adamancipator Signs / Adamancipator Friends',
