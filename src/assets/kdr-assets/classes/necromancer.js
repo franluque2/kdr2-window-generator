@@ -149,9 +149,8 @@ export default {
         'Ash Blossom & Joyous Spring',
         'Shiranui Samurai',
         'Samurai Skull',
-        'Shiranui Samuraisaga',
-
-
+        'Shiranui Samuraisaga'
+        
     ]
 
 }
