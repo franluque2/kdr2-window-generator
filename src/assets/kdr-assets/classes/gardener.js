@@ -9,7 +9,7 @@ export default {
     'Overgrown Landscapes - All Plant-type monsters are treated as 2 levels less.',
     'Sewing Seeds - (Thrice per Duel) (Once per turn): If a Plant-type monster is sent from the Deck or hand to the GY, you can return 1 Plant-type monster you control to the hand, then, you can Normal Summon 1 Plant-type monster. ',
     'Jerry Beans Man Turbo - All instances of “Trent” in your Legendary Quest and Unique Skill is replaced with “Jerry Beans Man”. (Once per Duel) (During your Draw Phase): You can add 1 “Jerry Beans Man” from your Deck to your hand, and if you Summon a “Jerry Beans Man” this turn, you can declare its level.',
-    'The World Tree - When you complete your Legendary Quest, activate “The World Tree” from your hand, Deck, or GY, then, add 3 Flower Counters to it. While “The World Tree” has counters on it, it cannot be removed from the field. '
+    'The World Tree - When you complete your Legendary Quest, activate “The World Tree” from your hand, Deck, or GY, then, add 3 Flower Counters to it. While “The World Tree” has counters on it, it cannot be removed from the field (Add “The World Tree” to your inventory). '
     ],
     loot_poor: [
         'Mystical Space Typhoon',
@@ -79,6 +79,7 @@ export default {
     loot_mid: [
         'Unexpected Dai',
         'Night Beam',
+        'Cosmic Cyclone',
         'Magic Cylinder',
         'Trap Hole',
         'Scrap Iron Scarecrow',
@@ -121,14 +122,11 @@ export default {
 
 ],
     loot_high: [
-'Wall of Disruption',
 'Treeborn Frog',
 'Chaos Sorcerer',
 'Instant Fusion / Elder Entity Norden',
 'Stardust Dragon',
 'Decode Talker',
-'Knightmare Phoenix',
-'Knightmare Cerberus',
 'Saryuja Skull Dread',
 'Brute Enforcer',
 'Destrudo, the Lost Dragon’s Frisson',
