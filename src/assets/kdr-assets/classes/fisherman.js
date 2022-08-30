@@ -81,6 +81,7 @@ export default {
     loot_mid: [
         'Unexpected Dai',
         'Night Beam',
+        'Cosmic Cyclone',
         'Magic Cylinder',
         'Trap Hole',
         'Scrap Iron Scarecrow',
@@ -124,14 +125,11 @@ export default {
 
     ],
     loot_high: [
-       'Wall of Disruption',
 'Treeborn Frog',
 'Chaos Sorcerer',
 'Instant Fusion / Elder Entity Norden',
 'Stardust Dragon',
 'Decode Talker',
-'Knightmare Phoenix',
-'Knightmare Cerberus',
 'Saryuja Skull Dread',
 'Brute Enforcer',
 'Destrudo, the Lost Dragon’s Frisson',
