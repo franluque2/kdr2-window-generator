@@ -128,7 +128,7 @@ export default {
 'Chaos Sorcerer',
 'Instant Fusion / Elder Entity Norden',
 'Stardust Dragon',
-'Decode Talker'
+'Decode Talker',
 'Saryuja Skull Dread',
 'Brute Enforcer',
 'Destrudo, the Lost Dragon’s Frisson',
