@@ -13,7 +13,7 @@
                                 <v-list-item
                                         v-for="(item, i) in items"
                                         :key="i"
-                                        @click="displaynewblacklist"
+                                        @click="displaynewblacklist2(i)"
 
                                 >
                                     <v-list-item-icon>
@@ -43,7 +43,7 @@
                                     v-for="(item, i) in players.filter(playerfilter)"
                                     :key="i"
                                     :href="'#tab-' + i"
-                                    @click="displaynewblacklist"
+                                    @click="displaynewblacklist(i)"
                             >
                                 <v-img  :src="'/avatars/kdr' + i.toString() + '.jpg'" height="120px" width="80px"></v-img>
                             </v-tab>
@@ -142,7 +142,7 @@
                     img: '/avatars/css.png'}],
             template_number: 2,
             players:[],
-            tab: null,
+            tab: 0,
             key: 0,
             blacklist:'',
             tip_to_add:0,
@@ -192,9 +192,17 @@
                 return target.classid===this.selectedItem.toString()
             }
             ,
-            displaynewblacklist(){
-                this.blacklist=''
+            displaynewblacklist(i){
+                const selecteditem=this.selectedItem
+                this.blacklist=this.players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===i}).blacklist
             },
+        displaynewblacklist2(i){
+            // const players=this.players
+            console.log(this.tab)
+            const tab=this.tab
+            // console.log(players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===i}))
+            this.blacklist=this.players.filter(function (player){return player.classid===i}).find(function(player){return player.playerid===parseInt(tab.charAt(tab.length - 1))}).blacklist
+        },
             async refreshclass(){
                 if (
                     await this.$refs.confirm.open(
