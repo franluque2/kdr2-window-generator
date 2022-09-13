@@ -42,9 +42,6 @@ export default {
         'Rise Up! - You can Flip Summon monsters the turn they are Set.',
 
 
-        'Advanced Worship - You can Tribute Summon the Egyptian God Cards for 2 Tributes instead of 3 for the rest of the run (Add 1 each of the Egyptian God Cards to your Deck, permanently).',
-
-
         'Mutual Benefits (During each End Phase): Both players draw 1 card.',
 
 
