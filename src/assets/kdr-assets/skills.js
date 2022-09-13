@@ -66,7 +66,7 @@ export default {
         'Hidden Wares: You can reroll your shown loot once per round.',
 
 
-        'The Rich Get Richer: You gain 3 gold for interest instead of 2.',
+        'The Rich Get Richer: You gain 5 gold for interest instead of 4.',
 
 
         'Tipsy Shopkeep: You know how much you need to tip. When you receive your Secret Skill, gain 5 Gold.',
