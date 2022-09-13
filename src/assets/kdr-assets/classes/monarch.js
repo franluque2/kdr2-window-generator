@@ -35,7 +35,7 @@ export default {
 'Dharc the Dark Charmer, Gloomy / Eria the Water Charmer, Gentle / Missus Radiant / Duelittle Chimera',
 'Lyna the Light Charmer, Lustrous / Hiita the Fire Charmer, Ablaze / Mistar Boy / Greatfly',
 'Wynn the Wind Charmer, Verdant / Aussa the Earth Charmer, Immovable / Hip Hoshiningen / Wee Witch’s Apprentice',
-'Nobleman of Crossout,
+'Nobleman of Crossout',
 'Garbage Lord',
 'Photon Thrasher',
 ],

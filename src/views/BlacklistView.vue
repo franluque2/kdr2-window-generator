@@ -193,12 +193,15 @@
             }
             ,
             displaynewblacklist(i){
+                console.log(this.selectedItem)
+                console.log(i)
                 const selecteditem=this.selectedItem
                 this.blacklist=this.players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===i}).blacklist
             },
         displaynewblacklist2(i){
             // const players=this.players
             console.log(this.tab)
+            console.log(i)
             const tab=this.tab
             // console.log(players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===i}))
             this.blacklist=this.players.filter(function (player){return player.classid===i}).find(function(player){return player.playerid===parseInt(tab.charAt(tab.length - 1))}).blacklist

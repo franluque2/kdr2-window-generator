@@ -64,6 +64,7 @@
                 {title: 'KDR-2 Skills', icon: 'mdi-arrow-up-bold', to:'/skills'},
                 {title: 'KDR-2 Loot', icon: 'mdi-treasure-chest', to:'/loot'},
                 {title: 'KDR-2 Class Skills', icon: 'mdi-controller-classic-outline',to:'/class-skills'},
+                {title: 'KDR-2 GIGA Skills', icon: 'fa-solid fa-dumbbell',to:'/skills-giga'},
                 {title: 'KDR Classic Skills', icon: 'mdi-folder-clock-outline', to:'/skills-classic'},
                 {title: 'Blacklists and Tips', icon:'mdi-cash-multiple', to:'/blacklists'}
             ],
