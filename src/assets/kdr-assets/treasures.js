@@ -1,5 +1,6 @@
 export default {
     treasures:[
+        VFD
 'Dust Tornado (C)',
 'Dicephoon (C)',
 'Galaxy Cyclone (C)',
