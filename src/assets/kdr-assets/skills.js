@@ -226,5 +226,8 @@ export default {
         
         
         'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.',
+        
+        
+        'Bribe: (Once per turn): You can offer your opponent any amount of gold and a proposition. If they accept, you can pay them the gold and they must follow through with the deal. (You must have enough money to pay immediately upon making the offer.)',
     ]
 }
