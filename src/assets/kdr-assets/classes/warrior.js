@@ -1,6 +1,6 @@
 export default {
     name: 'Warrior',
-    icon: 'fa-sword',
+    icon: 'fa-gun',
     tip_min:17,
     tip_max:30,
     class_skills: [
