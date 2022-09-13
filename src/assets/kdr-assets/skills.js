@@ -181,13 +181,53 @@ export default {
         
         
         'The Tragedy: If a monster you control is destroyed by battle you can add 1 “Tragoedia” from your Deck to your hand. (Add 1 “Tragoedia” to your Deck permanently.)',
+      
         
         'Heavy Sack: Gain 10 gold at the end of this round, after you collect interest.',
-        
-        'Trade Request: You can run a 35 card deck, but change your LP to 6000 after you apply CON.',
+ 
         
         'Daring Duelist: You can run a 25 card deck, but change your LP to 4000 after you apply CON.',
         
-        'Ratios? Consistency? Yes.: You can run a 10 card deck, but change your LP to 1000 after you apply CON.'
+        
+        'Drafted for Battle: All monsters you possess are treated as all types.',
+        
+        
+        'Me too!: During the Draw Phases, except during the first Draw Phase, if a player has less cards in their hand than their opponent, they can draw until each player has the same number of cards.',
+        
+        
+        'Legendary Sacrifice: If your Legendary Monster is destroyed, draw 2 cards for your next Draw Phase.',
+        
+        
+        'Beatdown: (Once per Duel): At the start of the Battle Phase, for each monster you control, you can increase the ATK of all monsters you control by 300. Destroy all monsters you control at the end of the Battle Phase.',
+        
+        
+        'Mind Scan: (Once per turn): You can look at 1 Set card your opponent controls.',
+        
+        
+        'Lucky Die: (Once per Duel): Reveal 1 monster in your hand and roll a six-sided die. The level of that monster becomes that roll until the end of the turn.',
+        
+        
+        'Shadow Game: At the end of their respective turn, each player will lose Life Points equal to 100 times the number of cards in their own Graveyard.',
+        
+        
+        'Magic Madness: Select 3 Spell Cards in your GY. Your opponent adds 1 of them at random to your hand.',
+        
+        
+        'Forceful Activation: Target 1 Set Spell/Trap card your opponent controls. Reveal it and force its activation. If the activation timing is incorrect, destroy it.',
+        
+        
+        'Go! Rush!: Each player can Normal Summon any number of times in a turn. Each player can draw until they have 5 cards in their hand during their Draw Phase.',
+        
+        
+        'Red Herring: (Once per Duel): You can target 1 face-up card you control. For the rest of the Duel, cards with that card’s name must be targeted for attacks and card effects first over your other monsters (aside from other monsters with the same name).',
+        
+        
+        'Flow Shift: If a player has at least 3000 more LP than their opponent, that player takes double battle damage.',
+        
+        
+        'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.',
+        
+        
+        'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.,
     ]
 }
