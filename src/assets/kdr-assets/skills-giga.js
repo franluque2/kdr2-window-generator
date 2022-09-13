@@ -3,7 +3,7 @@ export default {
     'Switcheroo Innit: Change the name of 1 card in your inventory to 1 other card in your inventory.',
 
 
-    'The Manufactory: Gain a differe6nt class’ skill as a regular skill of your own. Change any instance of mentioning another “type” (like Plant monster) to the main type of your class.',
+    'The Manufactory: Gain a different class’ skill as a regular skill of your own. Change any instance of mentioning another “type” (like Plant monster) to the main type of your class.',
 
 
     'Seventh Sense: Instead of drawing for your Draw Phase, you can instead apply the effect of “Sixth Sense”.',
