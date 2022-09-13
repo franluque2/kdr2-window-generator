@@ -2,7 +2,7 @@ export default {
     skills: [
         'Greed is Good? - Draw 2 cards for your draw phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase).',
 
-
+        testerino updaterino
         'Chicken- (Once per Duel) Pay 500 LP: Draw 1 card. Your opponent can then pay 1000 LP to draw 1 card. Continue passing this choice with the LP cost doubling until one player decides to stop.',
 
 
