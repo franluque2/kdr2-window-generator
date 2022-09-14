@@ -207,7 +207,7 @@ export default {
         'Shadow Game: At the end of their respective turn, each player will lose Life Points equal to 100 times the number of cards in their own Graveyard.',
         
         
-        'Magic Madness: Select 3 Spell Cards in your GY. Your opponent adds 1 of them at random to your hand.',
+        'Magic Madness: (Once per Duel): Select 3 Spell Cards in your GY. Your opponent adds 1 of them at random to your hand.',
         
         
         'Forceful Activation: Target 1 Set Spell/Trap card your opponent controls. Reveal it and force its activation. If the activation timing is incorrect, destroy it.',
@@ -220,9 +220,6 @@ export default {
         
         
         'Flow Shift: If a player has at least 3000 more LP than their opponent, that player takes double battle damage.',
-        
-        
-        'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.',
         
         
         'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.',
