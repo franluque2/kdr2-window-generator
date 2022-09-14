@@ -9,13 +9,13 @@ export default {
     'Seventh Sense: Instead of drawing for your Draw Phase, you can instead apply the effect of “Sixth Sense”.',
 
 
-    'Fist of Fate: If a monster you control is destroyed, you can Special Summon 1 “Obelisk the Tormentor” from your hand or Deck, also, “Obelisk the Tormentor” is not sent to the GY by its own effect. (Add “Obelisk the Tormentor” to your inventory.)',
+    'Fist of Fate: (Once per Duel): If a monster you control is destroyed, you can Special Summon 1 “Obelisk the Tormentor” from your hand or Deck, also, “Obelisk the Tormentor” is not sent to the GY by its own effect. (Add “Obelisk the Tormentor” to your inventory.)',
 
 
-    'Thunderforce Attack: If a monster your opponent controls is destroyed except by Battle, you can Special Summon 1 “Slifer the Sky Dragon” from your hand or Deck, also, “Slifer the Sky Dragon” is not sent to the GY by its own effect. (Add “Slifer the Sky Dragon” to your inventory.)',
+    'Thunderforce Attack: (Once per Duel): If a monster your opponent controls is destroyed except by Battle, you can Special Summon 1 “Slifer the Sky Dragon” from your hand or Deck, also, “Slifer the Sky Dragon” is not sent to the GY by its own effect. (Add “Slifer the Sky Dragon” to your inventory.)',
 
 
-    'Blaze Cannon: If your LP would be reduced to 0, set them to 4000, then Special Summon 1 “The Winged Dragon of Ra” from your hand or Deck. It gains ATK equal to the difference between your current LP and starting LP, also, “The Winged Dragon of Ra” is not sent to the GY by its own effect. (Add “The Winged Dragon of Ra” to your inventory.)',
+    'Blaze Cannon: (Once per Duel): If your LP would be reduced to 0, set them to 4000, then Special Summon 1 “The Winged Dragon of Ra” from your hand or Deck. It gains ATK equal to the difference between your current LP and starting LP, also, “The Winged Dragon of Ra” is not sent to the GY by its own effect. (Add “The Winged Dragon of Ra” to your inventory.)',
 
 
     'Ultimate Sacrifice: (Once per Duel): If you would tribute a monster, you can tribute 1 card your opponent controls instead.',
