@@ -1,6 +1,6 @@
 export default {
     name: 'Gambler',
-    icon: 'fa-cards',
+    icon: 'fa-coins',
     tip_min:0,
     tip_max:0,
     class_skills: [
