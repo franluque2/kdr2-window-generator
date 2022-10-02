@@ -6,7 +6,7 @@ export default {
     class_skills: [
         'Seize the Means of Production: Each time you buy a loot pool, get a random loot pool of the same quality. Also, draw 1 extra card at the start of the duel.',
         'Who\'s Poor Now?: If you have more gold than your opponent, monsters you control gain 50 ATK for every 1 gold more that you have.',
-        'Peasant Presents Present for Present Opponent in the Present: Special Summon 1 each of \"Oppressed People\", \"People Running About\", and \"United Resistance\" from your hand or GY, to your opponent\'s side of the field in ATK position, then Special Summon 1 Gemini monster from your hand or GY and if you do, it becomes an effect monster.'
+        'Peasant Presents Present for Present Opponent in the Present: Special Summon 1 each of "Oppressed People", "People Running About", and "United Resistance" from your hand or GY, to your opponent\'s side of the field in ATK position, then Special Summon 1 Gemini monster from your hand or GY and if you do, it becomes an effect monster.'
     ],
     loot_poor: [
 'Mystical Space Typhoon',
@@ -127,7 +127,7 @@ export default {
 'Sky Dragoons of Draconia',
 'Defender of the Labyrinth / Sublimation Knight',
 'Crowned by the World Chalice / Chosen by the World Chalice / World Chalice Guardragon / Imduk the World Chalice Dragon / Auram the World Chalice Blademaster',
-'Beckoned by the World Chalice / World Legacy - \"World Chalice\" / Lee the World Chalice Fairy / Link Spider / Ib the World Chalice Priestess',
+'Beckoned by the World Chalice / World Legacy - "World Chalice" / Lee the World Chalice Fairy / Link Spider / Ib the World Chalice Priestess',
 'Left Leg of the Forbidden One / Right Leg of the Forbidden One / Left Arm of the Forbidden One / Right Arm of the Forbidden One / Treasure Panda / Obliterate!!!',
 'Piercing the Darkness',
 'Chemicritter Oxy Ox / Chemicritter Carbo Crab / Chemicritter Hydron Hawk / Poly-Chemicritter Hydragon / Burnout',
