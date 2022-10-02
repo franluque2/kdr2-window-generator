@@ -57,7 +57,7 @@ export default {
 'Creepy Coney',
 'Cú Chulainn the Awakened / Emblem of the Awakening / Pre-Preparation of Rites',
 'Gemini Booster',
-'Unleash Your Power!,
+'Unleash Your Power!',
 'Red-Eyes Archfiend of Lightning',
 'Submareed Tour Ride',
 'Common Charity / Over Limit',
