@@ -213,9 +213,6 @@ export default {
         'Forceful Activation: Target 1 Set Spell/Trap card your opponent controls. Reveal it and force its activation. If the activation timing is incorrect, destroy it.',
         
         
-        'Go! Rush!: Each player can Normal Summon any number of times in a turn. Each player can draw until they have 5 cards in their hand during their Draw Phase.',
-        
-        
         'Red Herring: (Once per Duel): You can target 1 face-up card you control. For the rest of the Duel, cards with that card’s name must be targeted for attacks and card effects first over your other monsters (aside from other monsters with the same name).',
         
         
@@ -225,6 +222,6 @@ export default {
         'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.',
         
         
-        'Bribe: (Once per turn): You can offer your opponent any amount of gold and a proposition. If they accept, you can pay them the gold and they must follow through with the deal. (You must have enough money to pay immediately upon making the offer.)',
+        'Rainbow Energy: All monsters you possess are treated as all attributes.',
     ]
 }
