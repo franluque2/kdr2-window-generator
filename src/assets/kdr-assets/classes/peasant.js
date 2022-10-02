@@ -102,8 +102,8 @@ export default {
 'Attack of the Cornered Rat / Painful Decision',
 'Ojama Blue / Ojama Red / Ojama Emperor / Ojama Country / Ojama Pajama',
 'Armed Dragon LV3 / Armed Dragon LV5 / Ojamatch / Ojama Duo',
-'X-Head Cannon / Y-Dragon Head / Z-Metal Tank / XYZ-Dragon Cannon / Ojamassimilation
-'Ojama Pink / Ojama Trio / Super Polymerization'
+'X-Head Cannon / Y-Dragon Head / Z-Metal Tank / XYZ-Dragon Cannon / Ojamassimilation',
+'Ojama Pink / Ojama Trio / Super Polymerization',
 'Guardragon Garmides / Guardragon Promineses',
     ],
     loot_high: [
@@ -124,7 +124,7 @@ export default {
 'Gemini Spark',
 'Sky Dragoons of Draconia',
 'Defender of the Labyrinth / Sublimation Knight',
-'Crowned by the World Chalice / Chosen by the World Chalice / World Chalice Guardragon / Imduk the World Chalice Dragon / Auram the World Chalice Blademaster
+'Crowned by the World Chalice / Chosen by the World Chalice / World Chalice Guardragon / Imduk the World Chalice Dragon / Auram the World Chalice Blademaster',
 'Beckoned by the World Chalice / World Legacy - \"World Chalice\" / Lee the World Chalice Fairy / Link Spider / Ib the World Chalice Priestess',
 'Left Leg of the Forbidden One / Right Leg of the Forbidden One / Left Arm of the Forbidden One / Right Arm of the Forbidden One / Treasure Panda / Obliterate!!!',
 'Piercing the Darkness',
