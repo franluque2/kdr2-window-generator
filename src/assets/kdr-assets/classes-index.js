@@ -9,7 +9,7 @@ import warrior from './classes/warrior'
 import artificer from './classes/artificer'
 import miner from './classes/miner'
 import gardener from './classes/gardener'
-import peasasnt from './classes/peasant'
+import peasant from './classes/peasant'
 import gambler from './classes/gambler'
 
 export default {
