@@ -9,8 +9,9 @@ import warrior from './classes/warrior'
 import artificer from './classes/artificer'
 import miner from './classes/miner'
 import gardener from './classes/gardener'
-import monarch from './classes/monarch'
+import peasasnt from './classes/peasant'
+import gambler from './classes/gambler'
 
 export default {
-    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,monarch]
+    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler]
 };
