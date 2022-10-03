@@ -40,10 +40,16 @@
                         </v-card-text>
                     </v-card>
                     <v-card v-else-if="tip>=rolled_tip">
-                        <v-card-text>
-                        <div class="green">You got it! You tipped {{tip}} and needed {{rolled_tip}}! have a skill!</div>
-                        <v-textarea v-text="item.skill"/>
+
+                            <v-card-text v-if="tip<=(item.max_tip/2)">
+                            <div class="green">Such High Stakes Luck! You tipped {{tip}} and needed {{rolled_tip}}! have a skill! Also, as a reward, have half your gold, {{Math.ceil(tip/2)}} back!</div>
+                            <v-textarea v-text="item.skill"/>
                         </v-card-text>
+                            <v-card-text v-else>
+                            <div class="green">You got it! You tipped {{tip}} and needed {{rolled_tip}}! have a skill!</div>
+                            <v-textarea v-text="item.skill"/>
+                        </v-card-text>
+
                     </v-card>
 
                 </v-tab-item>
@@ -71,9 +77,9 @@
             rolled_tip:0,
             badlucktext:"",
             templ:[
-                {title: "Skill Tier 1",img: "/avatars/gambler_skill_1.png", skill: gambler.class_skills[0], tip:0},
-                {title: "Skill Tier 2",img: "/avatars/gambler_skill_2.png", skill: gambler.class_skills[1], tip:0},
-                {title: "Skill Tier 3",img: "/avatars/gambler_skill_3.png", skill: gambler.class_skills[2], tip:0}
+                {title: "Skill Tier 1",img: "/avatars/gambler_skill_1.png", skill: gambler.class_skills[0], tip:0, max_tip:10},
+                {title: "Skill Tier 2",img: "/avatars/gambler_skill_2.png", skill: gambler.class_skills[1], tip:0, max_tip:20},
+                {title: "Skill Tier 3",img: "/avatars/gambler_skill_3.png", skill: gambler.class_skills[2], tip:0, max_tip:30}
             ]
 
         }),
