@@ -7,6 +7,7 @@ import LootView from "../views/LootView";
 import ClassSkillsView from "../views/ClassSkillsView";
 import BlacklistView from "../views/BlacklistView";
 import SkillsGigaView from "../views/SkillsGigaView";
+import GamblerRollView from "../views/GamblerRollView";
 
 Vue.use(VueRouter)
 
@@ -51,6 +52,11 @@ const routes = [
     name:'skills-giga',
     component:SkillsGigaView
   },
+  {
+    path:'/gambler-gen',
+    name:'gambler-gen',
+    component:GamblerRollView
+  }
 ]
 
 const router = new VueRouter({
