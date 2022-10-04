@@ -212,10 +212,7 @@ export default {
         
         'Forceful Activation: Target 1 Set Spell/Trap card your opponent controls. Reveal it and force its activation. If the activation timing is incorrect, destroy it.',
         
-        
-        'Red Herring: (Once per Duel): You can target 1 face-up card you control. For the rest of the Duel, cards with that card’s name must be targeted for attacks and card effects first over your other monsters (aside from other monsters with the same name).',
-        
-        
+         
         'Flow Shift: If a player has at least 3000 more LP than their opponent, that player takes double battle damage.',
         
         
