@@ -1,11 +1,11 @@
 export default {
     name: 'Peasant',
     icon: 'fa-skull',
-    tip_min:20,
-    tip_max:35,
+    tip_min:28,
+    tip_max:40,
     class_skills: [
         'Seize the Means of Production: Each time you buy a loot pool, get a random loot pool of the same quality. Also, draw 1 extra card at the start of the duel.',
-        'Who\'s Poor Now?: If you have more gold than your opponent, monsters you control gain 50 ATK for every 1 gold more that you have.',
+        'Who\'s Poor Now?: If you have more gold than your opponent, monsters you control gain 50 ATK for every 2 gold more that you have.',
         'Peasant Presents Present for Present Opponent in the Present: Special Summon 1 each of "Oppressed People", "People Running About", and "United Resistance" from your hand or GY, to your opponent\'s side of the field in ATK position, then Special Summon 1 Gemini monster from your hand or GY and if you do, it becomes an effect monster.'
     ],
     loot_poor: [
@@ -96,9 +96,9 @@ export default {
 'Sea Dragoons of Draconia',
 'Box of Friends / Doll Monster Bear-Bear / Doll Monster Miss Mädchen / Doll Happiness / Princess Cologne',
 'World Legacy Guardragon Mardark',
-'Geminize Lord Golknight / Dimer Synthesis / Catalyst Field',
+'Geminize Lord Golknight / Super Double Summon / Gearbreed',
 'Magikey Locking / Birthright / Secrets of the Gallant',
-'Amulet of Ambition / Gearbreed',
+'Amulet of Ambition / Sword of the Soul-Eater / Phantasm Spiral Wave / Phantasm Spiral Grip',
 'Creature Seizure / Soul Unseal (OCG) / Huge Revolution',
 'Darkstorm Dragon / Vola-Chemicritter Methydraco',
 'Attack of the Cornered Rat / Painful Decision',
@@ -124,16 +124,17 @@ export default {
 'Wind-Up Zenmaines',
 'Number 50: Blackship of Corn',
 'Gemini Spark',
-'Sky Dragoons of Draconia',
+'Catalyst Field',
 'Defender of the Labyrinth / Sublimation Knight',
-'Crowned by the World Chalice / Chosen by the World Chalice / World Chalice Guardragon / Imduk the World Chalice Dragon / Auram the World Chalice Blademaster',
+'Crowned by the World Chalice / Chosen by the World Chalice / Imduk the World Chalice Dragon / Auram the World Chalice Blademaster',
 'Beckoned by the World Chalice / World Legacy - "World Chalice" / Lee the World Chalice Fairy / Link Spider / Ib the World Chalice Priestess',
 'Left Leg of the Forbidden One / Right Leg of the Forbidden One / Left Arm of the Forbidden One / Right Arm of the Forbidden One / Treasure Panda / Obliterate!!!',
 'Piercing the Darkness',
 'Chemicritter Oxy Ox / Chemicritter Carbo Crab / Chemicritter Hydron Hawk / Poly-Chemicritter Hydragon / Burnout',
 'First of the Dragons / Allvain the Essence of Vanity / Ready Fusion',
 'Magikey World / Magikey Spirit - Vepartu',
-'Phantasm Spiral Dragon / Phantasm Spiral Grip',      
+'Blazewing Butterfly',
+'Magnificent Magikey Mafteal / Magikey Maftea / Magikey Mechmusket - Batosbuster / Magikey Fiend - Transfurlmine',
     ]
 
 }
