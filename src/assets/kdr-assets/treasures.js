@@ -247,11 +247,6 @@ export default {
 'Raigeki (UR)',
 'Giant Trunade (UR)',
 'Soul Charge (UR)',
-'Snatch Steal (UR)',
-
-]
+'Snatch Steal (UR)'
+ ]
 }
-
-
-
-
