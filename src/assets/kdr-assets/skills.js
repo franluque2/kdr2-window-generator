@@ -66,7 +66,7 @@ export default {
         'Hidden Wares: You can reroll your shown loot once per round.',
 
 
-        'The Rich Get Richer: You gain 5 gold for interest instead of 4.',
+        'The Rich Get Richer: You gain 4 gold for interest instead of 3.',
 
 
         'Tipsy Shopkeep: You know how much you need to tip. When you receive your Secret Skill, gain 5 Gold.',
@@ -87,7 +87,7 @@ export default {
         'Thorns (Once per turn): After you take battle damage from a direct attack, you can inflict damage equal to half the amount you took to your opponent.',
 
 
-        'Cauterizer: Any LP gain is halved.',
+        'Cauterizer: Any LP gain (including CON) is halved.',
 
 
         'Ice Pack: Any effect damage (including skills) is halved.',
@@ -123,13 +123,7 @@ export default {
         'Faulty Programming: Each player draws 2 cards for their Draw Phase, except during the first Draw Phase. Each player must shuffle 1 card they control or in their hand into the Deck during their End Phase, except during the first End Phase.',
 
 
-        'Karen: Once during each Shop Phase, you can permanently remove 1 (R) or higher Treasure from your inventory to add 1 (C) Treasure to your inventory (your choice).',
-
-
         'Plundered Booty: You can permanently remove 1 Treasure from your inventory to gain 1 gold.',
-
-
-        'Refund Season: You can permanently remove 1 Skill, except Refund Season and Tipsy Shopkeep from your inventory to gain 3 gold.',
 
 
         'Temporary Enhancements: During the Shop Phase, you can spend 1 Gold for 1 Stat Point (max of 3). Lose them at the end of the Round.',
@@ -171,7 +165,7 @@ export default {
         'Armament: You take 100 less damage from all sources for every CON you have.',
 
 
-        'Squad Gains: Your STR boost only lasts until the end of the next turn, but is applied to all monsters you control.',
+        'Roid Up: You can use your STR boost twice per turn.',
 
 
         'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.',
@@ -187,10 +181,7 @@ export default {
         
         
         'Drafted for Battle: All monsters you possess are treated as all types.',
-        
-        
-        'Me too!: During the Draw Phases, except during the first Draw Phase, if a player has less cards in their hand than their opponent, they can draw until each player has the same number of cards.',
-        
+            
         
         'Legendary Sacrifice: If your Legendary Monster is destroyed, draw 2 cards for your next Draw Phase.',
         
@@ -220,5 +211,11 @@ export default {
         
         
         'Rainbow Energy: All monsters you possess are treated as all attributes.',
+        
+        'Bingo Machine GO!! Token (Stackable) - Gain 5 Treasures!',
+        
+        'Tank-Up - (Once per Duel) (During your Main Phase 1): You can switch all monsters you control to DEF position, then, they gain 1500 DEF.',
+        
+        
     ]
 }
