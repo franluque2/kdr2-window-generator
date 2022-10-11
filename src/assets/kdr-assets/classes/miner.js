@@ -105,7 +105,7 @@ export default {
 'Bottomless Trap Hole',
 'Wind-Up Zenmaines',
 'Number 50: Blackship of Corn',
-'Twin Twisters'
+'Twin Twisters',
 'Neo-Spacian Grand Mole / Soul of Silvermountain',
 'Triamid Sphinx / Triamid Kingolem',
 'Dodododwarf Gogogoglove / Gogogo Gigas / Gallant Granite',
