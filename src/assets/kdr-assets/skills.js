@@ -165,7 +165,7 @@ export default {
         'Armament: You take 100 less damage from all sources for every CON you have.',
 
 
-        'Roid Up: You can use your STR boost twice per turn.',
+        'Roid Up: (Once per Duel): You can use your STR boost twice this turn.',
 
 
         'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.',
