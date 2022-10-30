@@ -2,7 +2,7 @@ export default {
     name: 'Mage',
     icon: 'mdi-auto-fix',
     tip_min:18,
-    tip_max:32,
+    tip_max:30,
     class_skills: [
         'New Neo Aqua Madoor: Your “Neo Aqua Madoor” always has its ATK/DEF swapped.',
         'Look Ma, Too Many Hands!: You now draw 4 cards for your normal draw during each of your Draw Phases while you control “Neo Aqua Madoor”, also, the effect to draw 4 for your draw phase is now optional, and you can choose to not draw at all instead.',
