@@ -136,7 +136,7 @@ export default {
 'Snipe Hunter / Straight Sniping: (Once per turn): You can use the effect of "Snipe Hunter" without discarding.',
 'Heavy Metal Raiders / Cyberpsychosis: All monsters you control and in your GY are also treated as DARK Machine monsters.',
 'A Mystery Box Could Be Anything!: Buying random Loot Pools costs half as much. If you bought this loot randomly, receive 5 gold.',
-'Number 7: Lucky Straight / 777: (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material.'      
+'Number 7: Lucky Straight / 7 Completed / 777: Each time you call a coin toss correctly, you can add 1 "7 Completed" from your Deck to your hand. (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material.'      
     ]
 
 }
