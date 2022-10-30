@@ -53,7 +53,7 @@ export default {
 'Book of Taiyou / A/D Changer',
 'Widespread Dud / Storm',
 'Dust Tornado / Tribute to the Doomed / Bait Doll',
-'Sphere Kuriboh / Rush Recklessly'
+'Sphere Kuriboh / Rush Recklessly',
 'Emperor of the Land and Sea (OCG) / Kairyu-Shin / Akihiron (OCG)',
 'Hyper-Ancient Shark Megalodon',
 'Depth Shark',
