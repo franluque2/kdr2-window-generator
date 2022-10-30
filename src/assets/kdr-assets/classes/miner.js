@@ -4,7 +4,7 @@ export default {
     tip_min:13,
     tip_max:25,
     class_skills: [
-        'Stepping on a Lego, a fate worse than death: You cannot Special Summon “Block Dragon” unless you have completed your Legendary Quest. After completing your Legendary Quest, you can banish 3 EARTH monsters from your GY, to Special Summon 1 "Block Dragon" from your Deck or GY. (Add 1 copy of “Block Dragon” to your treasures.)',
+        'Stepping on a Lego, a fate worse than death: You cannot Special Summon “Block Dragon” unless you have completed your Legendary Quest. After completing your Legendary Quest, you can banish 3 EARTH monsters from your GY, to Special Summon 1 "Block Dragon" from your hand, Deck or GY. (Add 1 copy of “Block Dragon” to your treasures.)',
         'Millennium Insurance: (During the Draw Phase after you do not reveal “Millennium Golem” off of “Archeological Dig”): Before you activate “Archeological Dig”, place 1 “Millennium Golem” from your Deck on top of your Deck, then, immediately change your Skill to “Archeological Site”.',
         'Enter Sandman: After a Rock monster is sent to the GY, you can make all monsters your opponent control lose 100 ATK/DEF until the end of the turn. (Once per Duel): If you activate your Legendary Relic, you can instead discard “Millennium Golem” to send the top 5 cards of your Deck to your GY.'
     ],
