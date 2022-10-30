@@ -121,7 +121,7 @@ export default {
 'Number 101: Silent Honor ARK',
 'Effect Veiler',
 'Enemy Controller / Book of Moon',
-'Pot of Avarice / Pot of Duality'
+'Pot of Avarice / Pot of Duality',
 'Ice Hand / Fire Hand / Thunder Hand',
 'Cyber Jar',
 'Raigeki Break',
