@@ -4,9 +4,9 @@ export default {
     tip_min:13,
     tip_max:25,
     class_skills: [
-        'Guardian Firestorm (Once per turn): While you have 4 or more FIRE monsters in your GY, you can add 1 “Royal Firestorm Guards” from your Deck to your hand. You can Normal Summon 1 FIRE monster in addition to your Normal Summon/Set. “Royal Firestorm Guards” you control gain 100 ATK/DEF for each Pyro monster in the GY during the turn they\'re Normal Summoned.',
+        'Guardian Firestorm (Once per turn): While you have 4 or more FIRE monsters in your GY, you can add 1 “Royal Firestorm Guards” from your Deck to your hand. You can Normal Summon 1 FIRE monster in addition to your Normal Summon/Set. “Royal Firestorm Guards” you control gain 100 ATK/DEF for each FIRE monster in the GY.',
         'Accelerate Accelerators (Once per turn): If a “Volcanic” monster is sent from the field to the GY, you can add 1 “Blaze Accelerator” card from your Deck or GY to your hand.',
-        'Inpachi Time: Gain the “Unexpected Die” skill. Add “Inpachi”, “Charcoal Inpachi”, and “Woodborg Inpachi” to your inventory. You can only use each of the following effects Once per Duel:\n\u2022If an “Inpachi” you control is sent to the GY by your opponent, Special Summon 1 “Blazing Inpachi” from your hand or Deck. \n\u2022If a “Blazing Inpachi” you control is sent to the GY by your opponent, Special Summon 1 “Charcoal Inpachi” from your hand or Deck.\n\u2022If a “Charcoal Inpachi” you control is sent to the GY by your opponent, Special Summon 1 “Woodborg Inpachi” from your hand or Deck.'
+        'Inpachi Time: Gain the “Unexpected Die” skill. Add “Inpachi”, “Charcoal Inpachi”, and “Woodborg Inpachi” to your inventory. You can only use each of the following effects Once per Duel:\n\u2022If an “Inpachi” you control is sent to the GY, Special Summon 1 “Blazing Inpachi” from your hand or Deck. \n\u2022If a “Blazing Inpachi” you control is sent to the GY, Special Summon 1 “Charcoal Inpachi” from your hand or Deck.\n\u2022If a “Charcoal Inpachi” you control is sent to the GY, Special Summon 1 “Woodborg Inpachi” from your hand or Deck.'
     ],
     loot_poor: [
 'Mystical Space Typhoon',
