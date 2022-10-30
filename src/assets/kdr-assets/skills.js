@@ -24,9 +24,6 @@ export default {
         'Gambler’s Gambit (During each End Phase) (Once per turn): You and your opponent do a dice battle. The winner draws 1 card.',
 
 
-        'Bodyguard for Hire - At the start of the duel, after you draw your opening hand, Special Summon 1 “Celtic Guardian” from your hand or Deck in attack position. (Add “Celtic Guardian” to your inventory)',
-
-
         'Future Visions (During your first Draw Phase): You can discard 1 card, activate 1 “Future Fusion” from your Deck. (Add “Future Fusion” to your inventory).',
 
 
@@ -48,7 +45,7 @@ export default {
         'Card Vendor (During your first Standby Phase) (Once per Duel): You can activate up to 3 “Card Trader” from your Deck. You can activate “Card Trader” also during your opponent’s Standby Phase. (Add “Card Trader” to your inventory.)',
 
 
-        'Sacrifice to the Cards (Once per Duel) (Quick Effect): You can destroy 1 card you control and draw 1 card. Your opponent can activate cards/effects in response to the activation of this skill.',
+        'Sacrifice to the Cards (Once per Duel) (Quick Effect): You can destroy 1 card you control and draw 2 cards. Your opponent can activate cards/effects in response to the activation of this skill.',
 
 
         'Metalmorph (Stackable) - Take 300 damage less from any source of damage.',
@@ -81,7 +78,7 @@ export default {
         'Professional Duelist: If you win a match, gain 5 Gold extra instead of 1.',
 
 
-        'Pirate Spirit - Whenever you get to choose a Treasure, you can choose 2 of the options presented.',
+        'Pirate Soul - Whenever you get to choose a Treasure, you can choose 3 of the options presented.',
 
 
         'Thorns (Once per turn): After you take battle damage from a direct attack, you can inflict damage equal to half the amount you took to your opponent.',
@@ -111,7 +108,7 @@ export default {
         'Not-So-Legendary Battle: You and your opponent’s Legendary Monsters cannot battle each other, unless they are the only monster on their side of the field.',
 
 
-        'Spell Overflow! - At the end of your turn, gain LP equal to the number of Spell Cards in your GY x 200.',
+        'Spell Overflow! - At the end of your turn, gain LP equal to the number of Spell Cards in your GY x 300.',
 
 
         'Digging for Treasure!: After you complete your Legendary Quest, excavate the top 5 cards of your Deck, and add 1 Treasure from among them to your hand. Shuffle the rest back into the Deck.',
@@ -135,7 +132,7 @@ export default {
         'A Brilliant Birdy Boy (Once per Duel): If you activate a Normal Spell/Trap card, you can make the effect of that Spell/Trap the effect of a Normal Spell/Trap card in your GY instead.',
 
 
-        'Normal Seal: Non-effect monsters and monsters with negated effects on your side of the field gain 300 ATK/DEF while face-up on the field. (Once per Duel): You can negate the effects of a face-up monster you control, or, give a non-effect monster you control 300 ATK.',
+        'Normal Seal: Non-effect monsters and monsters with negated effects on your side of the field gain 500 ATK/DEF while face-up on the field. (Once per Duel): You can negate the effects of a face-up monster you control, or, give a non-effect monster you control 500 ATK.',
 
 
         'Refund Please: (Once per Round): During the Shop Phase, when you buy a random Loot Pool, you can refund it.',
@@ -180,10 +177,10 @@ export default {
         'Daring Duelist: You can run a 25 card deck, but change your LP to 4000 after you apply CON.',
         
         
-        'Drafted for Battle: All monsters you possess are treated as all types.',
+        'Drafted for Battle: (Once per Duel): You can declare 1 type. For the rest of the Duel, all monsters you control are also treated as that type.',
             
         
-        'Legendary Sacrifice: If your Legendary Monster is destroyed, draw 2 cards for your next Draw Phase.',
+        'Legendary Sacrifice: If your Legendary Monster is destroyed, draw 2 cards.',
         
         
         'Beatdown: (Once per Duel): At the start of the Battle Phase, for each monster you control, you can increase the ATK of all monsters you control by 300. Destroy all monsters you control at the end of the Battle Phase.',
@@ -210,12 +207,20 @@ export default {
         'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.',
         
         
-        'Rainbow Energy: All monsters you possess are treated as all attributes.',
+        'Rainbow Energy: Once per Duel): You can declare 1 attribute. For the rest of the Duel, all monsters you control are also treated as that attribute.',
         
-        'Bingo Machine GO!! Token (Stackable) - Gain 5 Treasures!',
+        'Bingo Machine GO!! Token (Stackable) - Gain 6 Treasures!',
         
         'Tank-Up - (Once per Duel) (During your Main Phase 1): You can switch all monsters you control to DEF position, then, they gain 1500 DEF.',
         
+        'Red Herring: (Once per Duel): You can select 1 monster you control. Your opponent must target monsters with that name for attacks.',
+        
+        'Strong Arm: (Once per Duel): You can make 1 monster your opponent control declare an attack, or if it’s in defense position, you can change it to attack position. Neither player takes battle damage this turn with battle involving that card.',
+        
+        'Susssspicioussss Sssssymptomsss: (Once per Duel) (During your Draw Phase): You can activate 1 “Dark Snake Syndrome” from your Deck (Add "Des Wombat" and "Dark Snake Syndrome" to your inventory).',
+        
+        
+        'Beam Struggle (Once per Duel) (Quick Effect): During the Main Phase, you can target 1 monster you control and 1 monster your opponent controls. Do a dice battle with your opponent, in which the winner must have 3 more than their opponent on their roll in order to win. The loser sends the monster to the GY, but the winner cannot declare an attack for the rest of the turn.',
         
     ]
 }
