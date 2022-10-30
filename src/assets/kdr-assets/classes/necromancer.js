@@ -9,7 +9,6 @@ export default {
         'Sean of the Dead (Once per turn): If you Special Summon “Skull Servant”, you can add 1 Zombie-type monster from your GY to your hand. (Once per Duel): You can Special Summon 1 Zombie-type monster from your hand.'
     ],
     loot_poor: [
-uality:
 'Mystical Space Typhoon',
 'Double Summon',
 'LANphorhynchus / Traffic Ghost',
