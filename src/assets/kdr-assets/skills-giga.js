@@ -21,9 +21,6 @@ export default {
     'Ultimate Sacrifice: (Once per Duel): If you would tribute a monster, you can tribute 1 card your opponent controls instead.',
 
 
-    'Statistically Impossibility: All your stats become your current stat total at the time of obtaining this skill.',
-
-
     'Unwavering Pride: If your opponent has at least 4 more total cards in their hand and field than you do, you can tribute 2 cards from your hand or field, to Special Summon 1 “Rainbow Neos” from your Extra Deck. (Add “Rainbow Neos” to your inventory.)',
 
     ]
