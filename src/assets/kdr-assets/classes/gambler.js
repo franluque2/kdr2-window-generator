@@ -5,8 +5,8 @@ export default {
     tip_max:0,
     class_skills: [
         'Stacked Deck I: Add the following additional Custom Cards to your Deck (max 1 of each):\n"Stacked Deck - Ace of Spades"\n"Stacked Deck - King of Hearts"',
-        'Stacked Deck II: Add the following Custom Card to your Deck (max 1 of each):\n"Stacked Deck - Jack of Clubs". You can play 1 "Stacked Deck" card at 2.',
-        'Stacked Deck III: Add the following Custom Card to your Deck (max 1 of each):\n"Stacked Deck - Full House". You can play 1 "Stacked Deck" card at 3, except for "Stacked Deck - Full House".'
+        'Stacked Deck II: Add the following Custom Card to your Deck (max 1 of each):\n"Stacked Deck - Jack of Clubs". You can play 1 "Stacked Deck" card at 3.',
+        'Stacked Deck III: Add the following Custom Card to your Deck (max 1 of each):\n"Stacked Deck - Full House". You can play 2 "Stacked Deck" card(s) at 3, except for "Stacked Deck - Full House".'
     ],
     loot_poor: [
 'Mystical Space Typhoon',
