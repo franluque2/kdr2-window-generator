@@ -53,7 +53,7 @@ export default {
 'Book of Taiyou / A/D Changer',
 'Widespread Dud / Storm',
 'Dust Tornado / Tribute to the Doomed / Bait Doll',
-'Sphere Kuriboh / Rush Recklessly'
+'Sphere Kuriboh / Rush Recklessly',
 'Machina Cannon',
 'Machina Defender / Machina Sniper / Commander Covington / Machina Force',
 'Ancient Gear Gadjiltron  Dragon / Ancient Gear Gadget / Ancient Gear Wyvern',
