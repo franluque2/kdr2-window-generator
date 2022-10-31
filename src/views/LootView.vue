@@ -82,7 +82,7 @@
                                     <loot_discord_paste_template :player="item" :treasure_1="treasure_1"
                                                                  :treasure_2="treasure_2"
                                                                  :treasure_3="treasure_3" :loot_poor_1="loot_poor_1"
-                                                                 :loot_poor_2="loot_poor_2"
+                                                                 :loot_poor_2="loot_poor_2" :loot_poor_3="loot_poor_3"
                                                                  :loot_mid_1="loot_mid_1" :loot_mid_2="loot_mid_2"
                                                                  :loot_mid_3="loot_mid_3" :loot_high_1="loot_high_1"
                                                                  :loot_high_2="loot_high_2" :loot_high_3="loot_high_3"
@@ -91,7 +91,7 @@
                                 <v-card flat v-if="!item.discord">
                                     <pretty_paste_template :treasure_1="treasure_1" :treasure_2="treasure_2"
                                                            :treasure_3="treasure_3" :loot_poor_1="loot_poor_1"
-                                                           :loot_poor_2="loot_poor_2"
+                                                           :loot_poor_2="loot_poor_2" :loot_poor_3="loot_poor_3"
                                                            :loot_mid_1="loot_mid_1" :loot_mid_2="loot_mid_2"
                                                            :loot_mid_3="loot_mid_3" :loot_high_1="loot_high_1"
                                                            :loot_high_2="loot_high_2" :loot_high_3="loot_high_3"
@@ -135,6 +135,7 @@
             treasure_3: '',
             loot_poor_1: '',
             loot_poor_2: '',
+            loot_poor_3:'',
             loot_mid_1: '',
             loot_mid_2: '',
             loot_mid_3: '',
@@ -155,11 +156,11 @@
             return (player.classid===this.selectedItem)
         },
             generate_loot: function (kdr_class) {
-                const selecteditem=this.selectedItem
-                const selectedkdr=this.selectedkdr
+                const selecteditem=this.selectedItem;
+                const selectedkdr=this.selectedkdr;
                 this.blacklist=this.players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===selectedkdr}).blacklist.split('\n');
 
-                var difference_loot_poor = kdr_class.loot_poor.filter(x => !this.blacklist.includes(x))
+                var difference_loot_poor = kdr_class.loot_poor.filter(x => !this.blacklist.includes(x));
                 var difference_loot_mid = kdr_class.loot_mid.filter(x => !this.blacklist.includes(x));
                 var difference_loot_high = kdr_class.loot_high.filter(x => !this.blacklist.includes(x));
 
@@ -171,21 +172,32 @@
                 while ((this.treasure_1 === this.treasure_3) || (this.treasure_2 === this.treasure_3))
                     this.treasure_3 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
 
-                if (difference_loot_poor.length>1){
+                if (difference_loot_poor.length>2){
                     this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                     while(this.blacklist.includes(this.loot_poor_1))
                         this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                     this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                     while ((this.loot_poor_1 === this.loot_poor_2)|| (this.blacklist.includes(this.loot_poor_2)))
                         this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                    this.loot_poor_3 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                    while ((this.loot_poor_1 === this.loot_poor_3) || (this.loot_poor_2 === this.loot_poor_3) || (this.blacklist.includes(this.loot_poor_3)))
+                        this.loot_poor_3 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+
                 }else {
-                    if (difference_loot_poor.length===1){
+                    if (difference_loot_poor.length===2){
+                    this.loot_poor_1=difference_loot_poor[0];
+                    this.loot_poor_2=difference_loot_poor[1];
+                    this.loot_poor_3='';
+                     }
+                    else if (difference_loot_poor.length===1){
                         this.loot_poor_1=difference_loot_poor[0];
                         this.loot_poor_2='';
+                        this.loot_poor_3='';
                     } else
                     {
                         this.loot_poor_1='';
                         this.loot_poor_2='';
+                        this.loot_poor_3='';
                     }}
 
                 if (difference_loot_mid.length>2){

@@ -29,6 +29,7 @@ export default {
         '*Low Quality* (2 Gold):\n' +
         'poor_loot_1\n' +
         'poor_loot_2\n' +
+        'poor_loot_3\n' +
         '\n' +
         '*Medium Quality* (5 Gold):\n' +
         'med_loot_1\n' +
