@@ -8,6 +8,7 @@ import ClassSkillsView from "../views/ClassSkillsView";
 import BlacklistView from "../views/BlacklistView";
 import SkillsGigaView from "../views/SkillsGigaView";
 import GamblerRollView from "../views/GamblerRollView";
+import MassBlacklistView from "../views/MassBlacklistView";
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/blacklists',
     name:'blacklists',
     component:BlacklistView
+  },
+  {
+    path: '/mass-blacklists',
+    name:'mass-blacklists',
+    component:MassBlacklistView
   },
 
   {

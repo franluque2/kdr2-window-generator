@@ -67,6 +67,7 @@
                 {title: 'KDR-2 GIGA Skills', icon: 'fa-solid fa-dumbbell',to:'/skills-giga'},
                 {title: 'KDR Classic Skills', icon: 'mdi-folder-clock-outline', to:'/skills-classic'},
                 {title: 'Blacklists and Tips', icon:'mdi-cash-multiple', to:'/blacklists'},
+                {title: 'Mass Add to Blacklist', icon:'mdi-playlist-plus', to:'/mass-blacklists'},
                 {title: 'Gambler Skill Roller', icon:'mdi-dice-1', to:'/gambler-gen'}
             ],
             right: null,

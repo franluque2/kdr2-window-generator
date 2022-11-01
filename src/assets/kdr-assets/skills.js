@@ -134,79 +134,54 @@ export default {
 
         'Normal Seal: Non-effect monsters and monsters with negated effects on your side of the field gain 500 ATK/DEF while face-up on the field. (Once per Duel): You can negate the effects of a face-up monster you control, or, give a non-effect monster you control 500 ATK.',
 
-
         'Refund Please: (Once per Round): During the Shop Phase, when you buy a random Loot Pool, you can refund it.',
-
 
         'Super Smooth Talker: Your required tip amount is reduced by 10.',
 
-
         'Wicked Worship: You can Tribute Summon the Wicked God Cards for 2 Tributes instead of 3 for the rest of the run (Add 1 each of the Wicked God Cards to your Deck, permanently).',
-
 
         'Last Stand: (Once per Run): If your Life Points are reduced to 0, you can set both players Life Points to 1000. You take no damage for the rest of the turn. During your next End Phase after using this Skill, you lose the Duel.',
 
-
         'Tapped Potential: You can tribute 1 “Fiend Scorpion” to Special Summon 1 “Millennium Scorpion” from your Deck. “Millennium Scorpion” you control gain 1000 ATK for their effect instead of 500. (Add “Fiend Scorpion” and “Millennium Scorpion” to your inventory).',
-
 
         'Archetype Madness: Declare 1 card name in your inventory and 1 archetype name. That card becomes part of that archetype for the rest of the run.',
 
-
         'I’m something of an FTK enabler myself: If your LP are 4000 or less, you can Special Summon 1 “Magical Scientist” from your hand or Deck. (Add “Magical Scientist”, “Crimson Sunbird”, “Man-Eating Black Shark”, “Darkfire Dragon”, “Zombie Warrior”, and “Allvain the Essence of Vanity” to your inventory.)',
-
 
         'Lifesteal: If your monster battles an opponent’s monster and inflicts damage to them, gain LP equal to the amount inflicted.',
 
-
         'Armament: You take 100 less damage from all sources for every CON you have.',
-
 
         'Roid Up: (Once per Duel): You can use your STR boost twice this turn.',
 
-
         'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.',
-        
-        
+
         'The Tragedy: If a monster you control is destroyed by battle you can add 1 “Tragoedia” from your Deck to your hand. (Add 1 “Tragoedia” to your Deck permanently.)',
-      
-        
+
         'Heavy Sack: Gain 10 gold at the end of this round, after you collect interest.',
- 
-        
+
         'Daring Duelist: You can run a 25 card deck, but change your LP to 4000 after you apply CON.',
-        
-        
+
         'Drafted for Battle: (Once per Duel): You can declare 1 type. For the rest of the Duel, all monsters you control are also treated as that type.',
-            
-        
+
         'Legendary Sacrifice: If your Legendary Monster is destroyed, draw 2 cards.',
-        
-        
+
         'Beatdown: (Once per Duel): At the start of the Battle Phase, for each monster you control, you can increase the ATK of all monsters you control by 300. Destroy all monsters you control at the end of the Battle Phase.',
-        
-        
+
         'Mind Scan: (Once per turn): You can look at 1 Set card your opponent controls.',
-        
-        
+
         'Lucky Die: (Once per Duel): Reveal 1 monster in your hand and roll a six-sided die. The level of that monster becomes that roll until the end of the turn.',
         
-        
         'Shadow Game: At the end of their respective turn, each player will lose Life Points equal to 100 times the number of cards in their own Graveyard.',
-        
-        
+
         'Magic Madness: (Once per Duel): Select 3 Spell Cards in your GY. Your opponent adds 1 of them at random to your hand.',
-        
-        
+
         'Forceful Activation: Target 1 Set Spell/Trap card your opponent controls. Reveal it and force its activation. If the activation timing is incorrect, destroy it.',
-        
-         
+
         'Flow Shift: If a player has at least 3000 more LP than their opponent, that player takes double battle damage.',
-        
-        
+
         'We are Number One: (Once per Duel): If you control a level 4 or lower Normal monster, you can Special Summon up to 2 monsters from your Deck with the same name as that monster. They cannot be used as material to Summon a monster from the Extra Deck.',
-        
-        
+
         'Rainbow Energy: Once per Duel): You can declare 1 attribute. For the rest of the Duel, all monsters you control are also treated as that attribute.',
         
         'Bingo Machine GO!! Token (Stackable) - Gain 6 Treasures!',
@@ -218,16 +193,12 @@ export default {
         'Strong Arm: (Once per Duel): You can make 1 monster your opponent control declare an attack, or if it’s in defense position, you can change it to attack position. Neither player takes battle damage this turn with battle involving that card.',
         
         'Susssspicioussss Sssssymptomsss: (Once per Duel) (During your Draw Phase): You can activate 1 “Dark Snake Syndrome” from your Deck (Add "Des Wombat" and "Dark Snake Syndrome" to your inventory).',
-        
-        
+
         'Beam Struggle (Once per Duel) (Quick Effect): During the Main Phase, you can target 1 monster you control and 1 monster your opponent controls. Do a dice battle with your opponent, in which the winner must have 3 more than their opponent on their roll in order to win. The loser sends the monster to the GY, but the winner cannot declare an attack for the rest of the turn.',
-        
-        
+
         'Market Day!: At the start of every round, you can gain a random loot pool. If you do, everyone has the option to also take that loot pool.',
-        
-        
+
         'Skill-share: At the start of every round, you can give everyone in the KDR the option to receive the same random Skill except “Skill-share” or “Market Day!”.',
-        
-        
+
     ]
 }

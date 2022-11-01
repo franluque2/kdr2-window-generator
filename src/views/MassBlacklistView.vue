@@ -1,0 +1,109 @@
+<template>
+    <v-container>
+        <v-row no-gutters>
+            <v-col cols="8">
+                <v-card>
+                    <v-container>
+                        <v-tabs
+                                v-model="tab"
+                                centered
+                                icons-and-text
+                        >
+                            <v-tabs-slider ></v-tabs-slider>
+
+                            <v-tab
+                                    v-for="(i) in Array(kdrnumber).keys()"
+                                    :key="i"
+                                    :href="'#tab-' + i"
+                                    @click="displaynewblacklist(i)"
+                            >
+                                <v-img  :src="'/avatars/kdr' + i.toString() + '.jpg'" height="120px" width="80px"></v-img>
+                            </v-tab>
+                        </v-tabs>
+                        <v-tabs-items v-model="tab">
+                            <v-tab-item
+                                    v-for="(i) in Array(kdrnumber).keys()"
+                                    :key="i"
+                                    :value="'tab-' + i"
+
+                            >
+                                <v-card flat>
+                                    <v-card-text>
+                                        <div class="text--primary">Items to add to all Blacklists in KDR:</div>
+                                        <v-textarea v-model="blacklist"></v-textarea>
+                                        <v-btn @click="massaddtoblacklist(i)" value="">Manually Add to all Blacklists in KDR</v-btn>
+                                    </v-card-text>
+                                </v-card>
+                            </v-tab-item>
+                        </v-tabs-items>
+                    </v-container>
+                </v-card>
+
+            </v-col>
+
+        </v-row>
+    </v-container>
+
+</template>
+
+<script>
+    import {db} from '../db'
+
+
+
+
+
+    export default {
+        name: "MassBlacklistView",
+
+        data: () => ({
+            name: "BlacklistView",
+            selectedTemplate: 0,
+            templ: [{name: 'KDR1',
+                img: '/avatars/css.png'},
+                {name: 'KDR2',
+                    img: '/avatars/css.png'}],
+            template_number: 2,
+            players:[],
+            tab: 0,
+            kdrnumber:2,
+            blacklist:'',
+            db:db
+
+        }),
+        firebase: {
+            players: db.ref('players')
+        }
+        ,
+        methods: {
+            displaynewblacklist(){
+                this.blacklist=""
+            },
+
+            async massaddtoblacklist(i){
+                        this.players.forEach(doc =>
+                        {
+
+                        if (doc['playerid']===i)
+                        {
+                            let newblacklist=doc['blacklist']+this.blacklist;
+                            db.ref('players/'+doc['.key']).update({blacklist:newblacklist});
+                        }
+                    }
+                        )
+                this.blacklist=""
+
+
+            }
+
+
+        },
+        mounted(){
+            // this.restartKdrS();
+        }
+    }
+</script>
+
+<style scoped>
+
+</style>
