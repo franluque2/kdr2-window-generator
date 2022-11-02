@@ -198,7 +198,7 @@ export default {
         'Magic Madness: (Once per Duel): Select 3 Spell Cards in your GY. Your opponent adds 1 of them at random to your hand.',
         
         
-        'Forceful Activation: Target 1 Set Spell/Trap card your opponent controls. Reveal it and force its activation. If the activation timing is incorrect, destroy it.',
+        'Forceful Activation: (Once per Duel): Target 1 Set Spell/Trap card your opponent controls. Reveal it and force its activation. If the activation timing is incorrect, destroy it.',
         
          
         'Flow Shift: If a player has at least 3000 more LP than their opponent, that player takes double battle damage.',
