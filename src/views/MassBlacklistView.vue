@@ -86,7 +86,7 @@
 
                         if (doc['playerid']===i)
                         {
-                            let newblacklist=doc['blacklist']+this.blacklist;
+                            let newblacklist=doc['blacklist']+'\n'+this.blacklist;
                             db.ref('players/'+doc['.key']).update({blacklist:newblacklist});
                         }
                     }
