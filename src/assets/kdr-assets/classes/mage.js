@@ -1,6 +1,7 @@
 export default {
     name: 'Mage',
     icon: 'mdi-auto-fix',
+    uses_generic:true,
     tip_min:18,
     tip_max:30,
     class_skills: [

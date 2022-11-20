@@ -1,6 +1,7 @@
 export default {
     name: 'Fisherman',
     icon: 'fa-fish',
+    uses_generic:true,
     tip_min:16,
     tip_max:25,
     class_skills: [

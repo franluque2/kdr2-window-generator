@@ -1,6 +1,7 @@
 export default {
     name: 'Artificer',
     icon: 'mdi-hammer-wrench',
+    uses_generic:true,
     tip_min:13 ,
     tip_max:25,
     class_skills: [
@@ -43,7 +44,7 @@ export default {
 'Caius the Shadow Monarch / Treeborn Frog / Soul Exchange',
 'Thought Ruler Archfiend / Obsessive Uvualoop',
 'Trap Hole',
-'Righty Driver / Lefty Driver / Red Dragon Archfiend / Goyo Guardian', 
+'Righty Driver / Lefty Driver / Red Dragon Archfiend / Goyo Guardian',
 'Nobleman of Crossout / Nobleman of Extermination',
 'Proxy F Magician',
 'Burden of the Mighty / Shield Crush',

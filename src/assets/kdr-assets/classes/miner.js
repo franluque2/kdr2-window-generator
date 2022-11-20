@@ -1,6 +1,7 @@
 export default {
     name: 'Miner',
     icon: 'mdi-pickaxe',
+    uses_generic:true,
     tip_min:13,
     tip_max:25,
     class_skills: [
