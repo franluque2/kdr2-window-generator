@@ -195,10 +195,16 @@ export default {
         'Susssspicioussss Sssssymptomsss: (Once per Duel) (During your Draw Phase): You can activate 1 “Dark Snake Syndrome” from your Deck (Add "Des Wombat" and "Dark Snake Syndrome" to your inventory).',
 
         'Beam Struggle (Once per Duel) (Quick Effect): During the Main Phase, you can target 1 monster you control and 1 monster your opponent controls. Do a dice battle with your opponent, in which the winner must have 3 more than their opponent on their roll in order to win. The loser sends the monster to the GY, but the winner cannot declare an attack for the rest of the turn.',
-
-        'Market Day!: At the start of every round, you can gain a random loot pool. If you do, everyone has the option to also take that loot pool.',
-
-        'Skill-share: At the start of every round, you can give everyone in the KDR the option to receive the same random Skill except “Skill-share” or “Market Day!”.',
-
+        
+        'Ponder the Orbital: You can run your deck as all 1-ofs, and if you do, you can add 1 “Orbital Hydralander” to your deck. (Once per Duel): If you have 4 or more monsters with different names in your GY, you can add 1 “Orbital Hydralander” from your Deck to your hand.',
+        
+        'Lawnmower (Once per Duel): You can send the top card of your deck. Your opponent can then repeat this effect, but mills twice as many as the previous amount milled. Continue passing this choice with the number sent doubling until one player decides to stop. (GY effects trigger after the whole effect resolves).',
+        
+        'Deck Hurty Virus (Once per Duel) (before the start of the duel): Both players discard 5, draw 5. This does not trigger GY effects of any kind.',
+        
+        'Surface Burial (Once per Duel) (During the first Draw Phase): You can send 1 monster from your Deck to the GY. Your opponent can then repeat this effect, but sends twice as many as the previous sent. Continue passing this choice with the number sent doubling until one player decides to stop.',
+        
+        'Minigun (Once per turn): You start the game with 500 charges. You can spend any number of charges and lower the ATK 1 face-up monster by that much. If this reduces its ATK to 0, destroy the monster and gain 1000 charges. (Once per turn) Quick Effect: You can destroy 1 monster you control to gain 500 charges. Your opponent can activate cards/effects in response to the activation of this skill.',
+        
     ]
 }
