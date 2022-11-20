@@ -196,9 +196,5 @@ export default {
 
         'Beam Struggle (Once per Duel) (Quick Effect): During the Main Phase, you can target 1 monster you control and 1 monster your opponent controls. Do a dice battle with your opponent, in which the winner must have 3 more than their opponent on their roll in order to win. The loser sends the monster to the GY, but the winner cannot declare an attack for the rest of the turn.',
 
-        'Market Day!: At the start of every round, you can gain a random loot pool. If you do, everyone has the option to also take that loot pool.',
-
-        'Skill-share: At the start of every round, you can give everyone in the KDR the option to receive the same random Skill except “Skill-share” or “Market Day!”.',
-
     ]
 }
