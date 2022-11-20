@@ -11,7 +11,9 @@ import miner from './classes/miner'
 import gardener from './classes/gardener'
 import peasant from './classes/peasant'
 import gambler from './classes/gambler'
+import bug_catcher from './classes/bug_catcher'
+import esper from './classes/esper'
 
 export default {
-    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler]
+    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper]
 };
