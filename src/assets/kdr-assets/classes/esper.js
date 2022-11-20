@@ -17,13 +17,13 @@ export default {
 'Number C69: Heraldry Crest of Horror / Heraldry Change / Augmented Heraldry / Advanced Heraldry Art / Heraldry Reborn / Rank-Up-Magic Barian\'s Force / Cheat-Force Ultra Rank-Up Turbo Magic (Once per Run): You can gain 1 of the other 2 Heraldic Beast loot pools. All “Heraldic” monsters in your possession are also all Psychic types.',
 'Short-staffed: Gain a skill.',
 'Winda, Priestess of Gusto / Gusto Egul / Kamui, Hope of Gusto / Gusto Gulldo / Gusto Falco / Daigusto Falcos',
-'Gusto Codor / Gusto Squirro / Windaar, Sage of Gusto / Daigusto Eguls / Daigusto Laplampilica / Gusto Vedir / Gusto Thunbolt / Reeze, Whirlwind of Gusto / Daigusto Sphreez / Caam, Serenity of Gusto'
+'Gusto Codor / Gusto Squirro / Windaar, Sage of Gusto / Daigusto Eguls / Daigusto Laplampilica / Gusto Vedir / Gusto Thunbolt / Reeze, Whirlwind of Gusto / Daigusto Sphreez / Caam, Serenity of Gusto',
 'Daigusto Emeral',
 'D.D. Seeker',
 'Leafplace Plaice',
 'Nightmell the Dark Binder',
 'Armored Kappa',
-'Wattkinetic Puppeteer / Trancefamiliar' 
+'Wattkinetic Puppeteer / Trancefamiliar',
 'Wind-Up Juggler',
 'Doctor Cranium',
 'Space-Time Police',
