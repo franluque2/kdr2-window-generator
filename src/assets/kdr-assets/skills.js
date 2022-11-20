@@ -204,8 +204,7 @@ export default {
         
         'Surface Burial (Once per Duel) (During the first Draw Phase): You can send 1 monster from your Deck to the GY. Your opponent can then repeat this effect, but sends twice as many as the previous sent. Continue passing this choice with the number sent doubling until one player decides to stop.',
         
-        'Minigun (Once per turn): You start the game with 500 charges. You can spend any number of charges and lower the ATK 1 face-up monster by that much. If this reduces its ATK to 0, destroy the monster and gain 1000 charges. (Once per turn): You can destroy 1 monster you control to gain 500 charges. ',
+        'Minigun (Once per turn): You start the game with 500 charges. You can spend any number of charges and lower the ATK 1 face-up monster by that much. If this reduces its ATK to 0, destroy the monster and gain 1000 charges. (Once per turn) Quick Effect: You can destroy 1 monster you control to gain 500 charges. Your opponent can activate cards/effects in response to the activation of this skill.',
         
-
     ]
 }
