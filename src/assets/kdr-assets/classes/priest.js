@@ -1,7 +1,6 @@
 export default {
     name: 'Priest',
     icon: 'fa-cross',
-    uses_generic:true,
     tip_min:18,
     tip_max:28,
     class_skills: [

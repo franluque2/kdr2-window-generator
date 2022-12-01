@@ -2,7 +2,6 @@ export default {
     name: 'Warrior',
 
     icon: 'mdi-fencing',
-    uses_generic:true,
 
     tip_min:17,
     tip_max:30,

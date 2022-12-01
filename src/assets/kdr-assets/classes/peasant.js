@@ -1,7 +1,6 @@
 export default {
     name: 'Peasant',
     icon: 'fa-skull',
-    uses_generic:true,
     tip_min:28,
     tip_max:40,
     class_skills: [
