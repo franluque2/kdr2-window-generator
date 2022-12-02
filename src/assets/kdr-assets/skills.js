@@ -18,7 +18,7 @@ export default {
         'Staff of Avarice - (Once per Duel) You can shuffle 1 card in your GY back into the Deck to draw 1 card.',
 
 
-        'Long Con - At the end of each round, get 1 Low Quality Pool at random to add to your inventory (works the round you pick it).',
+        'Long Con - At the end of each round, get 1 Generic Low Quality Pool at random to add to your inventory (works the round you pick it).',
 
 
         'Gambler’s Gambit (During each End Phase) (Once per turn): You and your opponent do a dice battle. The winner draws 1 card.',
@@ -150,12 +150,6 @@ export default {
 
         'Lifesteal: If your monster battles an opponent’s monster and inflicts damage to them, gain LP equal to the amount inflicted.',
 
-        'Armament: You take 100 less damage from all sources for every CON you have.',
-
-        'Roid Up: (Once per Duel): You can use your STR boost twice this turn.',
-
-        'Quick Peek: Before you draw for turn, for every 2 DEX you can look at a card on the top of your Deck and return them in any order.',
-
         'The Tragedy: If a monster you control is destroyed by battle you can add 1 “Tragoedia” from your Deck to your hand. (Add 1 “Tragoedia” to your Deck permanently.)',
 
         'Heavy Sack: Gain 10 gold at the end of this round, after you collect interest.',
@@ -186,7 +180,7 @@ export default {
         
         'Bingo Machine GO!! Token (Stackable) - Gain 6 Treasures!',
         
-        'Tank-Up - (Once per Duel) (During your Main Phase 1): You can switch all monsters you control to DEF position, then, they gain 1500 DEF.',
+        'Tank-Up: (Once per Duel) (During your Main Phase 1): You can switch all monsters you control to DEF position, then, they gain 1500 DEF.',
         
         'Red Herring: (Once per Duel): You can select 1 monster you control. Your opponent must target monsters with that name for attacks.',
         
@@ -205,6 +199,18 @@ export default {
         'Surface Burial (Once per Duel) (During the first Draw Phase): You can send 1 monster from your Deck to the GY. Your opponent can then repeat this effect, but sends twice as many as the previous sent. Continue passing this choice with the number sent doubling until one player decides to stop.',
         
         'Minigun (Once per turn): You start the game with 500 charges. You can spend any number of charges and lower the ATK 1 face-up monster by that much. If this reduces its ATK to 0, destroy the monster and gain 1000 charges. (Once per turn) Quick Effect: You can destroy 1 monster you control to gain 500 charges. Your opponent can activate cards/effects in response to the activation of this skill.',
+        
+        'Adventure of Child: You can Normal Summon/Set monsters of any level. You cannot Tribute Summon unless a card specifies for its effect to tribute a certain number of monsters (e.g. "Gilford the Lightning"). You may only activate 1 Spell card per turn, 1 Trap card per turn, and only set 1 Spell/Trap card per turn.',
+        
+        'Oops! All Generic: Remove all Class Loot from your inventory and gain 1 gold for every card removed. You may only purchase Generic Loot. Generic Loot costs half its normal price rounded up.',
+        
+        'Tax Evasion: You do not pay tax on Loot.',
+        
+        'Tax Return: You can buy specifically the listed cards that have tax on it for the cost of the tax instead of the whole loot pool (reroll the original loot pool after).',
+        
+        'Gamble your Tax Return: You gain gold equal to the tax rolled on random loot pools you acquire.',
+        
+        'Tax Collector: You gain gold at the end of a round equal to the total amount of gold spent on taxes that round between all players.',
         
     ]
 }
