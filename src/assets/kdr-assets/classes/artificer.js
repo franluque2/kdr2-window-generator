@@ -1,12 +1,12 @@
 export default {
     name: 'Artificer',
     icon: 'mdi-hammer-wrench',
-    tip_min:13 ,
-    tip_max:25,
+    tip_min:11 ,
+    tip_max:20,
     class_skills: [
     'Flyby (Once per Duel): You can target 1 monster with a “Target” counter, banish it and 1 Machine monster from your hand or GY. During your End Phase, Special Summon both those monsters.',
     'Roid-mobile (During your first Draw Phase): Add up to 3 “Supercharge” and 3 “roid” monsters (except “Speedroid” monsters) from your Deck to your hand. You can only Special Summon “roid” monsters until there are 3 “Supercharge” in your GY. Your Legendary monster is now always treated as “Launcheroid Spideroid”.',
-    'Choo-Choo! (Once per turn): If a “Dekoichi the Battlechanted Locomotive” is flipped face-up, Special Summon up to 3 “Bokoichi the Freightening Car” from your Deck before you activate the effect of “Dekoichi the Battlechanted Locomotive”.'
+    'Reaction! (Once per turn): If you control “Summon Reactor - SK”, you can Special Summon 1 “Trap Reactor - Y FI” or 1 “Spell Reactor - RE” from your hand or Deck. For the rest of the game, you can Normal Summon 1 “Reactor” monster in addition to your Normal Summon/Set each turn.'
     ],
     loot_poor: [
 'Machina Cannon',
@@ -14,7 +14,6 @@ export default {
 'Ancient Gear Gadjiltron  Dragon / Ancient Gear Gadget / Ancient Gear Wyvern',
 'Machina Peacekeeper',
 'Blowback Dragon',
-'Cyber Phoenix',
 'Geargiano',
 'Orcust Knightmare / Jack Wyvern / World Legacy - “World Wand”',
 'Motor Frenzy',
