@@ -9,7 +9,6 @@ export default {
         'Majestic Mokey: You can activate 1 “Mokey Mokey Smackdown” from your hand or Deck, then, destroy 1 face-up Fairy monster you control.'
     ],
     loot_poor: [
-'Guardian Angel Joan',
 'Zolga',
 'Hysteric Fairy',
 'Tethys, Goddess of Light',
@@ -27,7 +26,6 @@ export default {
 'Golden Ladybug / Amabie',
 'Ancient Leaf',
 'Asura Priest',
-'Fluffal Leo',
 'Victorika the Angel of Courage',
 'World Soul - Carbon',
 'Prediction Princess Astromorrigan',
