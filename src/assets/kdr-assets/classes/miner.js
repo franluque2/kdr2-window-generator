@@ -21,7 +21,6 @@ export default {
 'Utgarda, Generaider Boss of Delusion',
 'Hieracosphinx / Medusa Worm',
 'Gigastone Omega',
-'Megarock Dragon',
 'The Earth - Hex-Sealed Fusion / Invoked Magellanica',
 'Dice Jar',
 'Chronomaly City Babylon / Chronomaly Aztec Mask Golem / Chronomaly Mud Golem',
