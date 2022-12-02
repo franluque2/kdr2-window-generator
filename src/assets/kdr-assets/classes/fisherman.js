@@ -25,7 +25,6 @@ export default {
 'Atlantean Attack Squad',
 'Revival Jam',
 'Yomi Ship',
-'Metabo-Shark',
 'Hammer Shark / Deep Diver / Spined Gillman / Submersible Carrier Aero Shark',
 'Abyssal Kingshark',
 'Spearfish Soldier',
