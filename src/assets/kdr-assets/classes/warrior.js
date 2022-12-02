@@ -24,7 +24,6 @@ export default {
 'D.D. Warrior Lady',
 'Battleguard Rage',
 'Ventdra, the Empowered Warrior',
-'War Rock Mammud',
 'Silent Swordsman LV3 / Silent Swordsman LV5 / Silent Sword Slash',
 'Puppet King',
 'Chaos Grepher',
