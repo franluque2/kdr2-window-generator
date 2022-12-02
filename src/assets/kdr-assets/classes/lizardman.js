@@ -10,7 +10,6 @@ export default {
     ],
     loot_poor: [
 'Worm Cartaros / Worm Yagan / Worm Warlord',
-'Gale Lizard',
 'Gentlemander',
 'Night Sword Serpent',
 'Worm Ugly / Worm Prince / Worm Victory',
@@ -28,7 +27,6 @@ export default {
 'Alien Hunter / Alien Hypno',
 '“A” Cell Breeding Device',
 'Otherworld - The “A” Zone',
-'Lion Alligator',
 'Reptilianne Rage',
 'Masked Chameleon',
 'Gale Lizard',
