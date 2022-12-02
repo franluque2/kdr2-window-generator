@@ -15,7 +15,6 @@ export default {
 'Sylvan Waterslide',
 'Amarylease',
 'Eco, Mystical Spirit of the Forest',
-'Botanical Lion',
 'Performapal Radish Horse',
 'Horseytail',
 'Naturia Beans',
