@@ -6,7 +6,7 @@ export default {
     class_skills: [
     'Fruity Studies (Once per turn): During your Draw Phase, before you draw, you can add 1 “Fruits of Kozaky’s Studies” from your Deck or GY to your hand, and if you do, you can look at the top 3 cards of your Deck and return those cards to the top of the Deck in any order (Add “Fruits of Kozaky’s Studies” to your inventory).',
     'Robo-Zaky (Once per turn): If you Summon “Kozaky”, you can Special Summon 1 “Giant Kozaky” from your hand, Deck, or GY. The effect of “Giant Kozaky” heals LP instead of inflicting damage.',
-    'Laboratory of Self Destruction (Once per turn) (During the Standby Phase): You can take 1 “Mystical Space Typhoon” and 1 “Kozaky\'s Self-Destruct Button” from your Deck, set one to each field, and if you do, you can draw 1 card, then shuffle 1 card from your hand back into the Deck. During the End Phase, the player with “Mystical Space Typhoon” set off this effect must activate it. If you destroy “Kozaky\'s Self-Destruct Button” this turn, draw 1 card (add “Mystical Space Typhoon'' and "Kozaky\'s Self-Destruct Button" to your inventory).'
+    'Laboratory of Self Destruction (Once per turn) (During the Standby Phase): You can take 1 “Mystical Space Typhoon” and 1 “Kozaky\'s Self-Destruct Button” from your Deck, set one to each field, and if you do, you can draw 1 card, then shuffle 1 card from your hand back into the Deck. During the End Phase, the player with “Mystical Space Typhoon” set off this effect must activate it. If you destroy “Kozaky\'s Self-Destruct Button” this turn, draw 1 card (add "Mystical Space Typhoon" and "Kozaky\'s Self-Destruct Button" to your inventory).'
     ],
     loot_poor: [
 'Malice Doll of Demise / Ectoplasmer',
@@ -32,7 +32,6 @@ export default {
 'Archfiend\'s Staff of Despair',
 'Axe of Despair',
 'Archfiend\'s Roar',
-
 ],
     loot_mid: [
 'Tindangle Jhrelth / Tindangle Protector / Tindangle Intruder / Tindangle Dholes / Stairs of Mail',
@@ -50,7 +49,6 @@ export default {
 'Kuriboh / Kuriboo / Kuribee / Kuribeh / Kuribah / Kuribohrn / Five Star Twilight / Linkuriboh / The Flute of Summoning Kuriboh',
 'Steelswarm Longhorn / Steelswarm Mantis / Steelswarm Sting / Steelswarm Caller / Steelswarm Gatekeeper / Steelswarm Roach / Infestation Infection',
 'Steelswarm Genome / Steelswarm Scout / Steelswarm Cell / Steelswarm Caucastag / Steelswarm Hercules / Steelswarm Origin / Infestation Ripples',
-
 ],
     loot_high: [
 'Tindangle Angel / Tindangle Hound / Tindangle Trinity / Tindangle Base Gardna / Tindangle Delaunay / Tindangle Acute Cerberus',
