@@ -44,9 +44,9 @@
                 str = str.replace('generic_low_cost', game_variables.loot_costs.generic.low);
                 str = str.replace('generic_mid_cost', game_variables.loot_costs.generic.mid);
                 str = str.replace('generic_high_cost', game_variables.loot_costs.generic.high);
-                str = str.replace('class_low_cost', game_variables.loot_costs.generic.low);
-                str = str.replace('class_mid_cost', game_variables.loot_costs.generic.mid);
-                str = str.replace('class_high_cost', game_variables.loot_costs.generic.high);
+                str = str.replace('class_low_cost', game_variables.loot_costs.class_loot.low);
+                str = str.replace('class_mid_cost', game_variables.loot_costs.class_loot.mid);
+                str = str.replace('class_high_cost', game_variables.loot_costs.class_loot.high);
 
                 this.paste_template = str;
             }
