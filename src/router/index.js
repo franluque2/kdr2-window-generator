@@ -9,6 +9,7 @@ import BlacklistView from "../views/BlacklistView";
 import SkillsGigaView from "../views/SkillsGigaView";
 import GamblerRollView from "../views/GamblerRollView";
 import MassBlacklistView from "../views/MassBlacklistView";
+import TaxTrackerView from "../views/TaxTrackerView";
 
 Vue.use(VueRouter)
 
@@ -62,6 +63,11 @@ const routes = [
     path:'/gambler-gen',
     name:'gambler-gen',
     component:GamblerRollView
+  },
+  {
+    path:'/tax-tracker',
+    name:'tax-tracker',
+    component:TaxTrackerView
   }
 ]
 

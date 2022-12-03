@@ -68,7 +68,9 @@
                 {title: 'KDR Classic Skills', icon: 'mdi-folder-clock-outline', to:'/skills-classic'},
                 {title: 'Blacklists and Tips', icon:'mdi-cash-multiple', to:'/blacklists'},
                 {title: 'Mass Add to Blacklist', icon:'mdi-playlist-plus', to:'/mass-blacklists'},
-                {title: 'Gambler Skill Roller', icon:'mdi-dice-1', to:'/gambler-gen'}
+                {title: 'Gambler Skill Roller', icon:'mdi-dice-1', to:'/gambler-gen'},
+                {title: 'Tax Tracker', icon:'mdi-abacus', to:'/tax-tracker'}
+
             ],
             right: null,
             drawer: false
