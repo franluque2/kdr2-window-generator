@@ -12,7 +12,7 @@ export default {
 'Koa’ki Meiru Beetle / Dragonbite / Oily Cicada',
 'Earthquake / Mother Spider / Mitsu the Insect Ninja / Queen Butterfly Danaus / Relinquished Spider',
 'Worm Bait / Multiplication of Ants',
-'Neo-Spacian Flare Scarab'.
+'Neo-Spacian Flare Scarab',
 'Battlewasp - Dart the Hunter',
 'Swarm of Scarabs / Swarm of Locusts',
 'Bee List Soldier',
