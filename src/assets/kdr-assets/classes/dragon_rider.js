@@ -1,7 +1,6 @@
 export default {
     name: 'Dragon Rider',
     icon: 'fa-dragon',
-    uses_generic:true,
     tip_min:20,
     tip_max:33,
     class_skills: [
@@ -20,7 +19,7 @@ export default {
 'Dread Dragon',
 'Soldier Dragons',
 'Twin Triangle Dragon',
-'Samsara\', Dragon of Rebirth',
+'Samsara, Dragon of Rebirth',
 'Orient Dragon',
 'Iron Chain Dragon',
 'Supay / Moon Dragon Quilla / Fire Ant Ascator / Sun Dragon Inti / Oracle of the Sun',
@@ -30,11 +29,10 @@ export default {
 'Red-Eyes Black Metal Dragon / Metalmorph',
 'Kabuki Dragon',
 'Handcuffs Dragon',
-'Armed Dragon\', the Armored Dragon',
+'Armed Dragon, the Armored Dragon',
 'Stamping Destruction',
-'Black Metal Dragon / Black Dragon’s Chick',
+'Black Metal Dragon / Black Dragons Chick',
 'Armed Protector Dragon',
-'Blizzard Dragon',
     ],
     loot_mid: [
 'Cards of Consonance / Flamvell Guard',

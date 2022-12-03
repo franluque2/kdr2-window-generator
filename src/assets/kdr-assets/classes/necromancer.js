@@ -1,7 +1,6 @@
 export default {
     name: 'Necromancer',
     icon: 'fa-skull',
-    uses_generic:true,
     tip_min:20,
     tip_max:35,
     class_skills: [
@@ -31,7 +30,6 @@ export default {
 'Ghostrick Yeti',
 'Ghostrick Skeleton',
 'Ghostrick Stein / Ghostrick Break / Ghostrick Specter',
-'Molten Zombie',
 'Mad Hauler',
 'Doombearer Psychopompos',
 'Vampire Baron / Vampire Sorcerer',
@@ -61,7 +59,7 @@ export default {
 'Alghoul Mazera',
 'Plaguespreader Zombie / Revived King Ha Des',
 'Book of Life',
-'Uni-Zombie / Red-Eyes Zombie Necro Dragon',
+'Uni-Zombie / Shiranui Squiresaga',
 'Vampire Retainer / Vampire’s Desire / Vampire’s Domain',
 'Shiranui Samurai',
 'Zombie World / Partial Zombification: While “Zombie World” is face-up on the field, monsters your opponent controls and in their GY do not become Zombie monsters, but are also treated as Zombie monsters instead.',

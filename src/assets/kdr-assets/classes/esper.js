@@ -1,7 +1,6 @@
 export default {
     name: 'Esper',
     icon: 'mdi-crystal-ball',
-    uses_generic:true,
     tip_min:10,
     tip_max:16,
     class_skills: [
@@ -14,7 +13,7 @@ export default {
 'Magical Android',
 'Heraldic Beast Leo / Heraldic Beast Eale / Heraldic Beast Twin-Headed Eagle / Heraldic Beast Amphisbaena / Number 8: Heraldic King Genom-Heritage / Cheat-Force Ultra Rank-Up Turbo Magic (Once per Run): You can gain 1 of the other 2 Heraldic Beast loot pools. All “Heraldic” monsters in your possession are also all Psychic types.',
 'Heraldic Beast Unicorn / Heraldic Beast Basilisk / Heraldic Beast Aberconway / Number 18: Heraldry Patriarch / Number 69: Heraldry Crest / Charged-Up Heraldry / Cheat-Force Ultra Rank-Up Turbo Magic (Once per Run): You can gain 1 of the other 2 Heraldic Beast loot pools. All “Heraldic” monsters in your possession are also all Psychic types.',
-'Number C69: Heraldry Crest of Horror / Heraldry Change / Augmented Heraldry / Advanced Heraldry Art / Heraldry Reborn / Rank-Up-Magic Barian\'s Force / Cheat-Force Ultra Rank-Up Turbo Magic (Once per Run): You can gain 1 of the other 2 Heraldic Beast loot pools. All “Heraldic” monsters in your possession are also all Psychic types.',
+'Number C69: Heraldry Crest of Horror / Heraldry Change / Augmented Heraldry / Advanced Heraldry Art / Heraldry Reborn / Rank-Up-Magic Barians Force / Cheat-Force Ultra Rank-Up Turbo Magic (Once per Run): You can gain 1 of the other 2 Heraldic Beast loot pools. All “Heraldic” monsters in your possession are also all Psychic types.',
 'Short-staffed: Gain a skill.',
 'Winda, Priestess of Gusto / Gusto Egul / Kamui, Hope of Gusto / Gusto Gulldo / Gusto Falco / Daigusto Falcos',
 'Gusto Codor / Gusto Squirro / Windaar, Sage of Gusto / Daigusto Eguls / Daigusto Laplampilica / Gusto Vedir / Gusto Thunbolt / Reeze, Whirlwind of Gusto / Daigusto Sphreez / Caam, Serenity of Gusto',

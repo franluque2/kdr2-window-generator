@@ -26,19 +26,36 @@ export default {
         '\n' +
         '**Pools on Display** (you can purchase these or a random pool of the same category, you may purchase as many pools as you like in a single round, one at a time or all at once, you get everything in a pool when you buy it):\n' +
         '\n' +
-        '*Low Quality* (2 Gold):\n' +
+        '**Class Loot!** (This is loot exclusive to your class)'+
+        '\n' +
+        '*Low Quality* (class_low_cost Gold):\n' +
         'poor_loot_1\n' +
         'poor_loot_2\n' +
         'poor_loot_3\n' +
         '\n' +
-        '*Medium Quality* (5 Gold):\n' +
+        '*Medium Quality* (class_mid_cost Gold):\n' +
         'med_loot_1\n' +
         'med_loot_2\n' +
         'med_loot_3\n' +
         '\n' +
-        '*High Quality* (10 Gold):\n' +
+        '*High Quality* (class_high_cost Gold):\n' +
         'high_loot_1\n' +
         'high_loot_2\n' +
-        'high_loot_3\n' +
+        '\n'+
+        '**Generic Loot!** (This is loot any class can get)'+
+            '\n' +
+        '*Low Quality* (generic_low_cost Gold):\n' +
+        'poor_loot_generic_1\n' +
+        'poor_loot_generic_2\n' +
+        'poor_loot_generic_3\n' +
+        '\n' +
+        '*Medium Quality* (generic_mid_cost Gold):\n' +
+        'med_loot_generic_1\n' +
+        'med_loot_generic_2\n' +
+        'med_loot_generic_3\n' +
+        '\n' +
+        '*High Quality* (generic_high_cost Gold):\n' +
+        'high_loot_generic_1\n' +
+        'high_loot_generic_2\n' +
         '\n'
 }

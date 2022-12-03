@@ -1,12 +1,12 @@
 export default {
-    name: 'Mage',
-    icon: 'mdi-auto-fix',
+    name: 'Wizard',
+    icon: 'mdi-wizard-hat',
     tip_min:18,
     tip_max:30,
     class_skills: [
-        'New Neo Aqua Madoor: Your “Neo Aqua Madoor” always has its ATK/DEF swapped.',
-        'Look Ma, Too Many Hands!: You now draw 4 cards for your normal draw during each of your Draw Phases while you control “Neo Aqua Madoor”, also, the effect to draw 4 for your draw phase is now optional, and you can choose to not draw at all instead.',
-        'Spell Infusion: Gain the “Spell Overflow” skill. Your minimum deck size is now 60. (During your first Draw Phase): Send 5 Spells from your Deck to your GY.'
+        'Audible Dot Com (Once per Duel): After you resolve Spellbook, you can also banish 1 “Boo Koo” from your hand or Deck face-down.',
+        'Spellbook: Minigun Upgrade: You can banish 1 card in your hand face-down to use Spellbook.',
+        'Book Turning (Thrice per turn) (During your Draw Phase): If you draw a card, you can banish it face-down; draw a card.'
     ],
     loot_poor: [
 'Dark Elf',

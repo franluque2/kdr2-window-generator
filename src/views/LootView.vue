@@ -79,14 +79,17 @@
                                     Generate New Loot
                                 </v-btn>
                                 <v-card flat v-if="item.discord">
-                                    <loot_discord_paste_template :player="item" :treasure_1="treasure_1"
-                                                                 :treasure_2="treasure_2"
+                                    <loot_discord_paste_template :treasure_1="treasure_1" :treasure_2="treasure_2"
                                                                  :treasure_3="treasure_3" :loot_poor_1="loot_poor_1"
                                                                  :loot_poor_2="loot_poor_2" :loot_poor_3="loot_poor_3"
                                                                  :loot_mid_1="loot_mid_1" :loot_mid_2="loot_mid_2"
                                                                  :loot_mid_3="loot_mid_3" :loot_high_1="loot_high_1"
-                                                                 :loot_high_2="loot_high_2" :loot_high_3="loot_high_3"
-                                                                 :key="key"/>
+                                                                 :loot_high_2="loot_high_2" :loot_poor_generic_1="loot_poor_generic_1"
+                                                                 :loot_poor_generic_2="loot_poor_generic_2" :loot_poor_generic_3="loot_poor_generic_3"
+                                                                 :loot_mid_generic_1="loot_mid_generic_1" :loot_mid_generic_2="loot_mid_generic_2"
+                                                                 :loot_mid_generic_3="loot_mid_generic_3" :loot_high_generic_1="loot_high_generic_1"
+                                                                 :loot_high_generic_2="loot_high_generic_2"
+                                                                 :key="key" :player="item"/>
                                 </v-card>
                                 <v-card flat v-if="!item.discord">
                                     <pretty_paste_template :treasure_1="treasure_1" :treasure_2="treasure_2"
@@ -94,8 +97,12 @@
                                                            :loot_poor_2="loot_poor_2" :loot_poor_3="loot_poor_3"
                                                            :loot_mid_1="loot_mid_1" :loot_mid_2="loot_mid_2"
                                                            :loot_mid_3="loot_mid_3" :loot_high_1="loot_high_1"
-                                                           :loot_high_2="loot_high_2" :loot_high_3="loot_high_3"
-                                                           :key="key"/>
+                                                           :loot_high_2="loot_high_2" :loot_poor_generic_1="loot_poor_generic_1"
+                                                           :loot_poor_generic_2="loot_poor_generic_2" :loot_poor_generic_3="loot_poor_generic_3"
+                                                           :loot_mid_generic_1="loot_mid_generic_1" :loot_mid_generic_2="loot_mid_generic_2"
+                                                           :loot_mid_generic_3="loot_mid_generic_3" :loot_high_generic_1="loot_high_generic_1"
+                                                           :loot_high_generic_2="loot_high_generic_2"
+                                                           :key="key" />
                                 </v-card>
                             </v-tab-item>
                         </v-tabs-items>
@@ -142,7 +149,14 @@
             loot_mid_3: '',
             loot_high_1: '',
             loot_high_2: '',
-            loot_high_3: '',
+            loot_poor_generic_1: '',
+            loot_poor_generic_2: '',
+            loot_poor_generic_3:'',
+            loot_mid_generic_1: '',
+            loot_mid_generic_2: '',
+            loot_mid_generic_3: '',
+            loot_high_generic_1: '',
+            loot_high_generic_2: '',
             blacklist:[],
             blacklist_text:'',
             key: 0,
@@ -157,21 +171,14 @@
             return (player.classid===this.selectedItem)
         },
             generate_loot: function (kdr_class) {
-                let kdr_class_in_use=kdr_class;
-                if (kdr_class.uses_generic)
-                {
-                    kdr_class_in_use.loot_poor=kdr_class.loot_poor.concat(generic_loot.loot_poor);
-                    kdr_class_in_use.loot_mid=kdr_class.loot_mid.concat(generic_loot.loot_mid);
-                    kdr_class_in_use.loot_high=kdr_class.loot_high.concat(generic_loot.loot_high);
-
-                }
+                
                 const selecteditem=this.selectedItem;
                 const selectedkdr=this.selectedkdr;
                 this.blacklist=this.players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===selectedkdr}).blacklist.split('\n');
 
-                var difference_loot_poor = kdr_class_in_use.loot_poor.filter(x => !this.blacklist.includes(x));
-                var difference_loot_mid = kdr_class_in_use.loot_mid.filter(x => !this.blacklist.includes(x));
-                var difference_loot_high = kdr_class_in_use.loot_high.filter(x => !this.blacklist.includes(x));
+                let difference_loot_poor_class = kdr_class.loot_poor.filter(x => !this.blacklist.includes(x));
+                let difference_loot_mid_class = kdr_class.loot_mid.filter(x => !this.blacklist.includes(x));
+                let difference_loot_high_class = kdr_class.loot_high.filter(x => !this.blacklist.includes(x));
 
                 this.treasure_1 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
                 this.treasure_2 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
@@ -181,25 +188,25 @@
                 while ((this.treasure_1 === this.treasure_3) || (this.treasure_2 === this.treasure_3))
                     this.treasure_3 = treasures.treasures[Math.floor(Math.random() * treasures.treasures.length)];
 
-                if (difference_loot_poor.length>2){
-                    this.loot_poor_1 = kdr_class_in_use.loot_poor[Math.floor(Math.random() * kdr_class_in_use.loot_poor.length)];
+                if (difference_loot_poor_class.length>2){
+                    this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                     while(this.blacklist.includes(this.loot_poor_1))
-                        this.loot_poor_1 = kdr_class_in_use.loot_poor[Math.floor(Math.random() * kdr_class_in_use.loot_poor.length)];
-                    this.loot_poor_2 = kdr_class_in_use.loot_poor[Math.floor(Math.random() * kdr_class_in_use.loot_poor.length)];
+                        this.loot_poor_1 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                    this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                     while ((this.loot_poor_1 === this.loot_poor_2)|| (this.blacklist.includes(this.loot_poor_2)))
-                        this.loot_poor_2 = kdr_class_in_use.loot_poor[Math.floor(Math.random() * kdr_class_in_use.loot_poor.length)];
-                    this.loot_poor_3 = kdr_class_in_use.loot_poor[Math.floor(Math.random() * kdr_class_in_use.loot_poor.length)];
+                        this.loot_poor_2 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
+                    this.loot_poor_3 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
                     while ((this.loot_poor_1 === this.loot_poor_3) || (this.loot_poor_2 === this.loot_poor_3) || (this.blacklist.includes(this.loot_poor_3)))
-                        this.loot_poor_3 = kdr_class_in_use.loot_poor[Math.floor(Math.random() * kdr_class_in_use.loot_poor.length)];
+                        this.loot_poor_3 = kdr_class.loot_poor[Math.floor(Math.random() * kdr_class.loot_poor.length)];
 
                 }else {
-                    if (difference_loot_poor.length===2){
-                    this.loot_poor_1=difference_loot_poor[0];
-                    this.loot_poor_2=difference_loot_poor[1];
+                    if (difference_loot_poor_class.length===2){
+                    this.loot_poor_1=difference_loot_poor_class[0];
+                    this.loot_poor_2=difference_loot_poor_class[1];
                     this.loot_poor_3='';
                      }
-                    else if (difference_loot_poor.length===1){
-                        this.loot_poor_1=difference_loot_poor[0];
+                    else if (difference_loot_poor_class.length===1){
+                        this.loot_poor_1=difference_loot_poor_class[0];
                         this.loot_poor_2='';
                         this.loot_poor_3='';
                     } else
@@ -209,24 +216,24 @@
                         this.loot_poor_3='';
                     }}
 
-                if (difference_loot_mid.length>2){
-                this.loot_mid_1 = kdr_class_in_use.loot_mid[Math.floor(Math.random() * kdr_class_in_use.loot_mid.length)];
+                if (difference_loot_mid_class.length>2){
+                this.loot_mid_1 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 while(this.blacklist.includes(this.loot_mid_1))
-                    this.loot_mid_1 = kdr_class_in_use.loot_mid[Math.floor(Math.random() * kdr_class_in_use.loot_mid.length)];
-                this.loot_mid_2 = kdr_class_in_use.loot_mid[Math.floor(Math.random() * kdr_class_in_use.loot_mid.length)];
+                    this.loot_mid_1 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+                this.loot_mid_2 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 while ((this.loot_mid_1 === this.loot_mid_2) || (this.blacklist.includes(this.loot_mid_2)))
-                    this.loot_mid_2 = kdr_class_in_use.loot_mid[Math.floor(Math.random() * kdr_class_in_use.loot_mid.length)];
-                this.loot_mid_3 = kdr_class_in_use.loot_mid[Math.floor(Math.random() * kdr_class_in_use.loot_mid.length)];
+                    this.loot_mid_2 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
+                this.loot_mid_3 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 while ((this.loot_mid_1 === this.loot_mid_3) || (this.loot_mid_2 === this.loot_mid_3) || (this.blacklist.includes(this.loot_mid_3)))
-                this.loot_mid_3 = kdr_class_in_use.loot_mid[Math.floor(Math.random() * kdr_class_in_use.loot_mid.length)];
+                this.loot_mid_3 = kdr_class.loot_mid[Math.floor(Math.random() * kdr_class.loot_mid.length)];
                 }else {
-                    if (difference_loot_mid.length===2){
-                        this.loot_mid_1=difference_loot_mid[0];
-                        this.loot_mid_2=difference_loot_mid[1];
+                    if (difference_loot_mid_class.length===2){
+                        this.loot_mid_1=difference_loot_mid_class[0];
+                        this.loot_mid_2=difference_loot_mid_class[1];
                         this.loot_mid_3='';
                     }
-                    else if (difference_loot_mid.length===1){
-                        this.loot_mid_1=difference_loot_mid[0];
+                    else if (difference_loot_mid_class.length===1){
+                        this.loot_mid_1=difference_loot_mid_class[0];
                         this.loot_mid_2='';
                         this.loot_mid_3='';
                     } else
@@ -236,33 +243,108 @@
                         this.loot_mid_3='';
                     }}
 
-                if (difference_loot_high.length>2) {
-                    this.loot_high_1 = kdr_class_in_use.loot_high[Math.floor(Math.random() * kdr_class_in_use.loot_high.length)];
+                if (difference_loot_high_class.length>2) {
+                    this.loot_high_1 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
                     while (this.blacklist.includes(this.loot_high_1))
-                        this.loot_high_1 = kdr_class_in_use.loot_high[Math.floor(Math.random() * kdr_class_in_use.loot_high.length)];
-                    this.loot_high_2 = kdr_class_in_use.loot_high[Math.floor(Math.random() * kdr_class_in_use.loot_high.length)];
+                        this.loot_high_1 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
+                    this.loot_high_2 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
                     while ((this.loot_high_1 === this.loot_high_2) || (this.blacklist.includes(this.loot_high_2)))
-                        this.loot_high_2 = kdr_class_in_use.loot_high[Math.floor(Math.random() * kdr_class_in_use.loot_high.length)];
-                    this.loot_high_3 = kdr_class_in_use.loot_high[Math.floor(Math.random() * kdr_class_in_use.loot_high.length)];
-                    while ((this.loot_high_1 === this.loot_high_3) || (this.loot_high_2 === this.loot_high_3) || (this.blacklist.includes(this.loot_high_3)))
-                        this.loot_high_3 = kdr_class_in_use.loot_high[Math.floor(Math.random() * kdr_class_in_use.loot_high.length)];
+                        this.loot_high_2 = kdr_class.loot_high[Math.floor(Math.random() * kdr_class.loot_high.length)];
                 } else {
-                    if (difference_loot_high.length===2){
-                        this.loot_high_1=difference_loot_high[0];
-                        this.loot_high_2=difference_loot_high[1];
-                        this.loot_high_3='';
-                    }
-                    else if (difference_loot_high.length===1){
-                        this.loot_high_1=difference_loot_high[0];
-                        this.loot_high_2='';
-                        this.loot_high_3='';
-                    } else
-                    {
-                        this.loot_high_1='';
-                        this.loot_high_2='';
-                        this.loot_high_3='';
+                    if (difference_loot_high_class.length === 2) {
+                        this.loot_high_1 = difference_loot_high_class[0];
+                        this.loot_high_2 = difference_loot_high_class[1];
+                    } else if (difference_loot_high_class.length === 1) {
+                        this.loot_high_1 = difference_loot_high_class[0];
+                        this.loot_high_2 = '';
+                    } else {
+                        this.loot_high_1 = '';
+                        this.loot_high_2 = '';
                     }
                 }
+
+
+                    let difference_loot_poor_generic = generic_loot.loot_poor.filter(x => !this.blacklist.includes(x));
+                let difference_loot_mid_generic = generic_loot.loot_mid.filter(x => !this.blacklist.includes(x));
+                let difference_loot_high_generic = generic_loot.loot_high.filter(x => !this.blacklist.includes(x));
+
+                    if (difference_loot_poor_generic.length>2){
+                        this.loot_poor_generic_1 = generic_loot.loot_poor[Math.floor(Math.random() * generic_loot.loot_poor.length)];
+                        while(this.blacklist.includes(this.loot_poor_generic_1))
+                            this.loot_poor_generic_1 = generic_loot.loot_poor[Math.floor(Math.random() * generic_loot.loot_poor.length)];
+                        this.loot_poor_generic_2 = generic_loot.loot_poor[Math.floor(Math.random() * generic_loot.loot_poor.length)];
+                        while ((this.loot_poor_generic_1 === this.loot_poor_generic_2)|| (this.blacklist.includes(this.loot_poor_generic_2)))
+                            this.loot_poor_generic_2 = generic_loot.loot_poor[Math.floor(Math.random() * generic_loot.loot_poor.length)];
+                        this.loot_poor_generic_3 = generic_loot.loot_poor[Math.floor(Math.random() * generic_loot.loot_poor.length)];
+                        while ((this.loot_poor_generic_1 === this.loot_poor_generic_3) || (this.loot_poor_generic_2 === this.loot_poor_generic_3) || (this.blacklist.includes(this.loot_poor_generic_3)))
+                            this.loot_poor_generic_3 = generic_loot.loot_poor[Math.floor(Math.random() * generic_loot.loot_poor.length)];
+
+                    }else {
+                        if (difference_loot_poor_generic.length===2){
+                            this.loot_poor_generic_1=difference_loot_poor_generic[0];
+                            this.loot_poor_generic_2=difference_loot_poor_generic[1];
+                            this.loot_poor_generic_3='';
+                        }
+                        else if (difference_loot_poor_generic.length===1){
+                            this.loot_poor_generic_1=difference_loot_poor_generic[0];
+                            this.loot_poor_generic_2='';
+                            this.loot_poor_generic_3='';
+                        } else
+                        {
+                            this.loot_poor_generic_1='';
+                            this.loot_poor_generic_2='';
+                            this.loot_poor_generic_3='';
+                        }}
+
+                    if (difference_loot_mid_generic.length>2){
+                        this.loot_mid_generic_1 = generic_loot.loot_mid[Math.floor(Math.random() * generic_loot.loot_mid.length)];
+                        while(this.blacklist.includes(this.loot_mid_generic_1))
+                            this.loot_mid_generic_1 = generic_loot.loot_mid[Math.floor(Math.random() * generic_loot.loot_mid.length)];
+                        this.loot_mid_generic_2 = generic_loot.loot_mid[Math.floor(Math.random() * generic_loot.loot_mid.length)];
+                        while ((this.loot_mid_generic_1 === this.loot_mid_generic_2) || (this.blacklist.includes(this.loot_mid_generic_2)))
+                            this.loot_mid_generic_2 = generic_loot.loot_mid[Math.floor(Math.random() * generic_loot.loot_mid.length)];
+                        this.loot_mid_generic_3 = generic_loot.loot_mid[Math.floor(Math.random() * generic_loot.loot_mid.length)];
+                        while ((this.loot_mid_generic_1 === this.loot_mid_generic_3) || (this.loot_mid_generic_2 === this.loot_mid_generic_3) || (this.blacklist.includes(this.loot_mid_generic_3)))
+                            this.loot_mid_generic_3 = generic_loot.loot_mid[Math.floor(Math.random() * generic_loot.loot_mid.length)];
+                    }else {
+                        if (difference_loot_mid_generic.length===2){
+                            this.loot_mid_generic_1=difference_loot_mid_generic[0];
+                            this.loot_mid_generic_2=difference_loot_mid_generic[1];
+                            this.loot_mid_generic_3='';
+                        }
+                        else if (difference_loot_mid_generic.length===1){
+                            this.loot_mid_generic_1=difference_loot_mid_generic[0];
+                            this.loot_mid_generic_2='';
+                            this.loot_mid_generic_3='';
+                        } else
+                        {
+                            this.loot_mid_generic_1='';
+                            this.loot_mid_generic_2='';
+                            this.loot_mid_generic_3='';
+                        }}
+
+                    if (difference_loot_high_generic.length>2) {
+                        this.loot_high_generic_1 = generic_loot.loot_high[Math.floor(Math.random() * generic_loot.loot_high.length)];
+                        while (this.blacklist.includes(this.loot_high_generic_1))
+                            this.loot_high_generic_1 = generic_loot.loot_high[Math.floor(Math.random() * generic_loot.loot_high.length)];
+                        this.loot_high_generic_2 = generic_loot.loot_high[Math.floor(Math.random() * generic_loot.loot_high.length)];
+                        while ((this.loot_high_generic_1 === this.loot_high_generic_2) || (this.blacklist.includes(this.loot_high_generic_2)))
+                            this.loot_high_generic_2 = generic_loot.loot_high[Math.floor(Math.random() * generic_loot.loot_high.length)];
+                    } else {
+                        if (difference_loot_high_generic.length===2){
+                            this.loot_high_generic_1=difference_loot_high_generic[0];
+                            this.loot_high_generic_2=difference_loot_high_generic[1];
+                        }
+                        else if (difference_loot_high_generic.length===1){
+                            this.loot_high_generic_1=difference_loot_high_generic[0];
+                            this.loot_high_generic_2='';
+                        } else
+                        {
+                            this.loot_high_generic_1='';
+                            this.loot_high_generic_2='';
+                        }
+                }
+
             }, forceUpdate() {
                 this.key++;
             },

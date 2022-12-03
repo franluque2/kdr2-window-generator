@@ -1,7 +1,6 @@
 export default {
     name: 'Gardener',
     icon: 'mdi-flower',
-    uses_generic:true,
     tip_min:16,
     tip_max:28,
     class_skills: [
@@ -16,7 +15,6 @@ export default {
 'Sylvan Waterslide',
 'Amarylease',
 'Eco, Mystical Spirit of the Forest',
-'Botanical Lion',
 'Performapal Radish Horse',
 'Horseytail',
 'Naturia Beans',

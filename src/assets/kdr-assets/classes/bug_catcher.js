@@ -1,19 +1,18 @@
 export default {
     name: 'Bug Catcher',
     icon: 'mdi-bee',
-    uses_generic:true,
     tip_min:6,
     tip_max:9,
     class_skills: [
     'Particularly Dangerous Swarm: All monsters are also always treated as “Battlewasp - Pin the Bullseye”.',
     'A Huge Bee: The owner of a monster that is sent to the GY with a “b” on it draws 1 card. Neither player discards for hand-size limit',
-    'With Exceptional Strength (During the Main Phase) (Thrice per Duel): While you don’t control “Verdant Sanctuary”, you can activate 1 from your Deck or GY.'
+    'Barry Bee Benson (Once per Run): https://pastebin.com/n9b7FmHH'
     ],
     loot_poor: [
 'Koa’ki Meiru Beetle / Dragonbite / Oily Cicada',
 'Earthquake / Mother Spider / Mitsu the Insect Ninja / Queen Butterfly Danaus / Relinquished Spider',
 'Worm Bait / Multiplication of Ants',
-'Neo-Spacian Flare Scarab',
+'Neo-Spacian Flare Scarab'.
 'Battlewasp - Dart the Hunter',
 'Swarm of Scarabs / Swarm of Locusts',
 'Bee List Soldier',
@@ -27,7 +26,7 @@ export default {
 'Beetrooper Descent',
 'Carpiponica, Mystical Beast of the Forest / Alpacaribou, Mystical Beast of the Forest',
 'Hexenringe Master Faerie', 
-'Prickle Fairy / Shield Worm / Warm Worm',
+'Prickle Fairy / Shield Worm / Warm Worm'
 'Traptrix Allomerus',
 'Anti-Aircraft Flower',
 'Beetrooper Light Flapper / Beetrooper Landing / Ultra Beetrooper Absolute Hercules',
@@ -57,7 +56,7 @@ export default {
 'Battlewasp - Sting the Poison / Battlewasp - Azusa the Ghost Bow / Battlewasp - Halberd the Charge / Battlewasp - Hama the Conquering Bow / Battlewasp - Ballista the Armageddon / Circle of Faerie',
 'Inzektor Hornet',
 'Beetrooper Armor Horn / Shinobi Insect Hagakuremino',
-'Giant Ballpark / Insect Knight / Terraforming',
+'Giant Ballpark / Insect Knight',
 'Seraphim Papillion',
 'Doom Dozer / Aztekipede, the Worm Warrior',
 'Resonance Insect / Gokipole',

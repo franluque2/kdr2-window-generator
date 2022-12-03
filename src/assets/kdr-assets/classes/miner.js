@@ -1,7 +1,6 @@
 export default {
     name: 'Miner',
     icon: 'mdi-pickaxe',
-    uses_generic:true,
     tip_min:13,
     tip_max:25,
     class_skills: [
@@ -22,7 +21,6 @@ export default {
 'Utgarda, Generaider Boss of Delusion',
 'Hieracosphinx / Medusa Worm',
 'Gigastone Omega',
-'Megarock Dragon',
 'The Earth - Hex-Sealed Fusion / Invoked Magellanica',
 'Dice Jar',
 'Chronomaly City Babylon / Chronomaly Aztec Mask Golem / Chronomaly Mud Golem',
