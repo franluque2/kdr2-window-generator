@@ -1,6 +1,6 @@
 export default {
     name: 'Ritualist',
-    icon: 'mdi-hammer-wrench',
+    icon: 'mdi-flash',
     tip_min:8,
     tip_max:14,
     class_skills: [
