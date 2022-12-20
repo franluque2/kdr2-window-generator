@@ -57,12 +57,13 @@ export default {
 'Gem-Knight Fusion / Gem-Knight Obsidian / Gem-Knight Alexandrite / Gem-Knight Crystal / Gem-Knight Master Diamond',
 'Adamancipator Signs / Adamancipator Friends',
 'Brilliant Fusion / Gem-Knight Zirconia',
-'Alpha The Electromagnet Warrior / Beta The Electromagnet Warrior / Gamma The Electromagnet Warrior',
-'Delta The Magnet Warrior / Epsilon The Magnet Warrior',
+'Alpha The Electromagnet Warrior / Beta The Electromagnet Warrior / Gamma The Electromagnet Warrior / Tax +1',
+'Delta The Magnet Warrior / Epsilon The Magnet Warrior / Tax +1',
 'Daigusto Emeral',
-'Koa’ki Meiru Guardian',
+'Koa\'ki Meiru Guardian',
 'Fossil Fusion / Fossil Machine Skull Buggy / Fossil Warrior Skull Bone',
-'Magnetic Field',
+'Magnetic Field / Tax + 1',
+
     ]
 
 }

@@ -56,15 +56,14 @@ export default {
 'Dragon Knight of Creation / Arkbrave Dragon',
 'Dragon Ravine / Dragon Shrine',
 'Red-Eyes Black Meteor Dragon (OCG)',
-'Return of the Dragon Lords',
+'Return of the Dragon Lords / Tax +2',
 'Red-Eyes Baby Dragon',
 'Dragon Revival Rhapsody / The King of D.',
-'Red-Eyes Fusion / Meteor Dragon Red-Eyes Impact /  Meteor Black Comet Dragon',
-'Red-Eyes Darkness Metal Dragon',
+'Red-Eyes Fusion / Meteor Dragon Red-Eyes Impact /  Meteor Black Comet Dragon / Tax +1',
+'Red-Eyes Darkness Metal Dragon / Tax +1',
 'Armed Dragon LV3 / Armed Dragon LV5 / Armed Dragon Flash',
 'The Black Stone of Legend / Red-Eyes Black Flare Dragon / Red-Eyes Alternative Black Dragon',
 'Return of the Red-Eyes',
-
     ]
 
 }

@@ -1,8 +1,8 @@
 export default {
     name: 'Wizard',
     icon: 'mdi-wizard-hat',
-    tip_min:18,
-    tip_max:30,
+    tip_min:8,
+    tip_max:15,
     class_skills: [
         'Audible Dot Com (Once per Duel): After you resolve Spellbook, you can also banish 1 “Boo Koo” from your hand or Deck face-down.',
         'Spellbook: Minigun Upgrade: You can banish 1 card in your hand face-down to use Spellbook.',
@@ -56,12 +56,12 @@ export default {
     loot_high: [
 'Silent Magician',
 'Summoner Monk / Performage Trapeze Magician',
-'Spellbook of Power / Spellbook of Wisdom',
+'Spellbook of Power / Spellbook of Wisdom / Tax +1',
 'Mystical Elf - White Lightning',
-'Emperor of Prophecy / Spellbook of the Master / High Priestess of Prophecy / Spellbook of Knowledge',
+'Emperor of Prophecy / Spellbook of the Master / High Priestess of Prophecy / Spellbook of Knowledge / Tax +1',
 'Selene, Queen of the Master Magicians',
-'Pot of Greed',
-'Purple Poison Magician / White Wing Magician',
+'Pot of Greed / Tax +3',
+'Purple Poison Magician / White Wing Magician / Tax +1',
 'Dark Magician / Dark Magician Girl / Magicians Souls',
 'Day-Breaker the Shining Magical Warrior',
 'Summon Sorceress',

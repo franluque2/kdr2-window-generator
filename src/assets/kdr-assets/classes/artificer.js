@@ -56,14 +56,14 @@ export default {
 'Silver Gadget / Gear Gigant X',
 'Gold Gadget / Machina Defense Perimeter',
 'Boot-Up Admiral - Destroyer Dynamo',
-'Speedroid Pachingo-Kart / Speedroid Gum Prize / Hi-Speedroid Chanbara',
-'Platinum Gadget',
+'Speedroid Pachingo-Kart / Speedroid Gum Prize / Hi-Speedroid Chanbara / Tax +2',
+'Platinum Gadget / Tax +1',
 'Jinzo',
 'Power Bond / Pair Cycroid / Emergeroid Call',
 'Machina Fortress / Machina Resavenger',
 'Cyber Eltanin / Orbital Hydralander',
 'Magical Hats / Ancient Gear Reactor Dragon / Geartown',
-'Orcust Harp Horror / Orcust Cymbal Skeleton / Galatea\', the Orcust Automaton / Orcustrated Release',
+'Orcust Harp Horror / Orcust Cymbal Skeleton / Galatea, the Orcust Automaton / Orcustrated Release',
 'Speedroid Terrortop / Speedroid Red-Eyed Dice / Hi-Speedroid Kendama',
 ]
 

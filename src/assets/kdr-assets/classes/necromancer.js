@@ -39,7 +39,7 @@ export default {
 'Glow-Up Bloom',
 'Return of the Zombies',
 'Endless Decay',
-'Wightprince / Wightprincess',
+'Wightprince / Wightprincess / Tax +1',
 'Zoma the Spirit',
 'Jack-o-Bolan',
 'Vampire Familiar / Vampire Scarlet Scourge / Vampire Lord',
@@ -52,18 +52,19 @@ export default {
 'Zombina',
     ],
     loot_high: [
-'King of the Skull Servants',
+'King of the Skull Servants / Tax +1',
 'Call of the Haunted',
-'Mezuki',
+'Mezuki / Tax +1',
 'Gozuki',
 'Alghoul Mazera',
 'Plaguespreader Zombie / Revived King Ha Des',
-'Book of Life',
-'Uni-Zombie / Shiranui Squiresaga',
-'Vampire Retainer / Vampire’s Desire / Vampire’s Domain',
+'Book of Life / Tax +1',
+'Uni-Zombie / Shiranui Squiresaga / Tax +1',
+'Vampire Retainer / Vampire\'s Desire / Vampire\'s Domain',
 'Shiranui Samurai',
 'Zombie World / Partial Zombification: While “Zombie World” is face-up on the field, monsters your opponent controls and in their GY do not become Zombie monsters, but are also treated as Zombie monsters instead.',
-'Shiranui Spectralsword / Shiranui Samuraisaga',        
+'Shiranui Spectralsword / Shiranui Samuraisaga',
+        
     ]
 
 }

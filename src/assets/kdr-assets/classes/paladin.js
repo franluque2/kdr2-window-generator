@@ -1,12 +1,12 @@
 export default {
-    name: 'Warrior',
-    icon: 'mdi-fencing',
-    tip_min:17,
-    tip_max:30,
+    name: 'Paladin',
+    icon: 'mdi-shield',
+    tip_min:10,
+    tip_max:17,
     class_skills: [
-        'Reinforcements!: After you’ve completed your Legendary Quest, you can activate this skill. (Once per turn): If you equip an Equip Spell to a monster you control; you can Special Summon 1 Level 4 or lower Warrior type monster from your Deck.',
-        'Gaia Knights: All “Gaia” monsters in your hand, field, or GY original names are treated as “Gaia the Fierce Knight”.',
-        'Terrifying Battle Spirit: (Once per Duel): If your “Gaia” monster battles an opponent’s monster, you can change that monster to Defense position. “Gaia” monsters you control inflict piercing battle damage.',
+        'Light and Darkness Draggin’: (Once per turn): You can return from among your banished cards 1 LIGHT monster and 1 DARK monster to the GY, and draw 1 card.',
+        'Chaos Control: (Once per turn): You can send 1 LIGHT and 1 DARK monster from your Deck to the GY, discard 1 card, then add “The Chaos Creator” from your Deck to your hand, and if you do, until the end of your next turn, face-up “The Chaos Creator” have their effects negated. (Add “The Chaos Creator” to your inventory). ',
+        'Clownin’ Around: Add “Joker’s Knight” to your inventory.',
 ],
     loot_poor: [
 'Marauding Captain',

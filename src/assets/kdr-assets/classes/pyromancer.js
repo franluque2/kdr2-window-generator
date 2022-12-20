@@ -59,10 +59,10 @@ export default {
 'Cataclysmic Scorching Sunburner',
 'Fire King Avatar Barong / Fire King Avatar Arvata / Fire King Island',
 'Fire King High Avatar Garunix / Onslaught of the Fire Kings',
-'Battlin Boxer Glassjaw / Battlin Boxer Switchitter / Battlin Boxer Sparrer / Battlin Boxer Counterpunch / Battlin Boxer Lead Yoke',
+'Battlin\' Boxer Glassjaw / Battlin\' Boxer Switchitter / Battlin\' Boxer Sparrer / Battlin\' Boxer Counterpunch / Battlin\' Boxer Lead Yoke',
 'Number 60: Dugares the Timeless / Lavalval Chain',
-'True King Agnimazud, the Vanisher',
-'Blaster, Dragon Ruler of Infernos',
+'True King Agnimazud, the Vanisher / Tax +2',
+'Blaster, Dragon Ruler of Infernos / Tax +2',
 'Magic Planter / Pot of Avarice',
 'Fire Ant Ascator / Ascator, Dawnwalker / Sun Dragon Inti',
 ]

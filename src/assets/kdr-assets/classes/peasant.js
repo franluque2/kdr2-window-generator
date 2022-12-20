@@ -53,8 +53,8 @@ export default {
 'Guardragon Garmides / Guardragon Promineses',
     ],
     loot_high: [
-'Gemini Spark',
-'Catalyst Field',
+'Gemini Spark / Tax +2',
+'Catalyst Field / Tax +1',
 'Defender of the Labyrinth / Sublimation Knight',
 'Crowned by the World Chalice / Chosen by the World Chalice / Imduk the World Chalice Dragon / Auram the World Chalice Blademaster',
 'Beckoned by the World Chalice / World Legacy - "World Chalice" / Lee the World Chalice Fairy / Link Spider / Ib the World Chalice Priestess',
@@ -64,7 +64,7 @@ export default {
 'First of the Dragons / Allvain the Essence of Vanity / Ready Fusion',
 'Magikey World / Magikey Spirit - Vepartu',
 'Blazewing Butterfly',
-'Magnificent Magikey Mafteal / Magikey Maftea / Magikey Mechmusket - Batosbuster / Magikey Fiend - Transfurlmine',
+'Magnificent Magikey Mafteal / Magikey Maftea / Magikey Mechmusket - Batosbuster / Magikey Fiend - Transfurlmine'
     ]
 
 }
