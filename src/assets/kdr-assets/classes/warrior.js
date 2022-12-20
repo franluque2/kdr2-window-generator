@@ -55,7 +55,7 @@ export default {
     ],
     loot_high: [
 'Super Soldier Ritual / Black Luster Soldier - Super Soldier / Gateway to Chaos',
-'Reinforcement of the Army',
+'Reinforcement of the Army / Tax +1',
 'Therion “Bull” Ain',
 'Rookie Warrior Lady',
 'Heroic Champion - Excalibur',
@@ -63,9 +63,9 @@ export default {
 'Empowerment / Dragodies, the Empowered Warrior',
 'Black Luster Soldier - Envoy of the Beginning / Blue Mountain Butterspy',
 'Ferocious Flame Swordsman',
-'Noble Knight Brothers / Noble Knight Peredur / Sacred Noble Knight of King Custennin',
-'Noble Knight Medraut / Noble Knight Borz / Noble Arms - Caliburn / Artorigus, King of the Noble Knights',
-'Isolde, Two Tales of the Noble Knights / Ignoble Knight of Black Laundsallyn',
+'Noble Knight Brothers / Noble Knight Peredur / Sacred Noble Knight of King Custennin / Tax +1',
+'Noble Knight Medraut / Noble Knight Borz / Noble Arms - Caliburn / Artorigus, King of the Noble Knights / Tax +1',
+'Isolde, Two Tales of the Noble Knights / Ignoble Knight of Black Laundsallyn / Tax +1',
 'Destiny HERO Malicious / Dark Grepher / Necro Gardna'
 ]
 
