@@ -4,7 +4,7 @@ export default {
     tip_min:18,
     tip_max:30,
     class_skills: [
-        'New Neo Aqua Madoor: Your “Neo Aqua Madoor” always has its ATK/DEF swapped.',
+        'Don’t Talk to Me, OR my Son! (Once per turn): If you Summon “Neo Aqua Madoor”, you can also Special Summon 1 “Aqua Madoor” from your hand, Deck, or GY. “Aqua Madoor” counts for your skill, relic, or quest, etc as if he was your Legendary Monster.',
         'Look Ma, Too Many Hands!: You now draw 4 cards for your normal draw during each of your Draw Phases while you control “Neo Aqua Madoor”, also, the effect to draw 4 for your draw phase is now optional, and you can choose to not draw at all instead.',
         'Spell Infusion: Gain the “Spell Overflow” skill. Your minimum deck size is now 60. (During your first Draw Phase): Send 5 Spells from your Deck to your GY.'
     ],
@@ -56,12 +56,12 @@ export default {
     loot_high: [
 'Silent Magician',
 'Summoner Monk / Performage Trapeze Magician',
-'Spellbook of Power / Spellbook of Wisdom',
+'Spellbook of Power / Spellbook of Wisdom / Tax +1',
 'Mystical Elf - White Lightning',
-'Emperor of Prophecy / Spellbook of the Master / High Priestess of Prophecy / Spellbook of Knowledge',
+'Emperor of Prophecy / Spellbook of the Master / High Priestess of Prophecy / Spellbook of Knowledge / Tax +1',
 'Selene, Queen of the Master Magicians',
-'Pot of Greed',
-'Purple Poison Magician / White Wing Magician',
+'Pot of Greed / Tax +3',
+'Purple Poison Magician / White Wing Magician / Tax +1',
 'Dark Magician / Dark Magician Girl / Magicians Souls',
 'Day-Breaker the Shining Magical Warrior',
 'Summon Sorceress',
