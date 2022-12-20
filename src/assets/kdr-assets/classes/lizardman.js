@@ -4,7 +4,7 @@ export default {
     tip_min:15,
     tip_max:27,
     class_skills: [
-        'A Suspicious Politician: A monster on your side of the field with ATK/DEF equal to half its original ATK/DEF cannot be targeted for attacks, unless it’s the only monster on the field, or all monsters you control have half their original ATK/DEF.',
+        'A Suspicious Politician: (Once per turn): You can add 1 face-up Spell/Trap you control to your hand.',
         'Dark Evolution: (Once per turn): If you use your Legendary Relic effect, you can Special Summon 1 Reptile monster whose Level is twice of what that monster had on the field instead.',
         'Worms are Reptiles, Probably: Gain the “Future Visions” skill. Add “Worm Ugly”, “Worm Prince”, “Worm Victory”, “Worm King”, “Worm Zero”, “Worm Falco”, “Worm Queen”, “Worm Solid”, “W Nebula Meteorite”, “Worm Erokin”, “Worm Warlord”, and “Worm Rakuyeh” from your loot to your inventory.'
     ],
