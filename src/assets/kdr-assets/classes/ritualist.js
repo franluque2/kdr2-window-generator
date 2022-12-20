@@ -56,7 +56,7 @@ export default {
 'Spright Elf / Gigantic Spright / Tax +1',
 'Thunder Dragonduo',
 'Thunder Dragonlord',
-'Thunder Dragon Colossus / The New Support Konami Refuses to Give Us: “Thunder Dragon Colossus” you control has their effects negated.',
+'Thunder Dragon Colossus / The New Support Konami Refuses to Give Us: “Thunder Dragon Colossus” you control has their effects negated. This cannot leave your inventory by any means.',
 'Batteryman Fuel Cell / Batteryman Solar / Quick Charger / Battery Charger',
 'Judgment of Thunder',
 'Recycling Battery / Makiu, the Magical Mist',
