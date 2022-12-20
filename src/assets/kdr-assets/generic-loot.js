@@ -90,7 +90,7 @@ export default
 'Gold Sarcophagus',
 'Pot of Desires',
 'Triple Tactics Talents',
-'Brilliant Fusion / Gem-Knight Garnet / Gem-Knight Seraphinite / Performage Damage Juggler / Performage Trick Clown / Performage Hat Tricker / Tax +4',
+'Brilliant Fusion / Gem-Knight Garnet / Gem-Knight Seraphinite / Performage Damage Juggler / Performage Trick Clown / Performage Hat Tricker / Tax +2',
 'Level Eater / Quickdraw Synchron / Synchron Explorer / Junk Synchron / Quillbolt Hedgehog / Junk Warrior',
 
     ]
