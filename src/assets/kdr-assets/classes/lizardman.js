@@ -54,16 +54,17 @@ export default {
     loot_high: [
 'Brainwashing Beam',
 'Urubonus, the Avatar of Malice (OCG)',
-'Reptilianne Echidna',
+'Reptilianne Echidna / Tax +2',
 'Snake Rain',
 'Alien Mother / “A” Cell Recombination Device',
 'Alien Overlord / Alien Telepath / Mysterious Triangle',
-'Reptilianne Vaskii',
-'Cosmic Fortress Gol’Gar / Alien Ammonite',
+'Reptilianne Vaskii / Tax +1',
+'Cosmic Fortress Gol\'Gar / Alien Ammonite / Tax +1',
 'Reptilianne Ramifications / Reptilianne Scylla / Reptilianne Poison',
-'Viper’s Grudge',
+'Viper\'s Grudge',
 'Therion “Empress” Alasia',
 'Reptilianne Recoil / Earthbound Immortal Ccarayhua',
+
 ]
 
 }
