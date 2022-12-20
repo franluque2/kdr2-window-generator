@@ -212,5 +212,18 @@ export default {
         
         'Tax Collector: You gain gold at the end of a round equal to the total amount of gold spent on taxes that round between all players.',
         
+        'Family Gym Membership: Training costs 1 less. (Once per *ENTIRE* Run): You can make everyone’s training cost 1 less.',
+        
+        'Fan of Roids (0): Training costs 1 less. (Once per Round) If you purchase training, you add 5 Training Counters to this skill. You can spend 10 Training Counters, gain 1 random low quality generic loot (of 3).',
+        
+        'Training Buddies (Once per turn) (During either player’s End Phase): Both players gain 1 LP, also, future LP gains by this are doubled for the rest of the duel (1 -> 2 -> 4 -> 8 -> 16 -> etc). If the effect to gain LP exceeds 8000, you can no longer activate Training Buddies for the rest of the duel, also half both player’s LP. (Once per Round): During the Shop Phase after the match, both players can agree to buy training. If they do, that training purchase is discounted by 2.',
+        
+        'Vitamin D (Once per Run) (During your Shop Phase): You can level up, also, you can permanently add 3 “Little D” to your Deck (even if you lose this skill) to level up again. (Add 3 “Little D” to your inventory).',
+        
+        'Holey Unholy Roly Poly Grounds: You can Normal Summon/Set thrice per turn, but you can’t Special Summon monsters.',
+        
+        'Maximum “Card” Cramming: If your opponent Special Summons a monster, draw 1 card. You do not discard for hand size. You cannot Special Summon.',
+        
+        'Battle Boogy: You can switch the position of monsters you control the turn they are Summoned (not set), or after they’ve battled.',
     ]
 }
