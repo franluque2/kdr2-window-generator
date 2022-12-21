@@ -218,7 +218,7 @@ export default {
         
         'Training Buddies (Once per turn) (During either player’s End Phase): Both players gain 1 LP, also, future LP gains by this are doubled for the rest of the duel (1 -> 2 -> 4 -> 8 -> 16 -> etc). If the effect to gain LP exceeds 8000, you can no longer activate Training Buddies for the rest of the duel, also half both player’s LP. (Once per Round): During the Shop Phase after the match, both players can agree to buy training. If they do, that training purchase is discounted by 2.',
         
-        'Vitamin D (Once per Run) (During your Shop Phase): You can level up, also, permanently add 3 “Little D” to your Deck (even if you lose this skill) to level up again. (Add 3 “Little D” to your inventory).',
+        'Vitamin D (Once per Run) (During your Shop Phase): You can level up, also, you can permanently add 3 “Little D” to your Deck (even if you lose this skill) to level up again. (Add 3 “Little D” to your inventory).',
         
         'Holey Unholy Roly Poly Grounds: You can Normal Summon/Set thrice per turn, but you can’t Special Summon monsters.',
         
