@@ -1,8 +1,7 @@
 export default {
     skills: [
         'Greed is Good? - Draw 2 cards for your draw phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase).',
-
-
+ 
         'Chicken- (Once per Duel) Pay 500 LP: Draw 1 card. Your opponent can then pay 1000 LP to draw 1 card. Continue passing this choice with the LP cost doubling until one player decides to stop.',
 
 
@@ -66,7 +65,7 @@ export default {
         'The Rich Get Richer: You gain 4 gold for interest instead of 3.',
 
 
-        'Tipsy Shopkeep: You know how much you need to tip. When you receive your Secret Skill, gain 5 Gold.',
+        'Tipsy Shopkeep: You know how much you need to tip. When you receive your Secret Skill, gain 5 Gold. (This Skill cannot be sold)',
 
 
         'Speech 100: At the start of the Shop Phase, choose a Loot Pool Quality. You get to see an extra Loot Pool of that quality on display.',
@@ -136,7 +135,7 @@ export default {
 
         'Refund Please: (Once per Round): During the Shop Phase, when you buy a random Loot Pool, you can refund it.',
 
-        'Super Smooth Talker: Your required tip amount is reduced by 10.',
+        'Super Smooth Talker: Your required tip amount is reduced by 10. (This Skill cannot be sold)',
 
         'Wicked Worship: You can Tribute Summon the Wicked God Cards for 2 Tributes instead of 3 for the rest of the run (Add 1 each of the Wicked God Cards to your Deck, permanently).',
 
