@@ -5,7 +5,7 @@ export default {
     tip_max:14,
     class_skills: [
     'Massively Motivated Mechs (Once per Duel): You can discard 1 Thunder monster, add 1 Thunder monster with the same name as that monster, from your Deck to your hand, then you can add 1 Machine monster from your Deck to your hand with the same level as the monster you added (gain the following loot pool: Blue Thunder T-45 / What Powers Machines?: All your Machine monsters are also treated as Thunder monsters).',
-    'Shocking Revelations: Your Relic now also boosts ATK when you Normal Summon a Thunder monster as well.',
+    'Shocking Revelations: Your Relic now also boosts ATK when you Special Summon a Thunder monster as well.',
     'Tunda Duragon: Add “Thunder Sea Horse” to your inventory. “Thunder Sea Horse” is now also treated as “Thunder Dragon”.'
     ],
     loot_poor: [
@@ -33,33 +33,33 @@ export default {
     loot_mid: [
 'Thunder Sea Horse',
 'The Creator / The Creator Incarnate',
-'Thunder Dragonmatrix / Thunder Dragondark',
+'Thunder Dragonmatrix / Thunder Dragondark / Tax +1',
 'Batteryman Charger / Batteryman AA / Batteryman D / Super-Electromagnetic Voltech Dragon',
 'Elemental HERO Sparkman / Elemental HERO Clayman / Elemental HERO Voltic / Thunder Giant Training: (Once per turn): While you control two or more Thunder monsters with different names, you can send one of them to the GY and discard 1 card, banish 1 “Elemental HERO Sparkman” and 1 “Elemental HERO Clayman” from your hand or Deck, then Special Summon 1 “Elemental HERO Thunder Giant” from your Extra Deck (this is treated as a Fusion Summon).',
-'Dark Beckoning Beast / Dark Summoning Beast / Hamon, Lord of Striking Thunder',
+'Gem-Knight Fusion / Gem-Knight Tourmaline / Gem-Knight Prismaura',
 'The Ascended of Thunder',
-'Photon Sanctuary',
+'Wattcube',
 'Thunderclap Monk',
 'Ready Fusion / Kaminari Attack',
 'Thunder Dragon Discharge',
 'Danger! Thunderbird',
 'Gaia Saber, the Lightning Shadow',
 'Windstorm of Etaqua',
-'Malevolent Catastrophe',
+'Thunder Dragon Fusion / Tax +2',
 ],
     loot_high: [
 'Denko Sekka',
 'Some Summer Summoner',
-'Gem-Knight Fusion / Gem-Knight Tourmaline / Gem-Knight Prismaura',
-'Wattcube',
+'Dark Beckoning Beast / Dark Summoning Beast / Hamon, Lord of Striking Thunder',
 'Spright Blue / Spright Jet / Spright Starter / Spright Sprind / Tax +1',
-'Spright Elf / Gigantic Spright / Tax +1',
+'Spright Elf / Tax +1',
+'Gigantic Spright / Tax +1',
 'Thunder Dragonduo',
 'Thunder Dragonlord',
 'Thunder Dragon Colossus / The New Support Konami Refuses to Give Us: “Thunder Dragon Colossus” you control has their effects negated. This cannot leave your inventory by any means.',
 'Batteryman Fuel Cell / Batteryman Solar / Quick Charger / Battery Charger',
 'Judgment of Thunder',
-'Recycling Battery / Makiu, the Magical Mist',
+'Recycling Batteries / Makiu, the Magical Mist',
 ]
 
 }

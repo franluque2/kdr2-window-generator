@@ -79,7 +79,7 @@ export default
 'Cyber Jar',
 'Raigeki Break',
 'Cockadoodledoo / Black Rose Dragon',
-'Fissure / Manticore of Smashing / Smashing Ground / Tax +2',
+'Fissure / Manticore of Smashing / Smashing Ground / Tax +3',
 'Grinder Golem',
 'Crystron Halqifibrax / Genex Undine / Genex Controller',
 'That Grass Looks Greener',

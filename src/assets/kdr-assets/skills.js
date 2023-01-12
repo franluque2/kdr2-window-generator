@@ -1,8 +1,7 @@
 export default {
     skills: [
         'Greed is Good? - Draw 2 cards for your draw phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase).',
-
-
+ 
         'Chicken- (Once per Duel) Pay 500 LP: Draw 1 card. Your opponent can then pay 1000 LP to draw 1 card. Continue passing this choice with the LP cost doubling until one player decides to stop.',
 
 
@@ -66,7 +65,7 @@ export default {
         'The Rich Get Richer: You gain 4 gold for interest instead of 3.',
 
 
-        'Tipsy Shopkeep: You know how much you need to tip. When you receive your Secret Skill, gain 5 Gold.',
+        'Tipsy Shopkeep: You know how much you need to tip. When you receive your Secret Skill, gain 5 Gold. (This Skill cannot be sold)',
 
 
         'Speech 100: At the start of the Shop Phase, choose a Loot Pool Quality. You get to see an extra Loot Pool of that quality on display.',
@@ -136,7 +135,7 @@ export default {
 
         'Refund Please: (Once per Round): During the Shop Phase, when you buy a random Loot Pool, you can refund it.',
 
-        'Super Smooth Talker: Your required tip amount is reduced by 10.',
+        'Super Smooth Talker: Your required tip amount is reduced by 10. (This Skill cannot be sold)',
 
         'Wicked Worship: You can Tribute Summon the Wicked God Cards for 2 Tributes instead of 3 for the rest of the run (Add 1 each of the Wicked God Cards to your Deck, permanently).',
 
@@ -209,17 +208,7 @@ export default {
         'Tax Return: You can buy specifically the listed cards that have tax on it for the cost of the tax instead of the whole loot pool (reroll the original loot pool after).',
         
         'Gamble your Tax Return: You gain gold equal to the tax rolled on random loot pools you acquire.',
-        
-        'Tax Collector: You gain gold at the end of a round equal to the total amount of gold spent on taxes that round between all players.',
-        
-        'Family Gym Membership: Training costs 1 less. (Once per *ENTIRE* Run): You can make everyone’s training cost 1 less.',
-        
-        'Fan of Roids (0): Training costs 1 less. (Once per Round) If you purchase training, you add 5 Training Counters to this skill. You can spend 10 Training Counters, gain 1 random low quality generic loot (of 3).',
-        
-        'Training Buddies (Once per turn) (During either player’s End Phase): Both players gain 1 LP, also, future LP gains by this are doubled for the rest of the duel (1 -> 2 -> 4 -> 8 -> 16 -> etc). If the effect to gain LP exceeds 8000, you can no longer activate Training Buddies for the rest of the duel, also half both player’s LP. (Once per Round): During the Shop Phase after the match, both players can agree to buy training. If they do, that training purchase is discounted by 2.',
-        
-        'Vitamin D (Once per Run) (During your Shop Phase): You can level up, also, you can permanently add 3 “Little D” to your Deck (even if you lose this skill) to level up again. (Add 3 “Little D” to your inventory).',
-        
+
         'Holey Unholy Roly Poly Grounds: You can Normal Summon/Set thrice per turn, but you can’t Special Summon monsters.',
         
         'Maximum “Card” Cramming: If your opponent Special Summons a monster, draw 1 card. You do not discard for hand size. You cannot Special Summon.',

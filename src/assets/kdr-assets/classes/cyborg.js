@@ -1,12 +1,12 @@
 export default {
-    name: 'Artificer',
+    name: 'Cyborg',
     icon: 'mdi-hammer-wrench',
-    tip_min:11 ,
-    tip_max:20,
+    tip_min:18,
+    tip_max:22,
     class_skills: [
-    'Flyby (Once per Duel): You can target 1 monster with a “Target” counter, banish it and 1 Machine monster from your hand or GY. During your End Phase, Special Summon both those monsters.',
-    'Roid-mobile (During your first Draw Phase): Add up to 3 “Supercharge” and 3 “roid” monsters (except “Speedroid” monsters) from your Deck to your hand. You can only Special Summon “roid” monsters until there are 3 “Supercharge” in your GY. Your Legendary monster is now always treated as “Launcheroid Spideroid”.',
-    'Reaction! (Once per turn): If you control “Summon Reactor - SK”, you can Special Summon 1 “Trap Reactor - Y FI” or 1 “Spell Reactor - RE” from your hand or Deck. For the rest of the game, you can Normal Summon 1 “Reactor” monster in addition to your Normal Summon/Set each turn.'
+    'Rail Cannon Giga MAX: (Once per Duel): You can destroy 1 "Gadget" monster you control; destroy 1 face-up monster.',
+    'Recycled Machinery: (Once per turn): If a "Gadget" or "Boot-Up" monster you control destroys an opponent\'s monster, you can shuffle 3 "Gadget" monsters with different names from your GY or that are banished into the Deck and draw 1 card.',
+    'Nano Machines: (Once per Duel): If you do not control the monster with the highest ATK, and all monsters you control are "Gadget" monsters, you can have all monsters you currently control gain ATK equal to their original ATK until the end of this turn. You cannot attack with monsters this turn except "Gadget" monsters.'
     ],
     loot_poor: [
 'Machina Cannon',

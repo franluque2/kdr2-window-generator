@@ -5,7 +5,7 @@ export default {
     tip_max:15,
     class_skills: [
         'Audible Dot Com (Once per Duel): After you resolve Spellbook, you can also banish 1 “Boo Koo” from your hand or Deck face-down.',
-        'Spellbook: Minigun Upgrade: You can banish 1 card in your hand face-down to use Spellbook.',
+        'Spellbook: Minigun Upgrade: (Once per turn): You can banish 1 card in your hand face-down to use Spellbook.',
         'Book Turning (Thrice per turn) (During your Draw Phase): If you draw a card, you can banish it face-down; draw a card.'
     ],
     loot_poor: [

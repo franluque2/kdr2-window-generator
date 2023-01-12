@@ -41,7 +41,7 @@ export default {
 'Magician of Black Chaos / Black Magic Ritual /Magician of Black Chaos MAX / Chaos Form',
 'Anchamoufrite / Trance the Magic Swordsman / Cybernetic Magician',
 'Magicalized Fusion / Gravekeepers Supernaturalist / Gravekeepers Recruiter / Gravekeepers Descendant/ Gravekeepers Nobleman',
-'Endymions Lab',
+'Endymion\'s Lab',
 'Magical Citadel of Endymion / Endymion, the Master Magician',
 'Cosmo Brain',
 'Spellbook Magician of Prophecy / Spellbook Star Hall / The Grand Spellbook Tower',

@@ -46,7 +46,7 @@ export default {
 'Fluffal Dog / Fluffal Bear / Fluffal Wings / Toy Vendor',
 'Number 103: Ragnazero / Fairy Cheer Girl',
 'Cards from the Sky',
-'Stray Mokey Mokey / Mokey Mayhem: After you complete your Legendary Quest, send 3 “Mokey Mokey” from your hand or Deck to the GY, then, Special Summon “Mokey Mokey King” from your Extra Deck.',
+'Mokey Mokey Adrift / Mokey Mayhem: After you complete your Legendary Quest, send 3 “Mokey Mokey” from your hand or Deck to the GY, then, Special Summon “Mokey Mokey 'King” from your Extra Deck.',
 'Artifact Dagda / Artifact Achilleshield / Artifact Aegis',
 'Angel of Zera',
     ],

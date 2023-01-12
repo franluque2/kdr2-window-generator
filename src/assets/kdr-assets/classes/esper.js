@@ -1,10 +1,10 @@
 export default {
     name: 'Esper',
     icon: 'mdi-crystal-ball',
-    tip_min:10,
-    tip_max:16,
+    tip_min:14,
+    tip_max:20,
     class_skills: [
-    'Limit Breaker: For every 100 LP lost, gain 1 Limit Break counter on this skill. At 100 counters, all monsters you control gain ATK equal to half the difference in LP. All of your monsters heal equal to the damage they deal.',
+    'Limit Breaker: For every 100 LP lost, gain 1 Limit Break counter on this skill. (Once per Duel): At 100 counters, you can make 1 monster you control gain ATK equal to half the difference in LP. If that monster inflicts damage to your opponent, gain LP equal to that amount.',
     'Hallucinations (Once per turn): You can banish 1 Psychic-type monster from your GY to Special Summon 1 Token with the same Name, type, attribute, and ATK/DEF as that banished monster.',
     'Fair Trade Locally Sourced Psychics (Once per turn): After you resolve Brain Blast, you can banish 1 Psychic-type monster from your GY, then you can make your opponent gain 1000 LP and draw 1 card, then you can add 1 Psychic-type monster that is banished or in your GY to your hand and draw 1 card. '
     ],
@@ -52,15 +52,15 @@ export default {
 
 ],
     loot_high: [
-'Emergency Teleport / Psychic Wheeleder / Tax +1',
-'Psychokinesis',
+'Emergency Teleport / Psychic Wheeleder / Tax +2',
+'Psychokinesis / Tax +1',
 'Metalfoes Silverd / Metalfoes Steelen / Metalfoes Counter / Fullmetalfoes Fusion / Metalfoes Adamante',
 'Metalfoes Goldriver / Raremetalfoes Bismugear / Parametalfoes Melcaster / Metalfoes Combination / Parametalfoes Fusion / Metalfoes Crimsonite',
 'Mutual Meltdowns (Once per turn) (During the End Phase): You and your opponent can add 1 banished card to their hand. / Overmind Archfiend',
 'Mekk-Knight Blue Sky / Mekk-Knight Green Horizon / Mekk-Knight Orange Sunset /  World Legacy Scars / Tax +1',
 'Mekk-Knight Red Moon / Mekk-Knight Yellow Star / Mekk-Knight Avram / Mekk-Knight Indigo Eclipse / Tax +1',
 ' Ukiyoe-P.U.N.K. Sharakusai / Jorurui-P.U.N.K. Madame Spider / Gagaku-P.U.N.K. Wa Gon / Ukiyoe-P.U.N.K. Rising Carp / P.U.N.K. JAM Extreme Session',
-'Noh-P.U.N.K. Deer Note / Noh-P.U.N.K. Ze Amin / Gagaku-P.U.N.K. Crash Beat / P.U.N.K. JAM Dragon Drive',
+'Noh-P.U.N.K. Deer Note / Noh-P.U.N.K. Ze Amin / Gagaku-P.U.N.K. Crash Beat / P.U.N.K. JAM Dragon Drive / Tax +1',
 'Psychic Reactor',
 'Therion "Duke" Yul',
 'Psi-Reflector / Assault Beast / Assault Sentinel / Assault Mode Activate / Hyper Psychic Blaster/Assault Mode / Ally of Justice Light Gazer',
