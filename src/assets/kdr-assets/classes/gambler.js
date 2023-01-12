@@ -40,7 +40,7 @@ export default {
 'Light Barrier / Fated Fortune: When you pick this loot, toss a coin and call it. If you call it right, receive all "Arcana Force" Low Quality loot pools and the Light of Destruction skill. If you call it wrong, receive all "Arcana Force" Low Quality loot pools.',
 'Arcana Reading / Gamble / Lucky Punch',
 'Couple of Aces / Cup Full of Aces: If you Special Summon "Couple of Aces", you can add up to 3 "Cup of Ace" from your Deck, or GY to your hand.',
-'Omerta - Callupoh (OCG) / Number 85: Crazy Box',
+'Silent Wolf Calupo / Number 85: Crazy Box',
 'Ordeal of a Traveler / Onikuji / Kingyo Sukui',
 'Dicephoon / Dangerous Machine Type-6 / Cuben',
 'Gallis the Star Beast',
