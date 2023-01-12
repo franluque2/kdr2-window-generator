@@ -5,7 +5,7 @@ export default {
     tip_max:14,
     class_skills: [
     'Massively Motivated Mechs (Once per Duel): You can discard 1 Thunder monster, add 1 Thunder monster with the same name as that monster, from your Deck to your hand, then you can add 1 Machine monster from your Deck to your hand with the same level as the monster you added (gain the following loot pool: Blue Thunder T-45 / What Powers Machines?: All your Machine monsters are also treated as Thunder monsters).',
-    'Shocking Revelations: Your Relic now also boosts ATK when you Normal Summon a Thunder monster as well.',
+    'Shocking Revelations: Your Relic now also boosts ATK when you Special Summon a Thunder monster as well.',
     'Tunda Duragon: Add “Thunder Sea Horse” to your inventory. “Thunder Sea Horse” is now also treated as “Thunder Dragon”.'
     ],
     loot_poor: [
