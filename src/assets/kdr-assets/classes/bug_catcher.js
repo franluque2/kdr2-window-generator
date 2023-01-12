@@ -36,7 +36,7 @@ export default {
 'Needle Worm',
 ],
     loot_mid: [
-'Inzektor Dragonfly / Inzektor Giga-Mantis / Inzektor Ladybug ',
+'Inzektor Dragonfly / Inzektor Giga-Mantis / Inzektor Ladybug / Tax +1',
 'Danger Mothman',
 'Beetle Amalgamaton Zekstagger',
 'Digital Bug Centibit / Digital Bug Cocoondenser / Dream Cicada / Bug Emergency',
@@ -54,16 +54,16 @@ export default {
 ],
     loot_high: [
 'Battlewasp - Sting the Poison / Battlewasp - Azusa the Ghost Bow / Battlewasp - Halberd the Charge / Battlewasp - Hama the Conquering Bow / Battlewasp - Ballista the Armageddon / Circle of Faerie / Tax +1',
-'Inzektor Hornet / Tax +1',
+'Inzektor Hornet / Tax +2',
 'Beetrooper Armor Horn / Shinobi Insect Hagakuremino / Tax +1',
 'Giant Ballpark / Insect Knight / Tax +1',
 'Seraphim Papillion / Tax +1',
 'Doom Dozer / Aztekipede, the Worm Warrior',
 'Resonance Insect / Gokipole / Tax +1',
 'Traptrix Atypus',
-'Giant Antlion / Bio Insect Armor',
+'Bio Insect Armor (OCG)',
 'Cocoon of Ultra Evolution / Metamorphosed Insect Queen',
-'Full Metal Bugs (Once per Duel) (During your Draw Phase): You can activate 1 “Metal Armored Bug” from your hand or Deck as a Continuous Trap with the following effect: Once per turn: You can target 1 face-down monster; flip it face-up, and if you do, it gains 1500 DEF until the end of the next turn. If that monster is destroyed by battle during the turn you activate this effect, Special Summon this card from the Spell/Trap zone. / Krawler Soma',
+'Full Metal Bugs (Once per Duel) (During your Draw Phase): You can activate 1 “Metal Armored Bug” from your hand or Deck as a Continuous Trap with the following effect: Once per turn: You can target 1 face-down monster; flip it face-up, and if you do, it gains 1500 DEF until the end of this turn. If that monster is destroyed by battle during the turn you activate this effect, Special Summon this card from the Spell/Trap zone. / Krawler Soma',
 'Lair Wire',
 ]
 
