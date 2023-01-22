@@ -42,7 +42,7 @@
                     <v-card v-else-if="tip>=rolled_tip">
 
                             <v-card-text v-if="tip<=(item.max_tip/2)">
-                            <div class="green">Such High Stakes Luck! You tipped {{tip}} and needed {{rolled_tip}}! have a skill! Also, as a reward, have half your gold, {{Math.ceil(tip/2)}} back!</div>
+                            <div class="green">Such High Stakes Luck! You tipped {{tip}} and needed {{rolled_tip}}! have a skill! Also, as a reward, have twice your gold, {{Math.ceil(tip*2)}} back!</div>
                             <v-textarea v-text="item.skill"/>
                         </v-card-text>
                             <v-card-text v-else>
