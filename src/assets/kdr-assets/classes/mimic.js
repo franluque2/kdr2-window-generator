@@ -2,6 +2,8 @@ export default {
     name: 'Mimic',
     icon: 'mdi-copyleft',
     special:"mimic",
+    tip_min:0,
+    tip_max:0,
     text:"__**Mimic Upgrade Shop**__\n" +
         '\n' +
         "\n" +
