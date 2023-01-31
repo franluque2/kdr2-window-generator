@@ -3,7 +3,7 @@ export default {
     icon: 'mdi-flower',
     special:null,
     tip_min:16,
-    tip_max:28,
+    tip_max:25,
     class_skills: [
         'Trenticles - Your Legendary Quest is no longer once per duel, but instead once per turn. The effect to gain ATK/DEF stacks.',
         'Jerry Beans Man Turbo - All instances of “Trent” in your Legendary Quest and Unique Skill is replaced with “Jerry Beans Man”. (Once per Duel) (During your Draw Phase): You can add 1 “Jerry Beans Man” from your Deck to your hand, and if you Summon a “Jerry Beans Man” this turn, you can declare its level.',

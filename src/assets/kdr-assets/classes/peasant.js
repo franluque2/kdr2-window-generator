@@ -2,8 +2,8 @@ export default {
     name: 'Peasant',
     icon: 'fa-skull',
     special:null,
-    tip_min:28,
-    tip_max:40,
+    tip_min:18,
+    tip_max:25,
     class_skills: [
         'Seize the Means of Production: Each time you buy a loot pool, get a random loot pool of the same quality. Also, draw 1 extra card at the start of the duel.',
         'Who\'s Poor Now?: If you have more gold than your opponent, monsters you control gain 50 ATK for every 2 gold more that you have.',
