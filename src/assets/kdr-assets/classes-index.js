@@ -19,7 +19,13 @@ import paladin from './classes/paladin'
 import ritualist from './classes/ritualist'
 import cyborg from './classes/cyborg'
 import mimic from './classes/mimic'
+import jester from './classes/jester'
+import pirate from './classes/pirate'
+import trapper from './classes/trapper'
+import bird from './classes/bird'
+import velociraptor from './classes/velociraptor'
+import toymaker from './classes/toymaker'
 
 export default {
-    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,mimic]
+    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,mimic,jester,pirate,trapper,bird,velociraptor,toymaker]
 };
