@@ -3,7 +3,7 @@ export default {
     icon: 'fa-dragon',
     special:null,
     tip_min:20,
-    tip_max:33,
+    tip_max:28,
     class_skills: [
         'Red-Eyes Recycling (Once per turn): If a Dragon monster(s) is sent to the GY, you can set 1 “Kunai with Chain” from your Deck or GY to your field. (Once per Duel): You can activate it this turn (Add “Kunai with Chain” and “Blast with Chain” to your inventory from loot).',
         'Emblem of the Red-Eyes (During your Draw Phase) (Once per Duel): You can add 1 “Red-Eyes Fusion” from your Deck to your hand. (Add “Meteor Dragon”, “Red-Eyes Fusion”, and “Meteor Black Dragon” to your inventory).',
