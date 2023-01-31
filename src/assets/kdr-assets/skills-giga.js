@@ -22,6 +22,9 @@ export default {
 
 
     'Unwavering Pride: If your opponent has at least 4 more total cards in their hand and field than you do, you can tribute 2 cards from your hand or field, to Special Summon 1 “Rainbow Neos” from your Extra Deck. (Add “Rainbow Neos” to your inventory.)',
+        
+    'Greed is Great: Draw 2 cards for your Draw Phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase). After your first turn, draw 5 cards for your Draw Phase instead of 2.',
+        
 
     ]
 }
