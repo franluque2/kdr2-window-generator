@@ -2,8 +2,8 @@ export default {
     name: 'Priest',
     icon: 'fa-cross',
     special:null,
-    tip_min:18,
-    tip_max:28,
+    tip_min:20,
+    tip_max:22,
     class_skills: [
         'Wingweaper (Once per turn): After you’ve completed your Legendary Quest: you can shuffle 1 Fairy-type monster from your GY or that is banished into your Deck; Special Summon 1 “Wingweaver” from your hand.',
         'Judgement of the Fairies: Add 1 “Herald of Orange Light”, 1 “Herald of Green Light, and 1 “Herald of Purple Light” to your Treasures. You can only have 1 of the listed monsters in your Main Deck at any given time (but you can side all of them). (Once per turn): If a Fairy-type monster(s) is sent to the GY: You can add 1 “Herald” monster from your Deck to your hand.',
