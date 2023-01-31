@@ -3,7 +3,7 @@ export default {
     icon: 'fa-skull',
     special:null,
     tip_min:20,
-    tip_max:35,
+    tip_max:25,
     class_skills: [
         'Dead Man’s Hand (Once per turn): After you’ve completed your Legendary Quest, you can activate this Skill. During your Draw Phase, you can reveal the top card of your Deck, then choose to add it or send it to the GY. If you send it to the GY, send the top card of your Deck to the GY.',
         'Necrodancer (Once per Duel): While you control “Skull Servant”, you can Special Summon 1 Level 4 or lower Zombie-type monster from your Deck.',
