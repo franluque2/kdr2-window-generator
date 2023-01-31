@@ -56,14 +56,14 @@ export default {
 ],
     loot_high: [
 'Performapal Monkeyboard',
-'Performapal Skullcrobat Joker'
+'Performapal Skullcrobat Joker',
 'Performapal Gentrude / Performapal Lady Ange',
 'Performapal Call',
 'Performapal Guitartle / Performapal Lizardraw',
 'Performapal Hip Hippo / Super Hippo Carnival / Performapal Laugh Maker',
 'Performapal Odd-Eyes Dissolver / Performapal Odd-Eyes Metal Claw',
 'Performapal Odd-Eyes Synchron / Odd-Eyes Meteorburst Dragon',
-'Double Iris Magician / Harmonizing Magician / Enlightenment Paladin / Tax +2'
+'Double Iris Magician / Harmonizing Magician / Enlightenment Paladin / Tax +2',
 'Performapal Radish Horse / Performapal Rain Goat',
 'Sky Iris / Odd-Eyes Pendulum Dragon / Rune-Eyes Pendulum Dragon',
 'Dragonpulse Magician / Oafdragon Magician',
