@@ -1,6 +1,7 @@
 export default {
     name: 'Esper',
     icon: 'mdi-crystal-ball',
+    special:null,
     tip_min:14,
     tip_max:20,
     class_skills: [

@@ -36,6 +36,7 @@
                                 <v-list-item
                                         v-for="(item, i) in items"
                                         :key="i"
+                                        @change="update_selected_class(item)"
                                 >
                                     <v-list-item-icon>
                                         <v-icon v-text="item.icon"></v-icon>
@@ -75,7 +76,12 @@
                                     :key="i"
                                     :value="'tab-' + i"
                             >
-                                <v-btn depressed @click="click_regenerate">
+                                <v-card flat v-if="selectedclassspecial!==null & selectedclassspecial==='mimic'">
+                                    <mimic-discord-paste-template :mimic_text="selectedclasstext"/>
+                                </v-card>
+                                <v-card v-else>
+
+                                    <v-btn depressed @click="click_regenerate">
                                     Generate New Loot
                                 </v-btn>
                                 <v-card flat v-if="item.discord">
@@ -104,6 +110,8 @@
                                                            :loot_high_generic_2="loot_high_generic_2"
                                                            :key="key" />
                                 </v-card>
+                                </v-card>
+
                             </v-tab-item>
                         </v-tabs-items>
                     </v-container>
@@ -119,6 +127,7 @@
     import templates from '../assets/kdr-assets/response-templates-index'
     import loot_discord_paste_template from '../assets/kdr-assets/response-templates/loot-discord-paste-template'
     import pretty_paste_template from '../assets/kdr-assets/response-templates/loot-pretty-template'
+    import MimicDiscordPasteTemplate from '../assets/kdr-assets/response-templates/mimic-discord-paste-template'
     import treasures from '../assets/kdr-assets/treasures'
     import {db} from '../db'
     import generic_loot from "../assets/kdr-assets/generic-loot"
@@ -126,6 +135,7 @@
     export default {
         name: "LootView",
         components: {
+            MimicDiscordPasteTemplate,
             loot_discord_paste_template,
             pretty_paste_template,
             ConfirmDlg: () => import('../components/ConfirmDlg'),
@@ -161,7 +171,9 @@
             blacklist_text:'',
             key: 0,
             players:[],
-            selectedkdr:0
+            selectedkdr:0,
+            selectedclassspecial:null,
+            selectedclasstext:null,
         }),
     firebase: {
         players: db.ref('players')
@@ -354,6 +366,26 @@
             },
             updateblacklist(){
                 this.blacklist=this.blacklist_text.split('\n')
+            },
+            update_selected_class(item)
+            {
+
+                if(item.special!==null)
+                {
+                    this.selectedclassspecial=item.special
+                    if(item.special==="mimic")
+                        this.selectedclasstext=item.text
+
+                }
+                else
+                {
+                    this.selectedclassspecial=null
+                    this.selectedclasstext=null
+
+                }
+                this.forceUpdate()
+
+
             }
 
 

@@ -1,6 +1,7 @@
 export default {
     name: 'Lizardman',
     icon: 'fa-frog',
+    special:null,
     tip_min:15,
     tip_max:27,
     class_skills: [

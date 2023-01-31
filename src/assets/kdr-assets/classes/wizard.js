@@ -1,6 +1,7 @@
 export default {
     name: 'Wizard',
     icon: 'mdi-wizard-hat',
+    special:null,
     tip_min:8,
     tip_max:15,
     class_skills: [

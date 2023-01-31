@@ -1,6 +1,7 @@
 export default {
     name: 'Necromancer',
     icon: 'fa-skull',
+    special:null,
     tip_min:20,
     tip_max:35,
     class_skills: [

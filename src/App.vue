@@ -45,6 +45,17 @@
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
             <v-toolbar-title>Electrumite Never Coming Back</v-toolbar-title>
+            <v-spacer/>
+            <v-switch
+                    v-model="$vuetify.theme.dark"
+                    hint="Toggle Between Dark/Light Mode"
+                    inset
+                    label="Toggle Dark/Light Mode"
+                    persistent-hint
+            ></v-switch>
+
+
+
         </v-app-bar>
 
 

@@ -1,6 +1,7 @@
 export default {
     name: 'Artificer',
     icon: 'mdi-hammer-wrench',
+    special:null,
     tip_min:11 ,
     tip_max:20,
     class_skills: [

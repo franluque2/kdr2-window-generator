@@ -1,6 +1,7 @@
 export default {
     name: 'Pyromancer',
     icon: 'mdi-fire',
+    special:null,
     tip_min:13,
     tip_max:25,
     class_skills: [

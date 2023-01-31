@@ -1,6 +1,7 @@
 export default {
     name: 'Bug Catcher',
     icon: 'mdi-bee',
+    special:null,
     tip_min:6,
     tip_max:9,
     class_skills: [

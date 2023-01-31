@@ -1,6 +1,7 @@
 export default {
     name: 'Cyborg',
     icon: 'mdi-hammer-wrench',
+    special:null,
     tip_min:18,
     tip_max:22,
     class_skills: [

@@ -1,6 +1,7 @@
 export default {
     name: 'Dragon Rider',
     icon: 'fa-dragon',
+    special:null,
     tip_min:20,
     tip_max:33,
     class_skills: [

@@ -18,7 +18,8 @@ import wizard from './classes/wizard'
 import paladin from './classes/paladin'
 import ritualist from './classes/ritualist'
 import cyborg from './classes/cyborg'
+import mimic from './classes/mimic'
 
 export default {
-    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg]
+    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,mimic]
 };

@@ -1,6 +1,7 @@
 export default {
     name: 'Ritualist',
     icon: 'mdi-flash',
+    special:null,
     tip_min:8,
     tip_max:14,
     class_skills: [

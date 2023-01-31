@@ -1,6 +1,7 @@
 export default {
     name: 'Warrior',
     icon: 'mdi-fencing',
+    special:null,
     tip_min:17,
     tip_max:30,
     class_skills: [

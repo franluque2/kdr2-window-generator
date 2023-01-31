@@ -1,6 +1,7 @@
 export default {
     name: 'Paladin',
     icon: 'mdi-shield',
+    special:null,
     tip_min:10,
     tip_max:17,
     class_skills: [

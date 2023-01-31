@@ -1,6 +1,7 @@
 export default {
     name: 'Gardener',
     icon: 'mdi-flower',
+    special:null,
     tip_min:16,
     tip_max:28,
     class_skills: [
