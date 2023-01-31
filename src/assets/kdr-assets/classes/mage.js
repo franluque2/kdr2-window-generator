@@ -3,7 +3,7 @@ export default {
     icon: 'mdi-auto-fix',
     special:null,
     tip_min:18,
-    tip_max:30,
+    tip_max:25,
     class_skills: [
         'Don’t Talk to Me, OR my Son! (Once per turn): If you Summon “Neo Aqua Madoor”, you can also Special Summon 1 “Aqua Madoor” from your hand, Deck, or GY. “Aqua Madoor” counts for your skill, relic, or quest, etc as if he was your Legendary Monster.',
         'Look Ma, Too Many Hands!: You now draw 4 cards for your normal draw during each of your Draw Phases while you control “Neo Aqua Madoor”, also, the effect to draw 4 for your draw phase is now optional, and you can choose to not draw at all instead.',
