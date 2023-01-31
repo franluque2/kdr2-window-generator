@@ -1,6 +1,6 @@
 export default {
     name: 'Bird',
-    icon: 'mdi-hammer-wrench',
+    icon: 'fa-bird',
     special:null,
     tip_min:15,
     tip_max:23,
