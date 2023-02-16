@@ -7,7 +7,7 @@ export default {
     class_skills: [
     'Clown Control! (Once per Duel) (During your first Draw Phase): You can add 1 “Clown” monster from your Deck to your hand.',
     'Menagerie Mayhem! (Once per Duel): You can shuffle up to 4 cards from your hand into your Deck; add that many monsters from your Deck to your hand that are “Performage”, “Performapal”, “Odd-Eyes”, “Magician”, or “Clown” monsters (max 1 of each).',
-    'I PendUwUm Summon! (Once per Duel): You can perform a Master Rule 3 Pendulum Summon (in addition to your normal Pendulum Summon).',
+    'I PendUwUm Summon! (Once per Duel): Your next Pendulum Summon is a Master Rule 3 Pendulum Summon.',
     ],
     loot_poor: [
 'Performapal Elephammer',
