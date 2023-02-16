@@ -6,8 +6,8 @@ export default {
     tip_max:25,
     class_skills: [
     'Sharper Claws: You gain 2000 more ATK during your turns.',
-    'Tougher Hide: You cannot take more than 800 damage at one time when you are or would go below 8000 LP. ',
-    'Serrated Teeth: Whenever you destroy an opponent’s monster, gain LP equal to its Level/Rank/Link Rating x 500.',
+    'Tougher Hide: You cannot take more than 800 damage from using Dino DNA when you are or would go below 8000 LP.',
+    'Serrated Teeth: Whenever you destroy an opponent’s monster using Dino DNA, gain LP equal to its Level/Rank/Link Rating x 500.',
     ],
     loot_poor: [
 'Super Ancient Dinobeast',
@@ -50,7 +50,7 @@ export default {
 'Samurai Cavalry of Reptier',
 'Beatraptor',
 'Ultimate Conductor Tyranno / No Eclipse Here: "Ultimate Conductor Tyranno" on the field have their first 2 effects negated. This skill or “Ultimate Conductor Tyranno” cannot leave your inventory by any means.',
-'Hieratic Dragon King of Atum / Hieratic Dragon of Tefnuit / Hieratic Dragon of Su / Hieratic Dragon of Eset / Dinosaurs are just Flightless Dragons: Dragon monsters in your possession are always treated as Dinosaur monsters and vice versa.',
+'Hieratic Dragon King of Atum / Hieratic Dragon of Tefnuit / Hieratic Dragon of Su / Hieratic Dragon of Eset / Dinosaurs are just Flightless Dragons: Dragon and Dinosaur monsters in your possession can be treated as either Dragon or Dinosaur monsters.',
 'Reprodocus / Agave Dragon',
 ],
     loot_high: [
