@@ -44,7 +44,7 @@ export default {
 'Reptilianne Viper / Reptilianne Gorgon',
 'Alien Mother / “A” Cell Recombination Device',
 'King of the Feral Imps / Kagetokage',
-'Danger!? Tsuchinoko?',
+'Yajiro Invader',
 'Nunu, the Ogdoadic Remnant / Ogdoadic Water Lily',
 'Reptilianne Medusa',
 'Detonator Circle “A” / Alien Overlord / Alien Telepath / Mysterious Triangle',
@@ -62,7 +62,7 @@ export default {
 'Reptilianne Ramifications / Reptilianne Scylla / Reptilianne Poison',
 'Viper\'s Grudge',
 'Therion “Empress” Alasia',
-'Reptilianne Nyami / Tax +2',
+'Danger!? Tsuchinoko? / Vanguard of the Underground Emperor',
 ]
 
 }
