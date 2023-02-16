@@ -61,7 +61,7 @@ export default {
 'Deep Sea Diva / Guitar Gurnards Duonigis / Deep Sea Repetiteur / Deep Sea Prima Donna',
 'Mermail Abyssalacia / Mermail Abyssdine',
 'Ixeep, Omen of the Ghoti / Zep, Ruby of the Ghoti / Shif, Fairy of the Ghoti / The Most Distant, Deepest Depths / Arionpos, Serpent of the Ghoti',
-'Paces, Light of the Ghoti / Snopios, Shade of the Ghoti / Eanoc, Sentry of the Ghoti / Coral Dragon / Ghoti Cosmos / Ghoti Chain / It\'s pronounced Fish: All WATER monsters in your possession are also treated as Fish monsters.',
+'Paces, Light of the Ghoti / Snopios, Shade of the Ghoti / Eanoc, Sentry of the Ghoti / Coral Dragon / Ghoti Cosmos / Ghoti Chain / It\'s pronounced Fish: All WATER monsters in your possession can be treated as that Fish monsters or as their original type.',
 'Tidal, Dragon Ruler of Waterfalls / Stream, Dragon Ruler of Droplets',
 'Whitefish Salvage / Superancient Deepsea King Coelacanth',
 'Poseidon Wave',
