@@ -5,7 +5,7 @@ export default {
     tip_min:8,
     tip_max:14,
     class_skills: [
-    'Massively Motivated Mechs (Once per Duel): You can discard 1 Thunder monster, add 1 Thunder monster with the same name as that monster, from your Deck to your hand, then you can add 1 Machine monster from your Deck to your hand with the same level as the monster you added (gain the following loot pool: Blue Thunder T-45 / What Powers Machines?: All your Machine monsters are also treated as Thunder monsters).',
+    'Massively Motivated Mechs (Once per Duel): You can discard 1 Thunder monster, add 1 Thunder monster with the same name as that monster, from your Deck to your hand, then you can add 1 Machine monster from your Deck to your hand with the same level as the monster you added (gain the following loot pool: Blue Thunder T-45 / What Powers Machines?: All your Machine monsters can be treated as Thunder monsters or as their original type).',
     'Shocking Revelations: Your Relic now also boosts ATK when you Special Summon a Thunder monster as well.',
     'Tunda Duragon: Add “Thunder Sea Horse” to your inventory. “Thunder Sea Horse” is now also treated as “Thunder Dragon”.'
     ],
@@ -20,7 +20,7 @@ export default {
 'Wattkinetic Puppeteer',
 'Wattsychic Fighter',
 'Batteryman AAA',
-'Blue Thunder T-45 / What Powers Machines?: All your Machine monsters are also treated as Thunder monsters.',
+'Blue Thunder T-45 / What Powers Machines?: All your Machine monsters can be treated as Thunder monsters or as their original type',
 'Ally of Justice Thunder Armor',
 'Morphtronic Magnen / Morphtronic Magnen Bar / Morphtronic Radion / Morphtronic Remoten / Morphtronic Earfon / Morphtronic Smartfon / Morphtronic Celfon',
 'Morphtronic Vacuumen',
