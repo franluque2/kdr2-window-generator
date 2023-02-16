@@ -46,7 +46,7 @@ export default {
 'Flamvell Firedog / Neo Flamvell Lady / Neo Flamvell Origin / Flamvell Uruquizas / Flamvell Counter / Rekindling',
 'Fire King Avatar Yaksha / Fire King Avatar Kirin / Fire King Avatar Garunix / Circle of the Fire Kings',
 'Raging Flame Sprite / Firewall',
-'Flame On: All FIRE monsters in your GY are also treated as Pyro monsters.',
+'Flame On: All FIRE monsters in your GY can be treated as Pyro monsters or as their original type.',
 'Berlineth the Firestorm Vassal / Prometeor, the Burning Star',
 'Lava Golem',
 'Battlin\' Boxer Big Bandage / Battlin\' Boxer Veil / Battlin\' Boxer Headgeared / Number 79: Battlin\' Boxer Nova Kaiser',
