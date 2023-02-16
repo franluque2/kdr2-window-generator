@@ -10,7 +10,7 @@ export default {
         'skill_2\n' +
             '\n' +
         'skill_3\n',
-    template_loot: '**Remember to check the Kdr Banlist!\n' +
+    template_loot: '**Remember to check the Kdr Banlist!**\n' +
         '\n' +
         '**You got a Treasure!** (This one is free, pick one)\n' +
         '\n' +
