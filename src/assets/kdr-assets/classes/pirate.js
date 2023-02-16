@@ -2,7 +2,7 @@ export default {
     name: 'Pirate',
     icon: 'fa-skull-crossbones',
     special:null,
-    tip_min:18,
+    tip_min:15,
     tip_max:23,
     class_skills: [
         'Bountiful Booty: You get 6 Treasures each Shop Phase instead of 3.',
@@ -37,7 +37,7 @@ export default {
 'Eagle Shark / Panther Shark / Shark Fortress',
 ],
     loot_mid: [
-'Abyss Soldier / Ice Knight / Infernalqueen Salmon',
+'Abyss Soldier / Ice Knight / Infernalqueen Salmon / Terrorking Salmon',
 'Aquaactress Arowana / Aquaactress Guppy / Aquaactress Tetra / Aquarium Set',
 'Silent Sea Nettle / Rage of the Deep Sea',
 'Abyss Shark / Crystal Shark / Number 47: Nightmare Shark',
