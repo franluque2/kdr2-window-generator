@@ -30,7 +30,7 @@ export default {
 'A.I. Challenge You / The Phantom Knights’ of Shade Brigandine',
 'The Phantom Knights of Tomb Shield',
 'Bountiful Artemis / Trap Jammer / Magic Jammer / Tax +2',
-'Guiding Ariadne / Magic Drain / Seven Tools of the Bandit / Tax +2'
+'Guiding Ariadne / Magic Drain / Seven Tools of the Bandit / Tax +2',
 'Harvest Angel of Wisdom / Negate Attack',
 'Spellbinding Circle',
 'Respect Play / Convulsion of Nature / Time Seal', 
