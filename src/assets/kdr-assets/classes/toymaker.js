@@ -58,7 +58,7 @@ export default {
 'Frightfur Chimera',
 'Frightfur Leo / Edge Imp Saw',
 'Toon Bookmark / Toon Dark Magician / Toon Harpie Lady / Toon Page-Flip',
-'Toon Table of Contents / Toon Black Luster Soldier / Red-Eyes Toon Dragon / 
+'Toon Table of Contents / Toon Black Luster Soldier / Red-Eyes Toon Dragon',
 'Ikelos, the Dream Mirror Sprite / Ikelos, the Dream Mirror Mara / Morpheus, the Dream Mirror White Knight / Morpheus, the Dream Mirror Black Knight / Dream Mirror Phantasms / Tax +1',
 'Wind-Up Magician / Wind-Up Shark / Wind-Up Rat / Wind-Up Rabbit / Wind-Up Factory / Wind-Up Zenmaister',
 'Cross-Sheep',
