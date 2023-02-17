@@ -2,18 +2,18 @@ export default {
     name: 'Bug Catcher',
     icon: 'mdi-bee',
     special:null,
-    tip_min:6,
-    tip_max:9,
+    tip_min:10,
+    tip_max:15,
     class_skills: [
-    'Particularly Dangerous Swarm: All monsters are also always treated as “Battlewasp - Pin the Bullseye”.',
+    'Particularly Dangerous Swarm: All monsters you control are also always treated as “Battlewasp - Pin the Bullseye”.',
     'A Huge Bee: The owner of a monster that is sent to the GY with a “b” on it draws 1 card. Neither player discards for hand-size limit',
-    'Barry Bee Benson (Once per Run): https://pastebin.com/n9b7FmHH'
+    'Barry Bee Benson: (Once per Duel): You can discard 1 monster with a "b" on it and add 2 monsters with a "b" on them from your Deck to your hand.'
     ],
     loot_poor: [
 'Koa’ki Meiru Beetle / Dragonbite / Oily Cicada',
 'Earthquake / Mother Spider / Mitsu the Insect Ninja / Queen Butterfly Danaus / Relinquished Spider',
 'Worm Bait / Multiplication of Ants',
-'Neo-Spacian Flare Scarab',
+'Neo-Spacian Flare Scarab'.
 'Battlewasp - Dart the Hunter',
 'Swarm of Scarabs / Swarm of Locusts',
 'Bee List Soldier',
@@ -27,22 +27,22 @@ export default {
 'Beetrooper Descent',
 'Carpiponica, Mystical Beast of the Forest / Alpacaribou, Mystical Beast of the Forest',
 'Hexenringe Master Faerie', 
-'Prickle Fairy / Shield Worm / Warm Worm',
+'Prickle Fairy / Shield Worm / Warm Worm'
 'Traptrix Allomerus',
 'Anti-Aircraft Flower',
-'Beetrooper Light Flapper / Beetrooper Landing / Ultra Beetrooper Absolute Hercules',
+'Inzektor Giga-Weevil / Inzektor Giga-Mantis / Inzektor Ladybug / Inzektor Picofalena / Zektrike Kou-ou',
 'A Feint Plan / Man-Eater Bug / Mimicking Man-Eater Bug',
 'Magically Mage Made Enchanting Enchantment of the Mysterious & Mystical Magical Merchant (Once per Duel): You can add 1 “Magical Merchant” from your Deck to your hand, this turn, you can Flip Summon monsters the turn they are set.',
 'Danipon',
 'Needle Worm',
 ],
     loot_mid: [
-'Inzektor Dragonfly / Inzektor Giga-Mantis / Inzektor Ladybug / Tax +1',
+'Guard Mantis',
 'Danger Mothman',
 'Beetle Amalgamaton Zekstagger',
 'Digital Bug Centibit / Digital Bug Cocoondenser / Dream Cicada / Bug Emergency',
 'Digital Bug Registrider / Digital Bug Websolder / Digital Bug LEDybug / Inzektor Exa-Stag / Number 28: Titanic Moth',
-'Inzektor Giga-Weevil / Inzektor Picofalena / Zektrike Kou-ou',
+'Beetrooper Light Flapper / Beetrooper Landing / Ultra Beetrooper Absolute Hercules / Beetrooper Cruel Saturn',
 'Super Armored Robot Armed Black Iron "C"',
 'Krawler Glial / Krawler Receptor / Krawler Spine / Krawler Ranvier',
 'X-Krawler Neurogos / X-Krawler Synaphisis / X-Krawler Qualiark / World Legacy Survivor', 
@@ -55,7 +55,7 @@ export default {
 ],
     loot_high: [
 'Battlewasp - Sting the Poison / Battlewasp - Azusa the Ghost Bow / Battlewasp - Halberd the Charge / Battlewasp - Hama the Conquering Bow / Battlewasp - Ballista the Armageddon / Circle of Faerie / Tax +1',
-'Inzektor Hornet / Tax +2',
+'Fissioning Mother Spider / Baby Spider / Number 5: Doom Chimera Dragon / Tax +1',
 'Beetrooper Armor Horn / Shinobi Insect Hagakuremino / Tax +1',
 'Giant Ballpark / Insect Knight / Tax +1',
 'Seraphim Papillion / Tax +1',
@@ -65,7 +65,7 @@ export default {
 'Bio Insect Armor (OCG)',
 'Cocoon of Ultra Evolution / Metamorphosed Insect Queen',
 'Full Metal Bugs (Once per Duel) (During your Draw Phase): You can activate 1 “Metal Armored Bug” from your hand or Deck as a Continuous Trap with the following effect: Once per turn: You can target 1 face-down monster; flip it face-up, and if you do, it gains 1500 DEF until the end of this turn. If that monster is destroyed by battle during the turn you activate this effect, Special Summon this card from the Spell/Trap zone. / Krawler Soma',
-'Lair Wire',
+'Praying Mantis',
 ]
 
 }

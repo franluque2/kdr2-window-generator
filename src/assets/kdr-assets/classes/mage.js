@@ -52,7 +52,6 @@ export default {
 'Crowley, the First Propheseer',
 'One-Shot Wand / Magical Blast',
 'Eda the Sun Magician / Legion the Fiend Jester / Maha Vailo, Light of the Heavens',
-
     ],
     loot_high: [
 'Silent Magician',
@@ -61,11 +60,11 @@ export default {
 'Mystical Elf - White Lightning',
 'Emperor of Prophecy / Spellbook of the Master / High Priestess of Prophecy / Spellbook of Knowledge / Tax +1',
 'Selene, Queen of the Master Magicians',
-'Pot of Greed / Tax +3',
+'Pot of Greed',
 'Purple Poison Magician / White Wing Magician / Tax +1',
 'Dark Magician / Dark Magician Girl / Magicians Souls',
 'Day-Breaker the Shining Magical Warrior',
-'Summon Sorceress',
+'Summon Sorceress / Tax +1',
 'Dragonpit Magician / Pendulum Call',
     ]
 

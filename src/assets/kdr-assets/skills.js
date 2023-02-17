@@ -139,8 +139,6 @@ export default {
 
         'Archetype Madness: Declare 1 card name in your inventory and 1 archetype name. That card becomes part of that archetype for the rest of the run.',
 
-        'I’m something of an FTK enabler myself: If your LP are 4000 or less, you can Special Summon 1 “Magical Scientist” from your hand or Deck. (Add “Magical Scientist”, “Crimson Sunbird”, “Man-Eating Black Shark”, “Darkfire Dragon”, “Zombie Warrior”, and “Allvain the Essence of Vanity” to your inventory.)',
-
         'Lifesteal: If your monster battles an opponent’s monster and inflicts damage to them, gain LP equal to the amount inflicted.',
 
         'The Tragedy: If a monster you control is destroyed by battle you can add 1 “Tragoedia” from your Deck to your hand, and if you do, you can add 1 monster from your GY to your hand. (Add 1 “Tragoedia” to your Deck permanently.)',
@@ -214,5 +212,13 @@ export default {
         'Snacks for your Stacks (Once per Run): You can gain 5 Stacks on 1 Stackable skill, or, you can gain 1 random stackable skill. (KDR-ADMIN ONLY: Just roll until you hit a stackable skill, because the number of stackable skills may change a lot)',
         
         'Normie Gathering (Once per Duel) (Stackable): You can add 1 non-effect monster from your Deck to your hand, except for your Legendary Monster(s). (Once per Duel): You can Special Summon 1 Level 4 or lower non-effect monster from your hand. Each stack of this skill lets you add up to 2 additional non-effect monster(s) from your Deck to your hand.',
+        
+        'Creator’s Chaos (Once per Run): You can ask Jacob or Bryant to create a skill to add to KDR2. Transform this skill into the new one. This skill must be rerolled if it has already previously resolved this run by any player.',
+        
+        'Reckless Gaming (Once per turn): If you destroy an opponent’s monster by battle: you can set 1 “Rush Recklessly” from your Deck or GY, and if you do, destroy the monster you attacked with, then draw 1 card.',
+        
+        'Switcher-oop: (Once per Run): You can swap the names of 1 non-base loot card in your inventory and 1 base loot card in your inventory (write the cards you changed in the description of this ability)!',
+        
+        'The 100 (Stackable): You can only obtain this skill through the Shop Phase a single time. If an opponent’s card leaves the field by battle, your card effect, or your skill effect, this skill gains a stack. This skill starts with 0 stacks. During your Shop Phase, if this skill has 100 stacks, you can destroy it to gain 2 skills and 10 Gold.',
     ]
 }

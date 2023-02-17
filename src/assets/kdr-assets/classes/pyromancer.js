@@ -5,8 +5,8 @@ export default {
     tip_min:13,
     tip_max:25,
     class_skills: [
-        'Guardian Firestorm (Once per turn): While you have 4 or more FIRE monsters in your GY, you can add 1 “Royal Firestorm Guards” from your Deck to your hand. You can Normal Summon 1 FIRE monster in addition to your Normal Summon/Set. “Royal Firestorm Guards” you control gain 100 ATK/DEF for each FIRE monster in the GY.',
-        'Accelerate Accelerators (Once per turn): If a “Volcanic” monster is sent from the field to the GY, you can add 1 “Blaze Accelerator” card from your Deck or GY to your hand.',
+        'Guardian Firestorm (Once per Duel): While you have 4 or more FIRE monsters in your GY, you can add 1 “Royal Firestorm Guards” from your Deck to your hand. You can Normal Summon 1 FIRE monster in addition to your Normal Summon/Set. “Royal Firestorm Guards” you control gain 100 ATK/DEF for each FIRE monster in the GY.',
+        'Accelerate Accelerators (Once per turn): If a “Volcanic” monster is sent to the GY, you can add 1 “Blaze Accelerator” card from your Deck, GY, or that is banished to your hand.',
         'Inpachi Time: Gain the “Unexpected Die” skill. Add “Inpachi”, “Charcoal Inpachi”, and “Woodborg Inpachi” to your inventory. You can only use each of the following effects Once per Duel:\n\u2022If an “Inpachi” you control is sent to the GY, Special Summon 1 “Blazing Inpachi” from your hand or Deck. \n\u2022If a “Blazing Inpachi” you control is sent to the GY, Special Summon 1 “Charcoal Inpachi” from your hand or Deck.\n\u2022If a “Charcoal Inpachi” you control is sent to the GY, Special Summon 1 “Woodborg Inpachi” from your hand or Deck.'
     ],
     loot_poor: [
@@ -46,7 +46,7 @@ export default {
 'Flamvell Firedog / Neo Flamvell Lady / Neo Flamvell Origin / Flamvell Uruquizas / Flamvell Counter / Rekindling',
 'Fire King Avatar Yaksha / Fire King Avatar Kirin / Fire King Avatar Garunix / Circle of the Fire Kings',
 'Raging Flame Sprite / Firewall',
-'Flame On: All FIRE monsters in your GY are also treated as Pyro monsters.',
+'Flame On: All FIRE monsters in your GY can be treated as Pyro monsters or as their original type.',
 'Berlineth the Firestorm Vassal / Prometeor, the Burning Star',
 'Lava Golem',
 'Battlin\' Boxer Big Bandage / Battlin\' Boxer Veil / Battlin\' Boxer Headgeared / Number 79: Battlin\' Boxer Nova Kaiser',
@@ -55,13 +55,13 @@ export default {
     ],
     loot_high: [
 'Pyrorex the Elemental Lord',
-'Volcanic Doomfire / Tri-Blaze Accelerator / Volcanic Scattershot / Wild Fire',
+'Volcanic Doomfire / Tri-Blaze Accelerator / Volcanic Scattershot / Wild Fire / Tax +1',
 'Duel Academy / Graveyard of Wandering Souls',
 'Cataclysmic Scorching Sunburner',
 'Fire King Avatar Barong / Fire King Avatar Arvata / Fire King Island',
 'Fire King High Avatar Garunix / Onslaught of the Fire Kings',
 'Battlin\' Boxer Glassjaw / Battlin\' Boxer Switchitter / Battlin\' Boxer Sparrer / Battlin\' Boxer Counterpunch / Battlin\' Boxer Lead Yoke',
-'Number 60: Dugares the Timeless / Lavalval Chain',
+'Number 60: Dugares the Timeless / Lavalval Chain / Tax +1',
 'True King Agnimazud, the Vanisher / Tax +2',
 'Blaster, Dragon Ruler of Infernos / Tax +2',
 'Magic Planter / Pot of Avarice',

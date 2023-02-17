@@ -54,7 +54,7 @@ export default {
 'Guardragon Garmides / Guardragon Promineses',
     ],
     loot_high: [
-'Gemini Spark / Tax +2',
+'Gemini Spark / Tax +1',
 'Catalyst Field / Tax +1',
 'Defender of the Labyrinth / Sublimation Knight',
 'Crowned by the World Chalice / Chosen by the World Chalice / Imduk the World Chalice Dragon / Auram the World Chalice Blademaster',
@@ -62,7 +62,7 @@ export default {
 'Left Leg of the Forbidden One / Right Leg of the Forbidden One / Left Arm of the Forbidden One / Right Arm of the Forbidden One / Treasure Panda / Obliterate!!!',
 'Piercing the Darkness',
 'Chemicritter Oxy Ox / Chemicritter Carbo Crab / Chemicritter Hydron Hawk / Poly-Chemicritter Hydragon / Burnout',
-'First of the Dragons / Allvain the Essence of Vanity / Ready Fusion',
+'Gemini Ablation / Tax +1',
 'Magikey World / Magikey Spirit - Vepartu',
 'Blazewing Butterfly',
 'Magnificent Magikey Mafteal / Magikey Maftea / Magikey Mechmusket - Batosbuster / Magikey Fiend - Transfurlmine'
