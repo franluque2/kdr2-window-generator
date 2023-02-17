@@ -26,7 +26,7 @@ export default {
 'The Phantom Knights of Dark Gauntlets / The Phantom Knights of Shadow Veil',
 'The Phantom Knights of Lost Vambrace',
 'Phantom Knights’ Spear / Phantom Knights’ Wing / The Phantom Knights of Wrong Magnetring / Phantom Knight’s Sword / The Phantom Knights of Torn Scales',
-'The Phantom Knights of Rusty Bardiche / The Phantom Knights of Ancient Cloak / The Phantom Knights of Silent Boots / The Phantom Knights of Mist Claws / Tax +8'
+'The Phantom Knights of Rusty Bardiche / The Phantom Knights of Ancient Cloak / The Phantom Knights of Silent Boots / The Phantom Knights of Mist Claws / Tax +8',
 'A.I. Challenge You / The Phantom Knights’ of Shade Brigandine',
 'The Phantom Knights of Tomb Shield',
 'Bountiful Artemis / Trap Jammer / Magic Jammer / Tax +2',
