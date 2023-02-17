@@ -17,7 +17,7 @@ export default {
 'Toon Mermaid / Toon Cannon Soldier',
 'Qadshaddoll Keios / Helshaddoll Hollow',
 'Toon Masked Sorcerer / Toon Rollback',
-'Shadow Toon'
+'Shadow Toon',
 'Sinister Shadow Games',
 'Shaddoll Core',
 'Melffy Puppy / Melffy Rabby / Melffy of the Forest',
