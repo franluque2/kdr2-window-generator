@@ -2,8 +2,8 @@ export default {
     name: 'Toy Maker',
     icon: 'mdi-teddy-bear',
     special:null,
-    tip_min:11 ,
-    tip_max:20,
+    tip_min:20 ,
+    tip_max:30,
     class_skills: [
     'Teamwork makes the Dream Work!: “Wind-Up”, “Shaddoll”, "Toon", “Fluffal”, and “Frightfur” monsters are all also treated as “Wind-Up”, “Shaddoll”, "Toon", “Fluffal”, and “Frightfur” monsters at all times.',
     'Recyclable Supplies: (Once per Duel) (During your Draw Phase): You can discard 1 card, add 1 “Polymerization” from your Deck to your hand, also, this turn, during your End Phase, you can draw 1 card for each time you’ve activated “Polymerization” or Patchwork this turn. (Once per turn): After you resolve “Polymerization”, you can add 1 “Polymerization” from your GY to your hand.',
@@ -17,7 +17,7 @@ export default {
 'Toon Mermaid / Toon Cannon Soldier',
 'Qadshaddoll Keios / Helshaddoll Hollow',
 'Toon Masked Sorcerer / Toon Rollback',
-'Shadow Toon',
+'Shadow Toon'
 'Sinister Shadow Games',
 'Shaddoll Core',
 'Melffy Puppy / Melffy Rabby / Melffy of the Forest',
@@ -28,13 +28,11 @@ export default {
 'Fusion Fright Waltz',
 'Edge Imp Tomahawk',
 'Edge Imp Frightfuloid',
-'Fusion Substitute / Fusion Recycling Plant',
+'King of the Swamp / Fusion Substitute / Fusion Recycling Plant',',
 'Block Dragon / Blockman / Block Golem / Cartorhyn the Hidden Gem of the Seafront',
 'Toon Cyber Dragon',
 'Nazuki the Vaylantz Ninja / Shinonome the Vaylantz Priestess / Vaylantz Wakening - Solo Activation',
 'Vaylantz Genesis Grand Duke / Vaylantz Buster Baron / Vaylantz Mad Marquess',
-
-
 ],
     loot_mid: [
 'Frightfur Sheep / Fluffal Rabbit',
@@ -55,7 +53,7 @@ export default {
 ],
     loot_high: [
 'Fluffal Bear / Fluffal Wings / Frightfur Bear / Toy Vendor / Foolish Burial Goods',
-'Neiroy, the Dream Mirror Disciple / Neiroy, the Dream Mirror Traitor / Dream Mirror Recap / Dream Mirror Hypnagogia / Tax +1',
+'Neiroy, the Dream Mirror Disciple / Neiroy, the Dream Mirror Traitor / Dream Mirror Recap / Tax +1',
 'Edge Imp Chain / Frightfur Patchwork',
 'Frightfur Chimera',
 'Frightfur Leo / Edge Imp Saw',
@@ -65,7 +63,7 @@ export default {
 'Wind-Up Magician / Wind-Up Shark / Wind-Up Rat / Wind-Up Rabbit / Wind-Up Factory / Wind-Up Zenmaister',
 'Cross-Sheep',
 'Keeper of Dragon Magic / Dark Magician / Amulet Dragon',
-'Vaylantz of the Wireframe Abyss - Arctus XII',
+'Fusion World: (Once per turn): If you activate "Polymerization", you can treat monsters that each have exactly 1 of the same Type, Attribute, Level, ATK, or DEF as the Fusion monster, but do not share it with each other as the correct materials. / Tax +1',
 ]
 
 }
