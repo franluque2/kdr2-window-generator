@@ -27,7 +27,7 @@ export default {
 'Beetrooper Descent',
 'Carpiponica, Mystical Beast of the Forest / Alpacaribou, Mystical Beast of the Forest',
 'Hexenringe Master Faerie', 
-'Prickle Fairy / Shield Worm / Warm Worm'
+'Prickle Fairy / Shield Worm / Warm Worm',
 'Traptrix Allomerus',
 'Anti-Aircraft Flower',
 'Inzektor Giga-Weevil / Inzektor Giga-Mantis / Inzektor Ladybug / Inzektor Picofalena / Zektrike Kou-ou',
