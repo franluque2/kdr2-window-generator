@@ -42,7 +42,7 @@ export default {
 'Garura, Wings of Resonant Life / Crimson Sunbird / Mavelus / Polymerization / Bird Fusion!: You can activate “Polymerization” as if it was a Quickplay Spell. You can Fusion Summon any Fusion Monster using 2 Winged Beast monsters with the same Attribute, ignoring summoning conditions.',
 'Tri-Brigade Nervall / Harpie Conductor',
 'Defender of Nephthys / Matriarch of Nephthys / Chronicler of Nephthys / Disciple of Nephthys / Last Hope of Nephthys / Rebirth of Nephthys / Devotee of Nephthys',
-'Rebirth of Nephthys / Conductor of Nephthys / Cerulean Sacred Phoenix of Nephthys / Nephthys, the Sacred Observer / Awakening of Nephthys / That’s a Spicy Bird!: “Cerulean Sacred Phoenix of Nephthys” cannot activate its effects. This skill and “Cerulean Sacred Phoenix of Nephthys” cannot leave your inventory by any means.',
+'Rebirth of Nephthys / Conductor of Nephthys / Cerulean Sacred Phoenix of Nephthys / Nephthys, the Sacred Preserver / Awakening of Nephthys / That’s a Spicy Bird!: “Cerulean Sacred Phoenix of Nephthys” cannot activate its effects. This skill and “Cerulean Sacred Phoenix of Nephthys” cannot leave your inventory by any means.',
 'Simorgh Sky Battle',
 'Danger! Thunderbird!',
 'Windrose the Elemental Lord',
