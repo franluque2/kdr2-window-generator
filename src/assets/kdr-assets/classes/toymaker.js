@@ -28,7 +28,7 @@ export default {
 'Fusion Fright Waltz',
 'Edge Imp Tomahawk',
 'Edge Imp Frightfuloid',
-'King of the Swamp / Fusion Substitute / Fusion Recycling Plant',',
+'King of the Swamp / Fusion Substitute / Fusion Recycling Plant',
 'Block Dragon / Blockman / Block Golem / Cartorhyn the Hidden Gem of the Seafront',
 'Toon Cyber Dragon',
 'Nazuki the Vaylantz Ninja / Shinonome the Vaylantz Priestess / Vaylantz Wakening - Solo Activation',
