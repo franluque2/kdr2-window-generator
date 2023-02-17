@@ -31,7 +31,7 @@ export default
 'Nobleman of Crossout / Nobleman of Extermination',
 'Proxy F Magician',
 'Burden of the Mighty / Shield Crush',
-'Ryko, Lightsworn Hunter / Super Nimble Mega Hamster',
+'Ryko, Lightsworn Hunter / Super-Nimble Mega Hamster',
 'Cosmic Cyclone / Night Beam',
 'Morphing Jar',
 'Charge of the Light Brigade / Raiden, Hand of the Lightsworn',
@@ -44,7 +44,7 @@ export default
     loot_mid: [
 'Unexpected Dai / Link Spider / Scapegoat',
 'Magic Cylinder / Tax +1',
-'Scrap Iron Scarecrow / Swift Scarecrow / Tax +1',
+'Scrap-Iron Scarecrow / Swift Scarecrow / Tax +1',
 'Pentestag / Triple Burst Dragon',
 'Gagaga Samurai / Gagaga Cowboy',
 'Kuribandit / Cardcar D',
@@ -54,7 +54,7 @@ export default
 'Dimensional Prison / Sakuretsu Armor / Tax +2',
 'Galaxy Serpent / Toon Blue-Eyes White Dragon / Cards of Consonance / Trade-In / Toon Table of Contents',
 'Brute Enforcer / Berserker of the Tenyi',
-'Destrudo, the Lost Dragon\'s Frisson / Ancient Fairy Dragon',
+'Destrudo the Lost Dragon\'s Frisson / Ancient Fairy Dragon',
 'Wind-Up Zenmaines / Tour Guide from the Underworld / Tax +2',
 'Stardust Dragon / Stardust Synchron / Stardust Trail / Stardust Illumination / Stardust Spark Dragon / Tax +2',
 'Metamorphosis / Thousand-Eyes Restrict / Thousand-Eyes Idol / Elemental HERO Bubbleman / Elemental HERO Neo Bubbleman / Bubble Blaster',
@@ -63,6 +63,7 @@ export default
 'Warning Point',
 'Parallel Exceed / Salamangreat Almiraj / Linkuriboh / Tax +2',
 'Underclock Taker / Decode Talker Extended / Tax +1',
+'Cyber Jar',
     ],
     loot_high: [
 'Instant Fusion / Elder Entity Norden / Tax +1',
@@ -76,7 +77,6 @@ export default
 'Enemy Controller / Book of Moon / Tax +1',
 'Pot of Avarice / Pot of Duality',
 'Ice Hand / Fire Hand / Thunder Hand',
-'Cyber Jar',
 'Raigeki Break',
 'Cockadoodledoo / Black Rose Dragon',
 'Fissure / Manticore of Smashing / Smashing Ground / Tax +3',
@@ -84,15 +84,14 @@ export default
 'Crystron Halqifibrax / Genex Undine / Genex Controller',
 'That Grass Looks Greener',
 'Slash Draw',
-'Sekkas Light / Draw of Sekka (Once per Duel): If you have only monsters in your Deck, except for “Sekka’s Light”: You can discard 1 monster; add 1 “Sekka’s Light” from your Deck to your hand.',
+'Sekkas Light / Draw of Sekka (Once per Duel): If you have only monsters in your deck, except for “Sekka’s Light”: You can discard 1 monster; add 1 “Sekka’s Light” from your Deck to your hand.',
 'Reasoning / Monster Gate',
 'Card of Demise',
 'Gold Sarcophagus',
 'Pot of Desires',
 'Triple Tactics Talents',
-'Brilliant Fusion / Gem-Knight Garnet / Gem-Knight Seraphinite / Performage Damage Juggler / Performage Trick Clown / Performage Hat Tricker / Tax +2',
+'Brilliant Fusion / Gem-Knight Garnet / Gem-Knight Seraphinite / Performage Damage Juggler / Performage Trick Clown / Performage Hat Tricker',
 'Level Eater / Quickdraw Synchron / Synchron Explorer / Junk Synchron / Quillbolt Hedgehog / Junk Warrior',
-
     ]
 
 }
