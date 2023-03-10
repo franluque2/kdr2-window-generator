@@ -54,10 +54,10 @@ export default {
 'Samurai Destroyer / Genex Ally Birdman / Express Train Trolley Olley',
 ],
     loot_high: [
-'Silver Gadget / Gear Gigant X',
-'Gold Gadget / Machina Defense Perimeter',
+'Silver Gadget / Gear Gigant X / Tax +1',
+'Gold Gadget',
 'Boot-Up Admiral - Destroyer Dynamo',
-'Speedroid Pachingo-Kart / Speedroid Gum Prize / Hi-Speedroid Chanbara / Tax +2',
+'Speedroid Pachingo-Kart / Speedroid Gum Prize / Hi-Speedroid Chanbara',
 'Platinum Gadget / Tax +1',
 'Boot-Up Corporal - Command Dynamo / Boot-Up Order - Gear Charge',
 'Boot-Up Soldier - Dread Dynamo / Stronghold the Moving Fortress / Powerhold the Moving Battery',
