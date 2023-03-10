@@ -10,7 +10,7 @@ export default {
         'Stacked Deck III: Add the following Custom Card to your Deck (max 1 of each):\n"Stacked Deck - Full House". You can play 2 "Stacked Deck" card(s) at 3, except for "Stacked Deck - Full House".'
     ],
     loot_poor: [
-'Vilepawn Archfiend'
+'Vilepawn Archfiend',
 'Darkbishop Archfiend',
 'Desrook Archfiend',
 'Terrorking Archfiend',
