@@ -10,7 +10,7 @@ export default {
         'Stacked Deck III: Add the following Custom Card to your Deck (max 1 of each):\n"Stacked Deck - Full House". You can play 2 "Stacked Deck" card(s) at 3, except for "Stacked Deck - Full House".'
     ],
     loot_poor: [
-'Vilepawn Archfiend',
+'Vilepawn Archfiend'
 'Darkbishop Archfiend',
 'Desrook Archfiend',
 'Terrorking Archfiend',
@@ -62,9 +62,9 @@ export default {
 'Desperado Barrel Dragon',
 'Diced Dice / Sixth Sense',
 'The Claw of Hermos / Time Magic Hammer',
-'Snipe Hunter / Straight Sniping: (Once per turn): You can use the effect of "Snipe Hunter" without discarding.',
+'Snipe Hunter / Straight Sniping: (Once per turn): You can use the effect of "Snipe Hunter" without discarding once this turn.',
 'Heavy Metal Raiders / Cyberpsychosis: All monsters you control and in your GY are also treated as DARK Machine monsters.',
 'A Mystery Box Could Be Anything!: Buying random Loot Pools costs half as much. If you bought this loot randomly, receive 5 gold.',
-'Number 7: Lucky Straight / 7 Completed / 777: Each time you call a coin toss correctly, you can add 1 "7 Completed" from your Deck to your hand. (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material.'    
+'Number 7: Lucky Straight / 7 Completed / 777: Each time you call a coin toss correctly, you can add 1 "7 Completed" from your Deck to your hand. (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material (add "7 Completed" to your inventory).'    
     ]
 }
