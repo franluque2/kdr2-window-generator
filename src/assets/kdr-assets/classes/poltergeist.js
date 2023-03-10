@@ -57,7 +57,7 @@ export default {
 'Hebo, Lord of the River / The Spirits are Always Watching: Your non-effect monsters are treated as Spirit monsters, and return to your hand during the End Phase of the turn they are Normal Summoned or flipped face-up. (Once per turn): If you Normal Summon a non-effect monster, you can distribute 2 “Miasma” counters among your face-up monsters, then you can Normal Summon 1 Spirit monster.',
 'Aratama',
 'Nikitama',
-'Pre-Preparation of Rites / Shinobaron Peacock / Shinobaroness Peacock / Shinobird\'s Calling / Shinobird Power Spot / Bird Floo: "Shinobaron Peacock" and "Shinobaroness Peacock" cannot activate their trigger effects when Ritual Summoned. This cannot leave your inventory by any means.
+'Pre-Preparation of Rites / Shinobaron Peacock / Shinobaroness Peacock / Shinobird\'s Calling / Shinobird Power Spot / Bird Floo: "Shinobaron Peacock" and "Shinobaroness Peacock" cannot activate their trigger effects when Ritual Summoned. This cannot leave your inventory by any means.',
 'Hino-Kagu-Tsuchi',
 'Yoko-Zuna Sumo Spirit / Kai-Den Kendo Spirit / Kuro-Obi Karate Spirit',
 'Ghostrick Lantern / Ghostrick Yuki-Onna / Ghostrick Witch / Ghostrick Witch / Ghostrick Festival / Ghostrick or Treat',
