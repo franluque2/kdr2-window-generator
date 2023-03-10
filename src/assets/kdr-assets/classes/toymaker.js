@@ -40,10 +40,10 @@ export default {
 'Wind-Up Zenmaintenance / Wind-Up Juggler / Wind-Up Knight / Wind-Up Honeybee',
 'Wind-Up Zenmaity / Wind-Up Zenmaines / Wind-Up Arsenal Zenmaioh / Zenmailfunction / Tour Guide from the Underworld / Wind-Up Kitten',
 'Fluffal Sheep / Edge Imp Scythe',
-'Instant Fusion',
+'Keeper of Dragon Magic / Dark Magician / Amulet Dragon',
 'Frightfur Meister / Fluffal Cat',
 'Suture Rebirth',
-'Frightfur March / Frightfur Repair',
+'Frightfur March / Frightfur Repair / Frightfur Chimera',
 'Designer Frightfur',
 'Toy Parade',
 'Fluffal Penguin / Fluffal Dolphin / Frightfur Wolf',
@@ -53,17 +53,17 @@ export default {
 ],
     loot_high: [
 'Fluffal Bear / Fluffal Wings / Frightfur Bear / Toy Vendor / Foolish Burial Goods',
-'Neiroy, the Dream Mirror Disciple / Neiroy, the Dream Mirror Traitor / Dream Mirror Recap / Tax +1',
+'Neiroy, the Dream Mirror Disciple / Neiroy, the Dream Mirror Traitor / Dream Mirror Phantasms / Tax +1',
 'Edge Imp Chain / Frightfur Patchwork',
-'Frightfur Chimera',
-'Frightfur Leo / Edge Imp Saw',
+'Resh Shaddoll Incarnation',
+'Frightfur Leo / Edge Imp Saw / Frightfur Sabre-Tooth / Missing Piece: You cannot Fusion Summon "Frightfur Sabre-Tooth" using more than 2 Fusion Materials. This skill cannot be sold.',
 'Toon Bookmark / Toon Dark Magician / Toon Harpie Lady / Toon Page-Flip',
-'Toon Table of Contents / Toon Black Luster Soldier / Red-Eyes Toon Dragon',
-'Ikelos, the Dream Mirror Sprite / Ikelos, the Dream Mirror Mara / Morpheus, the Dream Mirror White Knight / Morpheus, the Dream Mirror Black Knight / Dream Mirror Phantasms / Tax +1',
+'Toon Table of Contents / Toon Black Luster Soldier / Red-Eyes Toon Dragon / 
+'Ikelos, the Dream Mirror Sprite / Ikelos, the Dream Mirror Mara / Morpheus, the Dream Mirror White Knight / Morpheus, the Dream Mirror Black Knight / Tax +1',
 'Wind-Up Magician / Wind-Up Shark / Wind-Up Rat / Wind-Up Rabbit / Wind-Up Factory / Wind-Up Zenmaister',
 'Cross-Sheep',
-'Keeper of Dragon Magic / Dark Magician / Amulet Dragon',
-'Fusion World: (Once per turn): If you activate "Polymerization", you can treat monsters that each have exactly 1 of the same Type, Attribute, Level, ATK, or DEF as the Fusion monster, but do not share it with each other as the correct materials. / Tax +1',
+'Instant Fusion / Panzer Dragon',
+'Shaddoll Fusion / El Shaddoll Construct / Construct Constriction: Negate the effects of all face-up "El Shaddoll Construct" while they are face-up on the field during the Damage Step. This skill cannot be sold',
 ]
 
 }
