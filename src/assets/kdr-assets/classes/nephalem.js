@@ -21,7 +21,7 @@ export default {
 'Garoth, Lightsworn Warrior',
 'Thunder Dragon / Thunder Battery: “Thunder Dragon” in your possession can be treated as both a LIGHT or DARK monster.',
 'Chaos Seed',
-'Creeping Darkness / Allure of Darkness'',
+'Creeping Darkness / Allure of Darkness',
 'Duality / Tax +3',
 'Light of Redemption / Photon Lead',
 'Realm of Light / Pseudo-Space / Clear World / World War YGO (Once per Duel): You can destroy 1 Field Spell you control, add 1 Field Spell from your Deck to your hand. If you control a LIGHT and a DARK monster, the effect of “Clear World” does not affect you.',
