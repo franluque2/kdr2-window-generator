@@ -30,7 +30,7 @@ export default {
 'Guardian Grarl / Gravity Axe - Grarl',
 'Flowerdino',
 'Black Veloci / Element Saurus',
-'Gladiator Beast Gaiodiaz / Bracchio-raidus / Pragtical / Polymerization / DNA Splice: If you would Fusion Summon a Dinosaur monster, you can treat 2 Dinosaur monsters in your hand or that you control as the correct materials, ignoring summoning conditions. If your opponent controls more monsters than you, you can also banish Dinosaur monsters from your GY as material.',
+'Gladiator Beast Gaiodiaz / Bracchio-raidus / Pragtical / Polymerization / DNA Splice: If you would Fusion Summon a Dinosaur monster, you can treat 2 Dinosaur monsters in your hand or that you control as the correct materials, ignoring summoning conditions. If your opponent controls more monsters than you, you can also banish Dinosaur monsters from your GY as material.
 'Grenosaurus / Dinowrestler Valeonyx / Carboneddon / Galaxy Serpent',
 'Volcanic Eruption',
 'Spacetime Transcendence',
@@ -41,7 +41,7 @@ export default {
 'Dinomorphia Shell',
 'Survival\'s End / Crawling Dragon #2 / Two-Headed King Rex',
 'Lancephorhynchus',
-'World Dino Wrestling / Dinowrestler Eskrimamenchi / Dinowrestler Coelasilat / Dinowrestler Systeosaur / Dinowrestler Giga Spinosavate',
+'World Dino Wrestling / Dinowrestler Eskrimamenchi / Dinowrestler Coelasilat / Dinowrestler Systeosaur',
 'Dinowrestler Iguanodraka / Dinowrestler Martial Ankylo / Dinowrestler Capaptera / Dinowrestler Terra Parkourio / Dinowrestler Chimera T Wrextle / Tyrant Dino Fusion',
 'Dinowrestler Martial Anga / Dinowrestler Rambrachio / Dinowrestler Capoeiraptor / Dinowrestler Martial Ampelo / Dinowrestler King T Wrextle',
 'Giant Rex / Hyper Hammerhead',
@@ -49,8 +49,8 @@ export default {
 'Stegocyber',
 'Samurai Cavalry of Reptier',
 'Beatraptor',
-'Ultimate Conductor Tyranno / No Eclipse Here: "Ultimate Conductor Tyranno" on the field have their first 2 effects negated. This skill or “Ultimate Conductor Tyranno” cannot leave your inventory by any means.',
-'Hieratic Dragon King of Atum / Hieratic Dragon of Tefnuit / Hieratic Dragon of Su / Hieratic Dragon of Eset / Dinosaurs are just Flightless Dragons: Dragon and Dinosaur monsters in your possession can be treated as either Dragon or Dinosaur monsters.',
+'Ultimate Conductor Tyranno / No Eclipse Here: "Ultimate Conductor Tyranno" on the field have their first 2 effects negated. This skill or “Ultimate Conductor Tyranno” cannot leave your inventory by any means. / Tax +2',
+'Hieratic Dragon King of Atum / Hieratic Dragon of Tefnuit / Hieratic Dragon of Su / Hieratic Dragon of Eset / Dinosaurs are just Flightless Dragons: Dragon monsters in your possession are always treated as Dinosaur monsters and vice versa.',
 'Reprodocus / Agave Dragon',
 ],
     loot_high: [
