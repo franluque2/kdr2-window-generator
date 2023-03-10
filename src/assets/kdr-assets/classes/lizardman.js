@@ -11,7 +11,7 @@ export default {
     ],
     loot_poor: [
 'Worm Cartaros / Worm Warlord',
-'Gentlemander',
+'Lightserpent',
 'Night Sword Serpent',
 'Worm Ugly / Worm Prince / Worm Victory',
 'Worm King / Worm Zero / Polymerization / Worm Falco',

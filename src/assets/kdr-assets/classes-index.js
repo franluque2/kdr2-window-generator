@@ -1,6 +1,6 @@
 import pyromancer from './classes/pyromancer'
 import mage from './classes/mage'
-import dragon_rider from './classes/dragon_rider'
+import dragon_tamer from './classes/dragon_tamer'
 import fisherman from './classes/fisherman'
 import lizardman from './classes/lizardman'
 import necromancer from './classes/necromancer'
@@ -25,7 +25,9 @@ import trapper from './classes/trapper'
 import bird from './classes/bird'
 import velociraptor from './classes/velociraptor'
 import toymaker from './classes/toymaker'
+import nephalem from './classes/nephalem'
+import poltergeist from './classes/poltergeist'
 
 export default {
-    classes:[pyromancer,mage,dragon_rider,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,mimic,jester,pirate,trapper,bird,velociraptor,toymaker]
+    classes:[pyromancer,mage,dragon_tamer,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,mimic,jester,pirate,trapper,bird,velociraptor,toymaker,nephalem,poltergeist]
 };
