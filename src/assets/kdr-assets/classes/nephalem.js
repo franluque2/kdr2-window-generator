@@ -1,6 +1,6 @@
 export default {
     name: 'Nephalem',
-    icon: 'mdi-hammer-wrench',
+    icon: 'mdi-emoticon-devil',
     special:null,
     tip_min:11 ,
     tip_max:20,
