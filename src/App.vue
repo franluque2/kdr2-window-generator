@@ -80,7 +80,8 @@
                 {title: 'Blacklists and Tips', icon:'mdi-cash-multiple', to:'/blacklists'},
                 {title: 'Mass Add to Blacklist', icon:'mdi-playlist-plus', to:'/mass-blacklists'},
                 {title: 'Gambler Skill Roller', icon:'mdi-dice-1', to:'/gambler-gen'},
-                {title: 'Tax Tracker', icon:'mdi-abacus', to:'/tax-tracker'}
+                {title: 'Tax Tracker', icon:'mdi-abacus', to:'/tax-tracker'},
+                {title: 'Auction', icon:'mdi-gavel', to:'/auction'}
 
             ],
             right: null,

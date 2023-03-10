@@ -10,6 +10,7 @@ import SkillsGigaView from "../views/SkillsGigaView";
 import GamblerRollView from "../views/GamblerRollView";
 import MassBlacklistView from "../views/MassBlacklistView";
 import TaxTrackerView from "../views/TaxTrackerView";
+import AuctionView from "../views/AuctionView";
 
 Vue.use(VueRouter)
 
@@ -68,6 +69,11 @@ const routes = [
     path:'/tax-tracker',
     name:'tax-tracker',
     component:TaxTrackerView
+  },
+  {
+    path:'/auction',
+    name:'auction',
+    component:AuctionView
   }
 ]
 

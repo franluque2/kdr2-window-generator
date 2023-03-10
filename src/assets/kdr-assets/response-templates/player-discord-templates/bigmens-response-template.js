@@ -59,5 +59,27 @@ export default {
         '*High Quality* (generic_high_cost Gold):\n' +
         'high_loot_generic_1\n' +
         'high_loot_generic_2\n' +
-        '\n'
+        '\n',
+    template_auction:"**The auction is opening! Here is what you can bid on!**\n" +
+        '\n' +
+        "**Item 1!**\n" +
+        '\n' +
+        '\n' +
+        "high_loot_generic_1\n" +
+        "high_loot_generic_2\n" +
+        "\n" +
+        "**Item 2!**\n" +
+        "high_loot_generic_3\n" +
+        "high_loot_generic_4\n" +
+        '\n' +
+        "\n" +
+        "**Item 3!**\n" +
+        "skill_1\n" +
+        "\n" +
+        '\n' +
+        "**Remember folks- the special unique item will be revealed after all three items are sold or passed on!**\n" +
+        "\n" +
+        "**The Unique Item!**\n" +
+        '\n' +
+        "*A mysterious box sits on an illuminated pedestal!*\n"
 }
