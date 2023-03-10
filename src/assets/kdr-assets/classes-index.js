@@ -29,5 +29,5 @@ import nephalem from './classes/nephalem'
 import poltergeist from './classes/poltergeist'
 
 export default {
-    classes:[pyromancer,mage,dragon_tamer,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,mimic,jester,pirate,trapper,bird,velociraptor,toymaker,nephalem]
+    classes:[pyromancer,mage,dragon_tamer,fisherman,lizardman,necromancer,priest,warrior,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,mimic,jester,pirate,trapper,bird,velociraptor,toymaker,nephalem,poltergeist]
 };
