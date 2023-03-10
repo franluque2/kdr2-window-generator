@@ -10,7 +10,7 @@ export default {
         'Terrifying Battle Spirit: (Once per Duel): If your “Gaia” monster battles an opponent’s monster, you can change that monster to Defense position. “Gaia” monsters you control inflict piercing battle damage.',
 ],
     loot_poor: [
-'Marauding Captain',
+'Cyber Tutubon',
 'Skilled Blue Magician',
 'Gaia, the Polar Knight / Gaia, the Mid-Knight Sun',
 'Charging Gaia the Fierce Knight',
