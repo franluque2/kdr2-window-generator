@@ -40,6 +40,9 @@ export default
 'Dust Tornado / Tribute to the Doomed / Bait Doll',
 'Sphere Kuriboh / Rush Recklessly',
 'Galaxy Cyclone',
+'Number 30: Acid Golem of Destruction',
+'Number 47: Nightmare Shark',
+'Super Quantal Mech Beast Grampulse',
     ],
     loot_mid: [
 'Unexpected Dai / Link Spider / Scapegoat',
@@ -61,9 +64,11 @@ export default
 'Fairy Tail - Snow',
 'Attack Guidance Armor (OCG)',
 'Warning Point',
-'Parallel Exceed / Salamangreat Almiraj / Linkuriboh / Tax +2',
+'Parallel Exceed / Salamangreat Almiraj / Tax +2',
 'Underclock Taker / Decode Talker Extended / Tax +1',
 'Cyber Jar',
+'Level Eater / Quickdraw Synchron / Synchron Explorer / Junk Synchron / Quillbolt Hedgehog / Junk Warrior',
+'Super Quantal mech Beast Aeroboros',
     ],
     loot_high: [
 'Instant Fusion / Elder Entity Norden / Tax +1',
@@ -84,14 +89,17 @@ export default
 'Crystron Halqifibrax / Genex Undine / Genex Controller',
 'That Grass Looks Greener',
 'Slash Draw',
-'Sekkas Light / Draw of Sekka (Once per Duel): If you have only monsters in your deck, except for “Sekka’s Light”: You can discard 1 monster; add 1 “Sekka’s Light” from your Deck to your hand.',
+'Gallis the Star Beast / Sekkas Light / Draw of Sekka (Once per Duel): If you have only monsters in your deck, except for “Sekka’s Light”: You can discard 1 monster; add 1 “Sekka’s Light” from your Deck to your hand.',
 'Reasoning / Monster Gate',
 'Card of Demise',
 'Gold Sarcophagus',
 'Pot of Desires',
 'Triple Tactics Talents',
 'Brilliant Fusion / Gem-Knight Garnet / Gem-Knight Seraphinite / Performage Damage Juggler / Performage Trick Clown / Performage Hat Tricker',
-'Level Eater / Quickdraw Synchron / Synchron Explorer / Junk Synchron / Quillbolt Hedgehog / Junk Warrior',
+'Red-Eyes Flare Metal Dragon',
+'Gaia Dragon, the Thunder Charger',
+'Glow-Up Bulb / Linkuriboh / Tax +1',
+'Predaplant Verte Anaconda / Mudragon of the Swamp / Polymerization / Tax +1',
     ]
 
 }
