@@ -1,8 +1,36 @@
 export default {
     auctiontreasures: [
-
-        'Red Eyes Dark Dragoon',
-
-        'Destiny HERO Destroyer Phoenix Enforcer'
+'Gain 2 Skills!',
+'Gain 10 Treasures!',
+'Auction House Winner! (Once per Duel) (Once per turn) (Stackable): You can draw 1 card. Each stack of this skill lets you use it an additional time per Duel.',
+'Called by the Grave / D.D. Crow',
+'777! Wooo! Slots!: If you receive this skill, **choose** 3 of any Treasures to gain. This sells for 2 Gold.',
+'Main Phase 2?: You get two Shop Phases each round. You do them at the same time (but can only pick one Skill and one Treasure, this does not give you additional Shop Phase bonuses except for viewing two shops at the same time).',
+'Billionaire Generator: You gain 5 Gold for interest instead.',
+'The Manufactory: Gain a different class’ skill as a regular skill of your own. Change any instance of mentioning another “type” (like Plant monster) to the main type of your class.',
+'Smashing the Manticore (Once per Duel): You can reveal 1 “Smashing Ground” or “Fissure” in your hand; add 1 “Manticore of Smashing” from your Deck to your hand. This turn, you can Normal Summon “Manticore of Smashing” without tributing.',
+'Taking Gambler’s “Thing”: After you resolve a normal Spell/Trap card on your turn, you can flip a coin, and if it lands on heads, add that card from your GY to your hand.',
+'Mimicking Mimic: (Once per Run): You can play as if you were “The Mimic” for this Duel.',
+'Pot of Greed / Graceful Charity',
+'Mirror Force',
+'Drowning Mirror Force',
+'Quaking Mirror Force',
+'Torrential Tribute',
+'Giant Trunade',
+'Ultimate Offering',
+'Monster Reborn',
+'Soul Charge',
+'Borreload Dragon',
+'Knightmare Phoenix',
+'Saryuja Skulldread / Slash Draw',
+'Danger! Nessie / Danger!? Jackalope? / Danger!? Tsuchinoko?',
+'Spright Elf',
+'Predaplant Verte Anaconda / Red-Eyes Fusion / Red-Eyes Slash Dragon / Swordsman of Landstar / Red-Eyes Black Dragon',
+'Painful Choice',
+'Forbidden Chalice',
+'Adventure of Child: You can Normal Summon/Set monsters of any level. You cannot Tribute Summon unless a card specifies for its effect to tribute a certain number of monsters (e.g. "Gilford the Lightning"). You may only activate 1 Spell card per turn, 1 Trap card per turn, and only set 1 Spell/Trap card per turn.',
+'Sacrificial Arts: You can Normal Summon an additional time each turn, but each time you Normal Summon, you must pay 1000 LP. You can still use this effect even if you cannot pay the LP cost.',
+'Call of the Haunted / Birthright / Back to the Front',
+'Upstart Goblin / Ticklin’ for a Picklin’ (Once per Duel): You can add 1 “Upstart Goblin” from your Deck to your hand.',
 
     ]}
