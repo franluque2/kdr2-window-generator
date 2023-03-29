@@ -35,7 +35,6 @@ export default {
 'Blackwing - Elphin the Raven',
 'Raidraptor - Wild Vulture / Raidraptor - Skull Eagle / Raidraptor - Heel Eagle / Raidraptor - Pain Lanius / Raidraptor - Fiend Eagle',
 'Raidraptor - Vanishing Lanius / Raidraptor - Sharp Lanius / Raidraptor - Singing Lanius /  Raidraptor - Readiness / Raidraptor - Nest / Raidraptor - Rise Falcon / Tax +2',
-
 ],
     loot_mid: [
 'Blackwing - Kris the Crack of Dawn / Blackwing - Bora the Spear / Blackwing - Oroshi the Squall / Blackwing - Gram the Shining Star / Assault Blackwing - Sohaya the Rain Storm',
@@ -52,12 +51,13 @@ export default {
 'Lyrilusc - Celestine Wagtail / Lyrilusc - Turquoise Warbler / Lyrilusc - Cobalt Sparrow / Lyrilusc - Recital Starling / Lyrilusc - Bird Sanctuary',
 'Lyrilusc - Sapphire Swallow / Lyrilusc - Beryl Canary / Lyrilusc - Promenade Thrush / Lyrilusc - Bird Call',
 'Blackwing - Gale the Whirlwind / Blackwing - Blizzard the far North / Blackwing - Harmattan the Dust / Blackwing - Nothung the Starlight',
-'Blackwing - Shamal the Sandstorm / Blackwing - Sudri the Phantom Glimmer / Blackwing - Gladius the Midnight Sun / Blackwing - Obsidian Hawk Joe / Black Feather Whirlwind',
+'Blackwing - Shamal the Sandstorm / Blackwing - Sudri the Phantom Glimmer / Blackwing - Gladius the Midnight Sun / Blackwing Tamer - Obsidian Hawk Joe / Black Feather Whirlwind',
+
 ],
     loot_high: [
 'Simorgh, Bird of Perfection / Simorgh, Bird of Bringing / Simorgh Onslaught',
 'Simorgh, Bird of Beginning / Simorgh, Bird of Calamity / Simorgh, Bird of Divinity',
-'Elborz, the Sacred Lands of Simorgh / Dark Simorgh / A Dark Trade: (Once per turn): If you Tribute Summon a "Simorgh" monster, you can add any of the tributed monsters to your hand. The last effect of "Dark Simorgh" is negated. This Skill cannot leave your inventory by any means.',
+'Elborz, the Sacred Lands of Simorgh / Dark Simorgh / A Dark Trade: (Once per turn): If you Tribute Summon a "Simorgh" monster, you can add any of the tributed monsters to your hand. The last effect of "Dark Simorgh" is negated. This Skill cannot leave your inventory.',
 'Harpie Lady Elegance / Harpie\'s Pet Dragon - Fearsome Fire Blast',
 'Alluring Mirror Split / Hysteric Party',
 'Hraesvelgr, the Desperate Doom Eagle / Blackwing - Steam the Cloak',
