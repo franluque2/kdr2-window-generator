@@ -2,8 +2,8 @@ export default {
     name: 'Artificer',
     icon: 'mdi-hammer-wrench',
     special:null,
-    tip_min:11 ,
-    tip_max:20,
+    tip_min:15,
+    tip_max:21,
     class_skills: [
     'Flyby (Once per Duel): You can target 1 monster with a “Target” counter, banish it and 1 Machine monster from your hand or GY. During your End Phase, Special Summon both those monsters.',
     'Unionized (Once per turn): You can equip 1 appropriate Union monster from your hand or GY to a monster you control.',
