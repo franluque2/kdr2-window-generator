@@ -6,7 +6,7 @@ export default {
     tip_max:25,
     class_skills: [
         'A Suspicious Politician: (Once per turn): You can add 1 face-up Spell/Trap you control to your hand.',
-        'Dark Evolution: (Once per turn): If you use your Legendary Relic effect, you can Special Summon 1 Reptile monster whose Level is twice of what that monster had on the field instead.',
+        'Dark Evolution: (Once per Duel): You can Special Summon 1 monster with Ectothermic Cooling the turn it was placed in your Spell & Trap Zone.',
         'Worms are Reptiles, Probably: Gain the “Future Visions” skill. Add “Worm Ugly”, “Worm Prince”, “Worm Victory”, “Worm King”, “Worm Zero”, “Worm Falco”, “Worm Queen”, “Worm Solid”, “W Nebula Meteorite”, “Worm Erokin”, “Worm Warlord”, and “Worm Rakuyeh” from your loot to your inventory.'
     ],
     loot_poor: [
