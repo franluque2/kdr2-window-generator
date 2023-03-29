@@ -2,8 +2,8 @@ export default {
     name: 'Nephalem',
     icon: 'mdi-emoticon-devil',
     special:null,
-    tip_min:11 ,
-    tip_max:20,
+    tip_min:16,
+    tip_max:22,
     class_skills: [
     'Blinding Light (Once per turn) (Thrice per Duel): When you would banish a LIGHT and a DARK monster, you can banish an additional LIGHT monster, and if you do, you can send the top 3 cards of your Deck to your GY, then send 1 LIGHT monster from your Deck to the GY.',
     'Smothering Darkness (Once per turn) (Thrice per Duel): When you would banish a LIGHT and a DARK monster, you can banish an additional DARK monster, and if you do, you can send the top 3 cards of your Deck to your GY, then send 1 DARK monster from your Deck to the GY.',
