@@ -5,7 +5,7 @@ export default {
     tip_min:19,
     tip_max:26,
     class_skills: [
-    'Reverse the Proton Pack (Once per Duel): The next time you would excavate for your Unique Skill, you can instead draw 5 instead of excavating 5, but discard any non-Spirit cards.',
+    'Reverse the Proton Pack (Once per Duel): The next time you would use your Unique Skill, it has the following effect: You can excavate the top 5 cards of your Deck; Normal Summon 1 Spirit monster or non-Effect monster among them and add all remaining Spirit monsters and non-Effect monsters to your hand, also shuffle the rest back into your Deck.',
     'Ghost Trap Exchange (Once per turn): You can banish 1 Spirit monster from your GY to Normal Summon 1 monster.',
     'Ghost of Egon Spengler: If you Normal Summon a monster, place 1 “Miasma” counter on it. All monsters in your possession are Spirit monsters, and return from the field to your hand during the End Phase.'
     ],
