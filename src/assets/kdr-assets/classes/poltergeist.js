@@ -2,7 +2,7 @@ export default {
     name: 'Poltergeist',
     icon: 'mdi-ghost',
     special:null,
-    tip_min:13,
+    tip_min:19,
     tip_max:26,
     class_skills: [
     'Reverse the Proton Pack (Once per Duel): The next time you would excavate for your Unique Skill, you can instead draw 5 instead of excavating 5, but discard any non-Spirit cards.',
