@@ -48,7 +48,7 @@ export default {
 'Lumina, Lightsworn Summoner / Lumina, Twilightsworn Shaman',
 'Chaos Form / Magician of Black Chaos MAX',
 'Chaos Control (Once per turn): If you banish a LIGHT and a DARK monster: you can add 1 Trap Card from your Deck to your hand, then add 1 banished monster with the same Attribute as your current form (Darkform = Dark, Lightform = Light). You can only Special Summon five times per turn.',
-'Entropy Generator (Once per turn) (During your End Phase): You can send the top card of your Deck to the GY, then you can banish 1 LIGHT and 1 DARK monster from your GY to draw 2 cards, discard 2 cards. / Tax +1',
+'Entropy Generator (Once per Duel) (During your End Phase): You can send the top card of your Deck to the GY, then you can banish 1 LIGHT and 1 DARK monster from your GY to draw 2 cards, discard 2 cards. / Tax +1',
 'Elementsaber Lapauila / Elementsaber Malo / Elementsaber Nalu / Palace of the Elemental Lords',
 'Elementsaber Molehu / Elementsaber Makani / Elementsaber Aina / Elemental Training',
 'Illusion of Chaos / Magicians’ Souls',
