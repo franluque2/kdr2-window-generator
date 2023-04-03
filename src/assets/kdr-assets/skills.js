@@ -160,7 +160,7 @@ export default {
 'Strong Arm: (Once per Duel): You can make 1 monster your opponent controls declare an attack, or if it\'s in Defense Position, you can change it to Attack Position. Neither player takes battle damage this turn with battle involving that card.',
 
 
-'Ponder the Orbital: You can only play 1 copy of any card in your Deck. Add “Orbital Hydralander” to your Deck (permanently). At the start of the Duel, send the top 10 cards of your Deck to your GY, then add 1 “Orbital Hydralander” from your Deck or GY to your hand. During your End Phase: If “Orbital Hydralander” did not attack this turn, banish it face-down. 
+'Ponder the Orbital: You can only play 1 copy of any card in your Deck. Add “Orbital Hydralander” to your Deck (permanently). At the start of the Duel, send the top 10 cards of your Deck to your GY, then add 1 “Orbital Hydralander” from your Deck or GY to your hand. During your End Phase: If “Orbital Hydralander” did not attack this turn, banish it face-down.',
 
 'Lawnmower (Once per Duel): You can send the top card of your deck to the GY. Your opponent can then repeat this effect, but sends twice as many as the previous amount. Continue passing this choice with the number sent doubling until one player decides to stop.',
 
