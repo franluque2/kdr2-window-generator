@@ -22,7 +22,7 @@ export default {
 'Sorcerer of Dark Magic',
 'Ritual of Grace / Divine Grace - Northwemko / Pre-Preparation of Rites',
 'Crowley, the Magistus of Grimoires',
-'Dark Magician of Chaos',
+'Dark Magician of Chaos / Ledger of Ledgermain',
 'The Tricky',
 'Lyla, Lightsworn Sorceress',
 'Gravekeeper\'s Headman / Gravekeeper\'s Spirtualist / Gravekeeper\'s Priestess',
