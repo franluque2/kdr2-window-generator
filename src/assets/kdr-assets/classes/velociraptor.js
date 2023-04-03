@@ -30,7 +30,7 @@ export default {
 'Guardian Grarl / Gravity Axe - Grarl',
 'Flowerdino',
 'Black Veloci / Element Saurus',
-'Gladiator Beast Gaiodiaz / Bracchio-raidus / Pragtical / Polymerization / DNA Splice: If you would Fusion Summon a Dinosaur monster, you can treat 2 Dinosaur monsters in your hand or that you control as the correct materials, ignoring summoning conditions. If your opponent controls more monsters than you, you can also banish Dinosaur monsters from your GY as material.
+'Gladiator Beast Gaiodiaz / Bracchio-raidus / Pragtical / Polymerization / DNA Splice: If you would Fusion Summon a Dinosaur monster, you can treat 2 Dinosaur monsters in your hand or that you control as the correct materials, ignoring summoning conditions. If your opponent controls more monsters than you, you can also banish Dinosaur monsters from your GY as material.',
 'Grenosaurus / Dinowrestler Valeonyx / Carboneddon / Galaxy Serpent',
 'Volcanic Eruption',
 'Spacetime Transcendence',
