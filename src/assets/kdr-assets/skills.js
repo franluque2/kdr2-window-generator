@@ -1,6 +1,6 @@
 export default {
     skills: [
-      'Greed is Good? - Draw 2 cards for your Draw Phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase).',
+     'Greed is Good? - Draw 2 cards for your Draw Phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase).',
 
 
 'Chicken- (Once per Duel) Pay 500 LP: Draw 1 card. Your opponent can then pay 1000 LP to draw 1 card. Continue passing this choice with the LP cost doubling until one player decides to stop.',
@@ -90,7 +90,7 @@ export default {
 'Temporary Enhancements: During the Shop Phase, you can spend 1 Gold for 1 Stat Point (max of 3). Lose them at the end of the next Round.',
 
 
-'Chilly Shores (Once per Duel) (Stackable): Next turn, the next 2 times you take damage, that damage becomes 0. Each stack of this ability lets you activate this an additional time per Duel.',
+'Chilly Shores (Once per Duel): Next turn, the next 2 times you would take damage, or a monster you control would be destroyed by battle, you do not take damage or that monster is not destroyed. If it’s both, choose one.',
 
 
 'A Brilliant Birdy Boy (Once per Duel): If you activate a Normal Spell/Trap card, you can make the effect of that Spell/Trap also gain the effect of a Normal Spell/Trap card in your GY as well.',
@@ -128,9 +128,6 @@ export default {
 'Drafted for Battle: (Once per Duel): You can declare 1 type. For the rest of the Duel, all monsters you control can be treated as that type or as their original type.',
 
 
-'Me too!: During the Draw Phases, except during the first Draw Phase, if a player has less cards in their hand than their opponent, they can draw until each player has the same number of cards.',
-
-
 'Legendary Sacrifice: If your Legendary Monster is destroyed, draw 2 cards.',
 
 
@@ -154,7 +151,7 @@ export default {
 'Rainbow Energy: (Once per Duel): You can declare 1 attribute. For the rest of the Duel, all monsters you control are also treated as that attribute.',
 
 
-'Bingo Machine GO!! Token (Stackable): You can pick this skill any number of times. When you gain this skill, gain 6 Treasures! Each stack gives you an additional Treasure each time you pick Bingo Machine GO!! Token.',
+'Bingo Machine GO!! Token: When you gain this skill, gain 5 Treasures!',
 
 
 'Tank-Up: (Once per Duel) (During your Main Phase 1) (Stackable): You can switch all monsters you control to Defense Position, then, they gain 1500 DEF. Each stack of this skill lets you activate this an additional time per Duel.',
@@ -163,8 +160,7 @@ export default {
 'Strong Arm: (Once per Duel): You can make 1 monster your opponent controls declare an attack, or if it\'s in Defense Position, you can change it to Attack Position. Neither player takes battle damage this turn with battle involving that card.',
 
 
-'Ponder the Orbital: You must run your deck as all 1-ofs. Add “Orbital Hydralander” to your Deck (permanently). At the start of the Duel, send the top 10 cards of your Deck to your GY, then add 1 “Orbital Hydralander” from your Deck or GY to your hand. If “Orbital Hydralander” does not attack the turn it is Summoned, banish it face-down.',
-
+'Ponder the Orbital: You can only play 1 copy of any card in your Deck. Add “Orbital Hydralander” to your Deck (permanently). At the start of the Duel, send the top 10 cards of your Deck to your GY, then add 1 “Orbital Hydralander” from your Deck or GY to your hand. During your End Phase: If “Orbital Hydralander” did not attack this turn, banish it face-down. 
 
 'Lawnmower (Once per Duel): You can send the top card of your deck to the GY. Your opponent can then repeat this effect, but sends twice as many as the previous amount. Continue passing this choice with the number sent doubling until one player decides to stop.',
 
@@ -222,12 +218,42 @@ export default {
 'Straightened Priorities: You have Ignition Effect Priority (https://yugioh.fandom.com/wiki/Priority#Ignition_Effect_Priority).',
 
 
-'My Crazy New Link 1 Idea: (Once per Duel) If you Link Summon "Clara & Rushka, the Ventriloduo", you can add 1 Field Spell from yourDeck to your hand. (Add "Clara & Rushka, the Ventriloduo" to your inventory)',
+'My Crazy New Link 1 Idea: (Once per Duel) If you Link Summon "Clara & Rushka, the Ventriloduo", you can add 1 Field Spell from your Deck to your hand. (Add "Clara & Rushka, the Ventriloduo" to your inventory)',
 
 
-'Quest of Teenager: (Once per turn): You can reveal 1 Level 5 or higher monster; Normal Summon it without tributing. You can\'t reveal a monster with the same level of a previously revealed monster for the rest of the Duel.',
+'Quest of Young Adult: (Once per turn): You can reveal 1 Level 5 or higher monster; this turn you can Normal Summon that monster without tributing. You can\'t reveal a monster with the same level of a previously revealed monster for the rest of the Duel.',
 
 
 'Skill Veiler: (Once per Duel): You can negate 1 non-unique skill until the end of the next turn.',
+
+
+'Marvelous Meatball: The effect of "Nibiru, the Primal Being" is instead: "During the Main Phase, if your opponent Normal/Special Summoned 5 or more monsters this turn (Quick Effect): You can target 1 Effect Monster your opponent controls and return it to the hand; Special Summon this card from your hand." (Add "Nibiru, the Primal Being" to your inventory)',
+
+
+'Social Distancing: (Once per turn): During your Draw Phase, draw 1 card. Cards you control cannot be in adjacent columns (horizontal or vertical) to each other.',
+
+
+'Tactical Retreat (Once per Duel) (During the Battle Phase): You can pay half your LP to end the battle phase. If it’s Round 4 or higher, pay 7000LP.',
+
+
+'Entrance Exam (Once per Duel): You can add 1 “Duel Academy” from your Deck to your hand. (Once per turn): You can send 1 “Duel Academy” from your hand or field to the GY to activate one of the following effects (Add “Duel Academy”, “Polymerization”, “Yubel” and “A Hero Emerges” to your inventory):\n- Add 1 “Polymerization” or 1 “Fusion” Spell from your Deck to your hand.\n- Draw 1 card and reveal it, if it is a monster card, add it to your hand, otherwise, send it to the GY.\n- Reveal the top 3 cards of your Deck and add 1 Trap Card from among them to your hand, then send the rest to the GY.',
+
+
+'Exodia, Obliterate! (Once per turn) (During your Draw Phase): Send 1 “Forbidden One” card from your hand or Deck to the GY. (Once per turn): If you have all 5 pieces of Exodia in your GY, you can target 1 monster on the field; destroy it. (Add 1 of each of the pieces of Exodia to your Deck, permanently).',
+
+
+'My Wingman!: The effect of “Super Polymerization” is now: “Discard 1 card and send 1 monster from your Deck to your GY: Special Summon 1 “Flame Wingman” from your Extra Deck (this is treated as a Fusion Summon). (Once per turn): While you control "Flame Wingman", you can activate 1 "Skyscraper" from your Deck or GY, then Special Summon 1 “Ancient Gear Golem” to your opponent’s side of the field ignoring its summoning conditions. (Add 3 “Super Polymerization”, 3 “Flame Wingman” to your Deck, permanently. Add “Skyscraper” and “Ancient Gear GoleM” to your inventory.)',
+
+
+'Speed World: All Spell cards are treated as Speed Spell Cards and require 1 Speed Counter. During each player’s Standby Phase, both players gain 1 Speed Counter. If a player deals 1000 or more damage: they gain a Speed Counter. If a player takes 1000 or more damage: they lose a Speed Counter. Either player can remove Speed Counters of their own to apply one of the following effects:\n- 4 Counters: Inflict 1000 damage to your opponent.\n- 7 Counters: Draw 1 card.\n- 10 Counters: Destroy 1 card on the field.',
+
+
+'Utopic Goober: You can Xyz Summon “Number 39: Utopia” with monsters of any level (Add 3 “Number 39: Utopia” to your Extra Deck, permanently).',
+        
+
+'Furious Destruction Burst: (Once per Duel) (At the start of your Battle Phase) (Before your 3rd turn): You can Special Summon as many “Fusion Parasite Tokens” (Insect/DARK/Level 1/0 ATK/0 DEF) as possible to both player’s field: You can Xyz Summon 1 “Odd-Eyes Raging Dragon” using 1 monster you control, and its Xyz Material is treated as an Xyz Monster; immediately after this Skill resolves activate its effect, but the effect also destroys all other cards you control. Your opponent gains 1000 LP for each monster destroyed by the effect of "Odd-Eyes Raging Dragon". This turn, skip your MP2 (Add 1 “Odd-Eyes Raging Dragon” to your Extra Deck, permanently. You cannot Special Summon this monster except by the effect of this skill).',
+        
+        
+'Talkers, Decoded: (Once per turn): You can tribute 1 card “Decode Talker” points to draw 1 card, or if the tributed monster was Link Summoned, draw cards equal to its Link Rating.',
     ]
 }
