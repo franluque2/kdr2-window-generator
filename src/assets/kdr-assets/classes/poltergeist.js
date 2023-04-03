@@ -6,8 +6,8 @@ export default {
     tip_max:26,
     class_skills: [
     'Reverse the Proton Pack (Once per Duel): The next time you would use your Unique Skill, it has the following effect: You can excavate the top 5 cards of your Deck; Normal Summon 1 Spirit monster or non-Effect monster among them and add all remaining Spirit monsters and non-Effect monsters to your hand, also shuffle the rest back into your Deck.',
-    'Ghost Trap Exchange (Once per turn): You can banish 1 Spirit monster from your GY to Normal Summon 1 monster.',
-    'Ghost of Egon Spengler: If you Normal Summon a monster, place 1 “Miasma” counter on it. All monsters in your possession are Spirit monsters, and return from the field to your hand during the End Phase.'
+    'Ghost Trap Exchange (Once per turn): You can banish 1 Spirit monster or non-Effect monster from your GY to Normal Summon 1 Spirit monster or non-Effect monster.',
+    'Ghost of Egon Spengler: (Once per turn): You can discard 1 card; Normal Summon 1 monster, also, if you Normal Summon a monster this turn, place 1 “Miasma” counter on it.'
     ],
     loot_poor: [
 'Asura Priest',
@@ -20,7 +20,7 @@ export default {
 'Exchange of the Spirit',
 'Ghost Lancer, the Underworld Spearman',
 'Ghost Gardna / Ghost Knight of Jackal',
-'Ghost Ship / Traffic Ghost / Don’t Go Into the Light! (Once per Duel): If you control a Spirit monster: you can send 1 LIGHT monster from your Deck to your GY; add 1 “Ghost Ship” from your Deck to your hand.',
+'Ghost Ship / Traffic Ghost',
 'Great Long Nose',
 'Fenghuang',
 'Gundari / Inaba White Rabbit / Fushi No Tori',
@@ -63,7 +63,7 @@ export default {
 'Vanquish Soul Panthera / Vanquish Soul Pluton HG / Rock of Vanquisher',
 'Ghostrick Jiangshi / Ghostrick Mary / Ghostrick Yeti / Ghostrick Fairy / Ghostrick Mansion',
 'Ghostrick Jackfrost / Ghostrick Specter / Ghostrick Doll / Ghostrick Dullahan / Ghostrick Parade',
-'Yosenju Kama 1 / Yosenju Kama 2 / Yosenju Kama 3 / Yosenju Tsujik / Yosen Training Grounds / Wait are you not Spirits?: "Yosenju" monsters in your possession are treated as Spirit monsters.',
+'Yosenju Kama 1 / Yosenju Kama 2 / Yosenju Kama 3 / Yosenju Tsujik / Yosen Training Grounds',
 'Sword Emperor - Tsumuhakutsunagi / Tax +10',
 'Tenyi Spirit - Vishuda',
 ]
