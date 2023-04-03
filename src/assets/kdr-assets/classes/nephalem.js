@@ -2,8 +2,8 @@ export default {
     name: 'Nephalem',
     icon: 'mdi-emoticon-devil',
     special:null,
-    tip_min:11 ,
-    tip_max:20,
+    tip_min:16,
+    tip_max:22,
     class_skills: [
     'Blinding Light (Once per turn) (Thrice per Duel): When you would banish a LIGHT and a DARK monster, you can banish an additional LIGHT monster, and if you do, you can send the top 3 cards of your Deck to your GY, then send 1 LIGHT monster from your Deck to the GY.',
     'Smothering Darkness (Once per turn) (Thrice per Duel): When you would banish a LIGHT and a DARK monster, you can banish an additional DARK monster, and if you do, you can send the top 3 cards of your Deck to your GY, then send 1 DARK monster from your Deck to the GY.',
@@ -47,8 +47,8 @@ export default {
 'Jain, Twilightsworn General / Ryko, Lightsworn Hunter',
 'Lumina, Lightsworn Summoner / Lumina, Twilightsworn Shaman',
 'Chaos Form / Magician of Black Chaos MAX',
-'Chaos Control (Once per turn): If you banish a LIGHT and a DARK monster: you can add 1 Trap Card from your Deck to your hand, then add 1 banished monster with the same Attribute as your current form (Darkform = Dark, Lightform = Light). You can only Special Summon five times in a turn.',
-'Entropy Generator (Once per turn) (During the End Phase): You can send the top card of your Deck to the GY, then you can banish 1 LIGHT and 1 DARK monster from your GY to draw 2 cards, discard 1 card.',
+'Chaos Control (Once per turn): If you banish a LIGHT and a DARK monster: you can add 1 Trap Card from your Deck to your hand, then add 1 banished monster with the same Attribute as your current form (Darkform = Dark, Lightform = Light). You can only Special Summon five times per turn.',
+'Entropy Generator (Once per Duel) (During your End Phase): You can send the top card of your Deck to the GY, then you can banish 1 LIGHT and 1 DARK monster from your GY to draw 2 cards, discard 2 cards. / Tax +1',
 'Elementsaber Lapauila / Elementsaber Malo / Elementsaber Nalu / Palace of the Elemental Lords',
 'Elementsaber Molehu / Elementsaber Makani / Elementsaber Aina / Elemental Training',
 'Illusion of Chaos / Magicians’ Souls',
@@ -64,8 +64,8 @@ export default {
 'Incredible Ecclesia, the Virtuous / Fallen of Albaz / Despian Luluwalilith',
 'Mental Tuner / Chaos Ruler, the Chaotic Magical Dragon',
 'Manadome Riumheart / Manadome Hearless / Manadome Meek / Manadome Prime-Heart',
-'Chaos Mirage Dragon / Mirage Dragon / Dual Mirage: You can send 1 "Mirage Dragon" from your Deck to the GY to add 1 "Chaos Mirage Dragon" from your Deck to your hand. "Chaos Mirage Dragon" cannot activate its effect in the GY. This cannot leave your inventory by any means.',
-'Bystial Magnamhut / Bystial Saronir / Best Isles: The effects of “Bystial” monsters can only target monsters in your GY. This cannot leave your inventory by any means.',
+'Chaos Mirage Dragon / Mirage Dragon / Dual Mirage: You can send 1 "Mirage Dragon" from your Deck to the GY to add 1 "Chaos Mirage Dragon" from your Deck to your hand. "Chaos Mirage Dragon" cannot activate its effect in the GY. This Skill cannot leave your inventory.',
+'Bystial Magnamhut / Bystial Saronir / Best Isles: The effects of “Bystial” monsters can only target monsters in your GY. This Skill cannot leave your inventory.', 
 ]
 
 }

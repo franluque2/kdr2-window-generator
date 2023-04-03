@@ -56,14 +56,14 @@ export default {
 'Neiroy, the Dream Mirror Disciple / Neiroy, the Dream Mirror Traitor / Dream Mirror Phantasms / Tax +1',
 'Edge Imp Chain / Frightfur Patchwork',
 'Resh Shaddoll Incarnation',
-'Frightfur Leo / Edge Imp Saw / Frightfur Sabre-Tooth / Missing Piece: You cannot Fusion Summon "Frightfur Sabre-Tooth" using more than 2 Fusion Materials. This skill cannot be sold.',
+'Frightfur Leo / Edge Imp Saw / Frightfur Sabre-Tooth / Missing Piece: You cannot Fusion Summon "Frightfur Sabre-Tooth" using more than 2 Fusion Materials. This Skill cannot leave your inventory.',
 'Toon Bookmark / Toon Dark Magician / Toon Harpie Lady / Toon Page-Flip',
 'Toon Table of Contents / Toon Black Luster Soldier / Red-Eyes Toon Dragon',
 'Ikelos, the Dream Mirror Sprite / Ikelos, the Dream Mirror Mara / Morpheus, the Dream Mirror White Knight / Morpheus, the Dream Mirror Black Knight / Tax +1',
 'Wind-Up Magician / Wind-Up Shark / Wind-Up Rat / Wind-Up Rabbit / Wind-Up Factory / Wind-Up Zenmaister',
 'Cross-Sheep',
 'Instant Fusion / Panzer Dragon',
-'Shaddoll Fusion / El Shaddoll Construct / Construct Constriction: Negate the effects of all face-up "El Shaddoll Construct" while they are face-up on the field during the Damage Step. This skill cannot be sold',
+'Shaddoll Fusion / El Shaddoll Construct / Construct Constriction: Negate the effects of all face-up "El Shaddoll Construct" while they are face-up on the field during the Damage Step. This Skill cannot leave your inventory',
 ]
 
 }

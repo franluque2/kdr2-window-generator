@@ -17,7 +17,7 @@ export default {
 'Seismic Shockwave',
 'Water Dragon Cluster / Bonding D2O / Bonding - DHO / Chemical Loading! (Thrice per Duel) (During your End Phase): You can send 1 of either “Oxygeddon”, “Duoterion”, or “Hydrogeddon” from your Deck to the GY.',
 'Evoltile Westlo / Evoltile Gephyro / Evoltile Pleuro / Evolsaur Terias / Evolsaur Elias / Evolsaur Darwino / Evo-Force / Degen-Force / Evo-Prepping (Twice per Duel): You can reveal 1 “Evolsaur” or 1 “Evoltile” monster in your hand, send 1 Dinosaur type or Reptile type monster from your Deck to your GY, and if you do, you can add 1 “Evolsaur” or “Evoltile” monster or one Spell/Trap that mentions “Evolsaur” or “Evoltile” from your Deck to your hand.',
-'Evoltile Najasho / Evoltile Odonto / Evoltile Lagosucho / Evoltile Megachirella / Evolsaur Pelta / Evolsaur Vulcano / Evolsaur Diplo / Evolsaur Cerato / Evo-Diversity / Primordial Soup / Evo-Instant / Evo-Singularity / Evolzar Solda / Evolzar Laggia / Evolzar Dolkka / Faulty Evolution: Your “Evolzar” monsters cannot activate their effects or leave your inventory by any means. This skill cannot leave your inventory by any means. (Once per turn): You can discard 1 “Evoltile” monster and 1 “Evolsaur” monster; draw 3 cards.',
+'Evoltile Najasho / Evoltile Odonto / Evoltile Lagosucho / Evoltile Megachirella / Evolsaur Pelta / Evolsaur Vulcano / Evolsaur Diplo / Evolsaur Cerato / Evo-Diversity / Primordial Soup / Evo-Instant / Evo-Singularity / Evolzar Solda / Evolzar Laggia / Evolzar Dolkka / Faulty Evolution: Your “Evolzar” monsters cannot activate their effects or leave your inventory by any means. (Once per turn): You can discard 1 “Evoltile” monster and 1 “Evolsaur” monster; draw 3 cards. This skill cannot leave your inventory. ',
 'Re: EX',
 'Duel Academy',
 'Evilswarm Salamandra',
@@ -30,7 +30,7 @@ export default {
 'Guardian Grarl / Gravity Axe - Grarl',
 'Flowerdino',
 'Black Veloci / Element Saurus',
-'Gladiator Beast Gaiodiaz / Bracchio-raidus / Pragtical / Polymerization / DNA Splice: If you would Fusion Summon a Dinosaur monster, you can treat 2 Dinosaur monsters in your hand or that you control as the correct materials, ignoring summoning conditions. If your opponent controls more monsters than you, you can also banish Dinosaur monsters from your GY as material.',
+'Gladiator Beast Gaiodiaz / Bracchio-raidus / Pragtical / Polymerization / DNA Splice: If you would Fusion Summon a Dinosaur monster, you can treat 2 Dinosaur monsters in your hand or that you control as the correct materials, ignoring summoning conditions. If your opponent controls more monsters than you, you can also banish Dinosaur monsters from your GY as material.
 'Grenosaurus / Dinowrestler Valeonyx / Carboneddon / Galaxy Serpent',
 'Volcanic Eruption',
 'Spacetime Transcendence',
@@ -49,8 +49,8 @@ export default {
 'Stegocyber',
 'Samurai Cavalry of Reptier',
 'Beatraptor',
-'Ultimate Conductor Tyranno / No Eclipse Here: "Ultimate Conductor Tyranno" on the field have their first 2 effects negated. This skill or “Ultimate Conductor Tyranno” cannot leave your inventory by any means. / Tax +2',
-'Hieratic Dragon King of Atum / Hieratic Dragon of Tefnuit / Hieratic Dragon of Su / Hieratic Dragon of Eset / Dinosaurs are just Flightless Dragons: Dragon monsters in your possession are always treated as Dinosaur monsters and vice versa.',
+'Ultimate Conductor Tyranno / No Eclipse Here: "Ultimate Conductor Tyranno" on the field have their first 2 effects negated. This Skill cannot leave your inventory. / Tax +2',
+'Hieratic Dragon King of Atum / Hieratic Dragon of Tefnuit / Hieratic Dragon of Su / Hieratic Dragon of Eset / Dinosaurs are just Flightless Dragons: Dragon monsters in your possession can be treated as Dinosaur monsters and vice versa.',
 'Reprodocus / Agave Dragon',
 ],
     loot_high: [

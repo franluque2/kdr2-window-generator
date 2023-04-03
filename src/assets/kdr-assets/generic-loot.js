@@ -71,8 +71,6 @@ export default
 'Super Quantal mech Beast Aeroboros',
     ],
     loot_high: [
-'Instant Fusion / Elder Entity Norden / Tax +1',
-'Maxx "C"',
 'Mirror Force / Tax +1',
 'Battle Fader',
 'Bottomless Trap Hole / Tax +1',
@@ -89,7 +87,7 @@ export default
 'Crystron Halqifibrax / Genex Undine / Genex Controller',
 'That Grass Looks Greener',
 'Slash Draw',
-'Gallis the Star Beast / Sekkas Light / Draw of Sekka (Once per Duel): If you have only monsters in your deck, except for “Sekka’s Light”: You can discard 1 monster; add 1 “Sekka’s Light” from your Deck to your hand.',
+'Gallis the Star Beast / Sekkas Light / Draw of Sekka (Once per Duel): If you have only monsters in your Deck, except for “Sekka’s Light”: You can discard 1 monster and add 1 “Sekka’s Light” from your Deck to your hand.',
 'Reasoning / Monster Gate',
 'Card of Demise',
 'Gold Sarcophagus',
@@ -100,6 +98,9 @@ export default
 'Gaia Dragon, the Thunder Charger',
 'Glow-Up Bulb / Linkuriboh / Tax +1',
 'Predaplant Verte Anaconda / Mudragon of the Swamp / Polymerization / Tax +1',
+'Curious, the Lightsworn Dominion',
+'Naturia Cherries / Trishula Dragon of the Ice Barrier',
+'T.G. Striker / Brionac Dragon of the Ice Barrier',
     ]
 
 }

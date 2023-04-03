@@ -63,8 +63,8 @@ export default {
 'Uni-Zombie / Shiranui Squiresaga / Tax +1',
 'Vampire Retainer / Vampire\'s Desire / Vampire\'s Domain',
 'Shiranui Samurai',
-'Zombie World / Partial Zombification: While “Zombie World” is face-up on the field, monsters your opponent controls and in their GY do not become Zombie monsters, but are also treated as Zombie monsters instead. This skill or “Zombie World” cannot leave your inventory by any means.',
-'Shiranui Spectralsword / Shiranui Samuraisaga',        
+'Zombie World / Partial Zombification: While “Zombie World” is face-up on the field, monsters your opponent controls and in their GY do not become Zombie monsters, but are also treated as Zombie monsters instead. This Skill cannot leave your inventory.',
+'Shiranui Spectralsword / Shiranui Samuraisaga',       
     ]
 
 }
