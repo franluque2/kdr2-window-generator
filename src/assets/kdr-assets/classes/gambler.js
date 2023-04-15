@@ -58,13 +58,13 @@ export default {
 'Dice Dungeon / Dimension Dice / Tax +1',
 'Orgoth the Relentless / Summon Dice / That Six',
 'Instant Fusion / Time Wizard of Tomorrow',
-'Blowback Dragon / Gatling Dragon / Fusion Deployment / Tax +1',
+'Blowback Dragon / Gatling Dragon / Fusion Deployment / Tax +2',
 'Desperado Barrel Dragon',
 'Diced Dice / Sixth Sense',
 'The Claw of Hermos / Time Magic Hammer',
 'Snipe Hunter / Straight Sniping: (Once per turn): You can use the effect of "Snipe Hunter" without discarding once this turn.',
-'Heavy Metal Raiders / Cyberpsychosis: All monsters you control and in your GY are also treated as DARK Machine monsters.',
-'A Mystery Box Could Be Anything!: Buying random Loot Pools costs half as much. If you bought this loot randomly, receive 5 gold.',
-'Number 7: Lucky Straight / 7 Completed / 777: Each time you call a coin toss correctly, you can add 1 "7 Completed" from your Deck to your hand. (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material (add "7 Completed" to your inventory).'    
+'Number 7: Lucky Straight / 7 Completed / 777: Each time you call a coin toss correctly, you can add 1 "7 Completed" from your Deck to your hand. (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material (add "7 Completed" to your inventory).',
+'A Mystery Box Could Be Anything!: Buying random Generic Loot Pools costs half as much. If you bought this loot randomly, receive 5 gold.',
+'Heavy Metal Raiders / BM-4 Blast Spider',
     ]
 }
