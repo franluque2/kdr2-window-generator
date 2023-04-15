@@ -54,7 +54,7 @@ export default {
 'True King Bahrastos, the Fahtomer / Tax +2',
     ],
     loot_high: [
-'Icejade Tremora / Icejade Creation Aegirocassis / Icejade Erosion / Tax +1',
+'Icejade Tremora / Icejade Aegirine / Icejade Cenote Enion Cradle / Icejade Erosion / Crumbling Cradle: The second effect of "Icejade Cenote Enion Cradle" becomes "Once per turn, if your Normal or Special Summon a monster (except during the Damage Step): You can target 1 WATER monster you control and 1 monster your opponent controls; those monsters lose ATK equal to the original ATK of your targeted monster." This Skill cannot leave your inventory. / Tax +1',
 'Icejade Aegirine Rahn / Yorishiro of the Aqua / Mistar Boy',
 'Penguin Squire / Puny Penguin / Nightmare Penguin / Penguin Brave',
 'Fishborg Blaster / Glacial Beast Blizzard Wolf / Glacial Beast Iceberg Narwhal',
@@ -65,8 +65,7 @@ export default {
 'Tidal, Dragon Ruler of Waterfalls / Stream, Dragon Ruler of Droplets',
 'Whitefish Salvage / Superancient Deepsea King Coelacanth',
 'Poseidon Wave',
-'Icejade Creation Kingfisher / Great Icejade Manifestation / Tax +1',
-
+'Icejade Creation Kingfisher / Icejade Kosmochlor / Tax +1',
     ]
 
 }
