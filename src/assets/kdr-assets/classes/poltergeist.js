@@ -2,8 +2,8 @@ export default {
     name: 'Poltergeist',
     icon: 'mdi-ghost',
     special:null,
-    tip_min:19,
-    tip_max:26,
+    tip_min:21,
+    tip_max:28,
     class_skills: [
     'Reverse the Proton Pack (Once per Duel): The next time you would use your Unique Skill, it has the following effect: You can excavate the top 5 cards of your Deck; Normal Summon 1 Spirit monster or non-Effect monster among them and add all remaining Spirit monsters and non-Effect monsters to your hand, also shuffle the rest back into your Deck.',
     'Ghost Trap Exchange (Once per turn): You can banish 1 Spirit monster or non-Effect monster from your GY to Normal Summon 1 Spirit monster or non-Effect monster.',
@@ -54,17 +54,17 @@ export default {
 'Hebo, Lord of the River / The Spirits are Always Watching: Your non-effect monsters are treated as Spirit monsters, and return to your hand during the End Phase of the turn they are Normal Summoned or flipped face-up. (Once per turn): If you Normal Summon a non-effect monster, you can distribute 2 “Miasma” counters among your face-up monsters.',
 ],
     loot_high: [
-'Vanquish Soul Dr. Madlove / Vanquish Soul Heavy Borger / Stake Your Soul!',
+'Vanquish Soul Dr. Madlove (OCG) / Vanquish Soul Heavy Borger (OCG) / Stake Your Soul! (OCG)',
 'Aratama',
 'Nikitama',
 'Pre-Preparation of Rites / Shinobaron Peacock / Shinobaroness Peacock / Shinobird\'s Calling / Shinobird Power Spot / Bird Floo: "Shinobaron Peacock" and "Shinobaroness Peacock" cannot activate their trigger effects when Ritual Summoned. This Skill cannot leave your inventory.',
-'Vanquish Soul Razen / Vanquish Soul Kaiser Varius / Tax +2',
+'Performapal Skullcrobat Joker / Performapal Lizardraw / Performapal Guitartle / Performapal Gatlinghoul / Ghoulish Fusion: (Once per Duel): You can Fusion Summon "Performapal Gatlinghoul" using 2 Spirit monsters you control or in your Pendulum Zones.',
 'Yoko-Zuna Sumo Spirit / Kai-Den Kendo Spirit / Kuro-Obi Karate Spirit / Adreus, Keeper of Armageddon',
-'Vanquish Soul Panthera / Vanquish Soul Pluton HG / Rock of Vanquisher',
+'Vanquish Soul Razen (OCG) / Vanquish Soul Panthera (OCG) / Vanquish Soul Pluton HG (OCG)  / Rock of Vanquisher (OCG)',
 'Ghostrick Jiangshi / Ghostrick Mary / Ghostrick Yeti / Ghostrick Fairy / Ghostrick Mansion',
 'Ghostrick Jackfrost / Ghostrick Specter / Ghostrick Doll / Ghostrick Dullahan / Ghostrick Parade',
 'Yosenju Kama 1 / Yosenju Kama 2 / Yosenju Kama 3 / Yosenju Tsujik / Yosen Training Grounds',
-'Sword Emperor - Tsumuhakutsunagi / Tax +10',
+'Sword Emperor - Tsumuhakutsunagi (OCG) / Tax +10',
 'Tenyi Spirit - Vishuda',
 ]
 
