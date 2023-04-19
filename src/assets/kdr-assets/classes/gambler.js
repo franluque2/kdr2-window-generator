@@ -40,7 +40,7 @@ export default {
 'Imprisoned Queen Archfiend / Masterking Archfiend / Archfiend\'s Gambit: When you pick this loot, toss a coin and call it. If you call it right, receive all "Archfiend" Low Quality loot pools and the Perfected Pandemonium skill. If you call it wrong, receive all "Archfiend" Low Quality loot pools.',
 'Light Barrier / Fated Fortune: When you pick this loot, toss a coin and call it. If you call it right, receive all "Arcana Force" Low Quality loot pools and the Light of Destruction skill. If you call it wrong, receive all "Arcana Force" Low Quality loot pools.',
 'Arcana Reading / Gamble / Lucky Punch',
-'Couple of Aces / Cup Full of Aces: If you Special Summon "Couple of Aces", you can add up to 3 "Cup of Ace" from your Deck, or GY to your hand.',
+'Couple of Aces / Cup Full of Aces: (Once per Duel): If you Special Summon "Couple of Aces", you can add up to 3 "Cup of Ace" from your Deck, or GY to your hand.',
 'Silent Wolf Calupo / Number 85: Crazy Box',
 'Ordeal of a Traveler / Onikuji / Kingyo Sukui',
 'Dicephoon / Dangerous Machine Type-6 / Cuben',
