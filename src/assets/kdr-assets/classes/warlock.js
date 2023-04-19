@@ -36,7 +36,7 @@ export default {
 ],
     loot_mid: [
 'Tindangle Jhrelth / Tindangle Protector / Tindangle Intruder / Tindangle Dholes / Stairs of Mail / The Tindangler!: (Once per turn): If you control a "Tindangle" monster, you can move as many monsters as you want into a different Main Monster Zone of the player that controls them. All monsters on the field are treated as "Tindangle" monsters.',
-'Tindangle Angel / Tindangle Hound / Tindangle Trinity / Tindangle Base Gardna / Tindangle Delaunay / Tindangle Acute Cerberus / Tindangle Duality: "Tindangle Trinity"'s effect to prevent "Tindangle" monsters from being destroyed by Battle is negated. This Skill cannot leave your inventory',
+'Tindangle Angel / Tindangle Hound / Tindangle Trinity / Tindangle Base Gardna / Tindangle Delaunay / Tindangle Acute Cerberus / Tindangle Duality: "Tindangle Trinity"\'s effect to prevent "Tindangle" monsters from being destroyed by Battle is negated. This Skill cannot leave your inventory',
 'Zalamander Catalyzer',
 'Archfiend Heiress / Archfiend Palabyrinth',
 'Tour Guide from the Underworld / Catoblepas, Familiar of the Evil Eye / Basilius, Familiar of the Evil Eye / Evil Eye of Gorgoneio / Evil Eye Confrontaion / Gorgon, Empress of the Evil Eye',
