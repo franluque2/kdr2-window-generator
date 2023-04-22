@@ -45,7 +45,7 @@ export default {
 'Chaos Valkyria',
 'Chaos Witch / Ringowurm the Hundred Apple Dragon (OCG) / Chaos Goddess / Thought Ruler Archfiend / Tax +1',
 'Jain, Twilightsworn General / Ryko, Lightsworn Hunter',
-'Lumina, Lightsworn Summoner / Lumina, Twilightsworn Shaman',
+'Lumina, Lightsworn Summoner / Lumina, Twilightsworn Shaman / Charge of the Light Brigade',
 'Chaos Form / Magician of Black Chaos MAX',
 'Escape from the Dark Dimension / Chaos Phantasm / Red Dragon Archfiend / Chaos Control (Once per turn): If you banish a LIGHT and a DARK monster: you can add 1 Trap Card from your Deck to your hand, then you can add 1 banished monster with the same Attribute as a Legendary Monster you control. You can only Special Summon five times per turn.',
 'Entropy Generator (Once per Duel) (During your End Phase): You can send the top card of your Deck to the GY, then you can banish 1 LIGHT and 1 DARK monster from your GY to draw 2 cards, discard 2 cards. / Tax +1',
