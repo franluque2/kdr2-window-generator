@@ -63,7 +63,7 @@ export default {
 'Performapal Hip Hippo / Super Hippo Carnival / Performapal Laugh Maker',
 'Performapal Odd-Eyes Dissolver / Performapal Odd-Eyes Metal Claw',
 'Performapal Odd-Eyes Synchron / Odd-Eyes Meteorburst Dragon',
-'Double Iris Magician / Harmonizing Magician / Enlightenment Paladin / Tax +2'
+'Double Iris Magician / Harmonizing Magician / Enlightenment Paladin / Tax +2',
 'Performapal Radish Horse / Performapal Rain Goat',
 'Sky Iris / Odd-Eyes Pendulum Dragon / Rune-Eyes Pendulum Dragon',
 'Performapal Call',
