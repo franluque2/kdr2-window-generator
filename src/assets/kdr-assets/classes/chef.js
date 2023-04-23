@@ -25,7 +25,7 @@ export default {
 'Madolche Chickolates / Mardolche Marmalmaide',
 'Evigishki Merrowgeist',
 'Paladin of White Dragon / White Dragon Ritual / Blue-Eyes White Dragon / Blue-Eyes Abyss Dragon / Umommy Garnet: If you use “White Dragon Ritual”, you can instead send 1 “Blue-Eyes White Dragon” from your Deck to your GY as the entire Tribute. The effect of “Paladin of White Dragon” Special Summons 1 “Blue-Eyes” monster instead.',
-'Dark Magician / Illusion of Chaos / Magician\’s Robe / Magician of Black Chaos / Black Magic Ritual / Bitter Garnet: If you use “Black Magic Ritual”, you can instead send 1 “Dark Magician” from your Deck to your GY as the entire Tribute. You can Tribute 1 face-up “Magician of Black Chaos”; Special Summon 1 “Illusion of Chaos” from your hand. The effect of “Illusion of Chaos” does not negate monsters.',
+'Dark Magician / Illusion of Chaos / Magician\'s Robe / Magician of Black Chaos / Black Magic Ritual / Bitter Garnet: If you use “Black Magic Ritual”, you can instead send 1 “Dark Magician” from your Deck to your GY as the entire Tribute. You can Tribute 1 face-up “Magician of Black Chaos”; Special Summon 1 “Illusion of Chaos” from your hand. The effect of “Illusion of Chaos” does not negate monsters.',
 'Grapha, Dragon Lord of Dark World / Terrorking Salmon / Grappler Angler / Fisherman of the Dark Seas: “Grappler Angler” you control can attack directly. “Terrorking Salmon” you control gain the following effect: This is treated as a “Dark World” monster.',
 'Cyber Tutubon',
 'Prediction Princess Arrowsylph',
