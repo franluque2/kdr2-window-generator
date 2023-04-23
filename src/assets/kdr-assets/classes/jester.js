@@ -56,7 +56,7 @@ export default {
 ],
     loot_high: [
 'Performapal Monkeyboard',
-'Performapal Skullcrobat Joker'
+'Performapal Skullcrobat Joker',
 'Performapal Gentrude / Performapal Lady Ange',
 'Odd-Eyes Arc Pendulum Dragon / Spiral Flame Strike / Tax +2',
 'Performapal Guitartle / Performapal Lizardraw',
