@@ -28,7 +28,8 @@ import toymaker from './classes/toymaker'
 import nephalem from './classes/nephalem'
 import poltergeist from './classes/poltergeist'
 import hunter from './classes/hunter'
+import chef from './classes/chef'
 
 export default {
-    classes:[dragon_tamer,warrior,lizardman,mage,fisherman,necromancer,priest,pyromancer,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,jester,trapper,pirate,mimic,bird,velociraptor,toymaker,nephalem,poltergeist,hunter]
+    classes:[dragon_tamer,warrior,lizardman,mage,fisherman,necromancer,priest,pyromancer,artificer,miner,gardener,peasant,gambler,bug_catcher,esper,warlock,wizard,paladin,ritualist,cyborg,jester,trapper,pirate,mimic,bird,velociraptor,toymaker,nephalem,poltergeist,hunter,chef]
 };
