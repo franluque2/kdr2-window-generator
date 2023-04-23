@@ -58,7 +58,7 @@ export default {
 'Performapal Monkeyboard',
 'Performapal Skullcrobat Joker',
 'Performapal Gentrude / Performapal Lady Ange',
-'Performapal Call',
+'Odd-Eyes Arc Pendulum Dragon / Spiral Flame Strike / Tax +2',
 'Performapal Guitartle / Performapal Lizardraw',
 'Performapal Hip Hippo / Super Hippo Carnival / Performapal Laugh Maker',
 'Performapal Odd-Eyes Dissolver / Performapal Odd-Eyes Metal Claw',
@@ -66,7 +66,7 @@ export default {
 'Double Iris Magician / Harmonizing Magician / Enlightenment Paladin / Tax +2',
 'Performapal Radish Horse / Performapal Rain Goat',
 'Sky Iris / Odd-Eyes Pendulum Dragon / Rune-Eyes Pendulum Dragon',
-'Dragonpulse Magician / Oafdragon Magician',
+'Performapal Call',
 ]
 
 }

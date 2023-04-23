@@ -34,10 +34,10 @@ export default {
 'Buten',
     ],
     loot_mid: [
-'Ancient Leaf',
+'Ancient Leaf / Tax +1',
 'Manju of the Ten Thousand Hands / Cyber Angel Idaten / Cyber Angel Izana / Herald of Arc Light / Machine Angel Absolute Ritual / Preparation of Rites',
-'Fairy Tail - Rochka / Fairy Tail - Snow / Fairy Tail - Sleeper / Fairy Tail - Rella / Fairy Tail Tales / Fairy Tail - Luna / Fairy Furries: "Fairy Tail" monsters in your possession can also be treated as Fairy monsters.',
-'Gem-Knight Quartz / Gem-Knight Seraphinite / Brilliant Fusion',
+'Fairy Tail - Rochka / Fairy Tail - Sleeper / Fairy Tail - Rella / Fairy Tail Tales / Fairy Tail - Luna / Fairy Furries: "Fairy Tail" monsters in your possession can also be treated as Fairy monsters.',
+'Gem-Knight Quartz / Gem-Knight Seraphinite / Brilliant Fusion / Tax +1',
 'Chaos Valkyria',
 'Trias Hierarchia',
 'Star Seraph Scepter / Star Seraph Sword /Star Seraph Scale / Star Seraph Scout / Star Seraph Sovereignty / Number 102: Star Seraph Sentry',

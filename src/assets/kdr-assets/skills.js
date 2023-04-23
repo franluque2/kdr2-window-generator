@@ -1,6 +1,6 @@
 export default {
     skills: [
-     'Greed is Good? - Draw 2 cards for your Draw Phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase).',
+        'Greed is Good? - Draw 2 cards for your Draw Phase instead of 1, but, your hand-size limit is 0 for the end of turns (discard until you have 0 cards in your hand during the End Phase).',
 
 
 'Chicken- (Once per Duel) Pay 500 LP: Draw 1 card. Your opponent can then pay 1000 LP to draw 1 card. Continue passing this choice with the LP cost doubling until one player decides to stop.',
@@ -105,7 +105,7 @@ export default {
 'Super Smooth Talker: Your required tip amount is reduced by 10.',
 
 
-'Wicked Worship: You can Tribute Summon the Wicked God Cards for 2 Tributes instead of 3. (Add 1 each of the Wicked God Cards to your Deck, permanently).',
+'Wicked Worship: You can Tribute Summon the Wicked God Cards by tributing 2 monsters you control. (Add 1 each of the Wicked God Cards to your Deck, permanently).',
 
 
 'Tapped Potential: You can tribute 1 “Fiend Scorpion” to Special Summon 1 “Millennium Scorpion” from your hand or Deck, then you can add up to 2 Trap Card(s) from your Deck to your hand. “Millennium Scorpion” you control gain 1000 ATK for their effect instead of 500. (Add “Fiend Scorpion” and “Millennium Scorpion” to your inventory).',
@@ -159,9 +159,7 @@ export default {
 
 'Strong Arm: (Once per Duel): You can make 1 monster your opponent controls declare an attack, or if it\'s in Defense Position, you can change it to Attack Position. Neither player takes battle damage this turn with battle involving that card.',
 
-
-'Ponder the Orbital: You can only play 1 copy of any card in your Deck. Add “Orbital Hydralander” to your Deck (permanently). At the start of the Duel, send the top 10 cards of your Deck to your GY, then add 1 “Orbital Hydralander” from your Deck or GY to your hand. During your End Phase: If “Orbital Hydralander” did not attack this turn, banish it face-down.',
-
+        
 'Lawnmower (Once per Duel): You can send the top card of your deck to the GY. Your opponent can then repeat this effect, but sends twice as many as the previous amount. Continue passing this choice with the number sent doubling until one player decides to stop.',
 
 
@@ -177,7 +175,7 @@ export default {
 'Battle Boogy - Rise Up!: You can switch the position of monsters you control the turn they are Summoned, Set, or after they’ve battled.',
 
 
-'Fusion Festival!: (Once per turn): If you Fusion Summon a monster, you can add 1 “Polymerization” and 1 monster used as Fusion Material for that monster from your GY to your hand (add “Polymerization” and “Garura, Wings of Resonant Life” to your inventory permanently).',
+'Fusion Festival!: (Once per turn): If you Fusion Summon a monster, you can add 1 “Polymerization” and 1 monster used as Fusion Material for that monster from your GY to your hand (add “Polymerization” and “Garura, Wings of Resonant Life” to your inventory).',
 
 
 'Farmville (Stackable): You can only obtain this skill through the Shop Phase a single time. If you destroy an opponent’s monster by battle, gain a stack of this skill. This skill starts with 1 stack. Each stack of this skill gives you 100LP at the start of the duel. If you gain a stack of this skill, gain 100 LP.',
@@ -195,10 +193,7 @@ export default {
 'Switcher-oop: (Once per Run): You can swap the names of 1 non-base loot card in your inventory and 1 base loot card in your inventory (write the cards you changed in the description of this ability)!',
 
 
-'The 100 (Stackable): You can only obtain this skill through the Shop Phase a single time. If an opponent’s card leaves the field by battle, your card effect, or your skill effect, this skill gains a stack. This skill starts with 0 stacks. During your Shop Phase, if this skill has 100 stacks, you can destroy it to gain 2 skills and 10 Gold.',
-
-
-'In Debt: You can go negative in gold, up to -10. Interest is still in effect, but if you’re in the negative, you lose gold instead of gain gold for interest. You can only be affected by negative interest once, each time you go into the negative.',
+'The 100 (Stackable): You can only obtain this skill through the Shop Phase a single time. If an opponent’s card leaves the field by battle, card effect, or skill effect, this skill gains a stack. This skill starts with 0 stacks. During your Shop Phase, if this skill has 100 stacks, you can destroy it to gain 2 skills and 10 Gold.',
  
 'The Never Ending Story: At the start of the Duel, double the amount of bonus LP players gained from the Base LP Increase rule for each player. The base LP increase rule is mandatory while you have this skill. (Once per Duel): If your LP is lower than your opponent’s, you can draw 1 card per 1000 LP difference. Each player can activate this skill.',
 
@@ -245,15 +240,15 @@ export default {
 'My Wingman!: The effect of “Super Polymerization” is now: “Discard 1 card and send 1 monster from your Deck to your GY: Special Summon 1 “Flame Wingman” from your Extra Deck (this is treated as a Fusion Summon). (Once per turn): While you control "Flame Wingman", you can activate 1 "Skyscraper" from your Deck or GY, then Special Summon 1 “Ancient Gear Golem” to your opponent’s side of the field ignoring its summoning conditions. (Add 3 “Super Polymerization”, 3 “Flame Wingman” to your Deck, permanently. Add “Skyscraper” and “Ancient Gear GoleM” to your inventory.)',
 
 
-'Speed World: All Spell cards are treated as Speed Spell Cards and require 1 Speed Counter. During each player’s Standby Phase, both players gain 1 Speed Counter. If a player deals 1000 or more damage: they gain a Speed Counter. If a player takes 1000 or more damage: they lose a Speed Counter. Either player can remove Speed Counters of their own to apply one of the following effects:\n- 4 Counters: Inflict 1000 damage to your opponent.\n- 7 Counters: Draw 1 card.\n- 10 Counters: Destroy 1 card on the field.',
-
-
 'Utopic Goober: You can Xyz Summon “Number 39: Utopia” with monsters of any level (Add 3 “Number 39: Utopia” to your Extra Deck, permanently).',
-        
+
 
 'Furious Destruction Burst: (Once per Duel) (At the start of your Battle Phase) (Before your 3rd turn): You can Special Summon as many “Fusion Parasite Tokens” (Insect/DARK/Level 1/0 ATK/0 DEF) as possible to both player’s field: You can Xyz Summon 1 “Odd-Eyes Raging Dragon” using 1 monster you control, and its Xyz Material is treated as an Xyz Monster; immediately after this Skill resolves activate its effect, but the effect also destroys all other cards you control. Your opponent gains 1000 LP for each monster destroyed by the effect of "Odd-Eyes Raging Dragon". This turn, skip your MP2 (Add 1 “Odd-Eyes Raging Dragon” to your Extra Deck, permanently. You cannot Special Summon this monster except by the effect of this skill).',
-        
-        
-'Talkers, Decoded: (Once per turn): You can tribute 1 card “Decode Talker” points to draw 1 card, or if the tributed monster was Link Summoned, draw cards equal to its Link Rating.',
-    ]
+
+
+'Talkers, Decoded: (Once per turn): You can tribute 1 card “Decode Talker” points to draw 1 card, or if the tributed monster was Link Summoned, draw cards equal to its Link Rating. (Add "Decode Talker" to your inventory.)',
+
+
+'The Real Mystic Mine Out: Only 1 Field Spell can be face-up on the field at a time. If either player activates another Field Spell the previous one is destroyed.',
+  ]
 }

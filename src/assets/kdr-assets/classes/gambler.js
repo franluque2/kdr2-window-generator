@@ -40,7 +40,7 @@ export default {
 'Imprisoned Queen Archfiend / Masterking Archfiend / Archfiend\'s Gambit: When you pick this loot, toss a coin and call it. If you call it right, receive all "Archfiend" Low Quality loot pools and the Perfected Pandemonium skill. If you call it wrong, receive all "Archfiend" Low Quality loot pools.',
 'Light Barrier / Fated Fortune: When you pick this loot, toss a coin and call it. If you call it right, receive all "Arcana Force" Low Quality loot pools and the Light of Destruction skill. If you call it wrong, receive all "Arcana Force" Low Quality loot pools.',
 'Arcana Reading / Gamble / Lucky Punch',
-'Couple of Aces / Cup Full of Aces: If you Special Summon "Couple of Aces", you can add up to 3 "Cup of Ace" from your Deck, or GY to your hand.',
+'Couple of Aces / Cup Full of Aces: (Once per Duel): If you Special Summon "Couple of Aces", you can add up to 3 "Cup of Ace" from your Deck, or GY to your hand.',
 'Silent Wolf Calupo / Number 85: Crazy Box',
 'Ordeal of a Traveler / Onikuji / Kingyo Sukui',
 'Dicephoon / Dangerous Machine Type-6 / Cuben',
@@ -58,13 +58,13 @@ export default {
 'Dice Dungeon / Dimension Dice / Tax +1',
 'Orgoth the Relentless / Summon Dice / That Six',
 'Instant Fusion / Time Wizard of Tomorrow',
-'Blowback Dragon / Gatling Dragon / Fusion Deployment / Tax +1',
+'Blowback Dragon / Gatling Dragon / Fusion Deployment / Tax +2',
 'Desperado Barrel Dragon',
 'Diced Dice / Sixth Sense',
 'The Claw of Hermos / Time Magic Hammer',
 'Snipe Hunter / Straight Sniping: (Once per turn): You can use the effect of "Snipe Hunter" without discarding once this turn.',
-'Heavy Metal Raiders / Cyberpsychosis: All monsters you control and in your GY are also treated as DARK Machine monsters.',
-'A Mystery Box Could Be Anything!: Buying random Loot Pools costs half as much. If you bought this loot randomly, receive 5 gold.',
-'Number 7: Lucky Straight / 7 Completed / 777: Each time you call a coin toss correctly, you can add 1 "7 Completed" from your Deck to your hand. (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material (add "7 Completed" to your inventory).'    
+'Number 7: Lucky Straight / 7 Completed / 777: Each time you call a coin toss correctly, you can add 1 "7 Completed" from your Deck to your hand. (Once per Duel): You can Xyz Summon 1 "Number 7: Lucky Straight" using 3 "7 Completed" from your hand, field, or GY as material (add "7 Completed" to your inventory).',
+'A Mystery Box Could Be Anything!: Buying random Generic Loot Pools costs half as much. If you bought this loot randomly, receive 5 gold.',
+'Heavy Metal Raiders / BM-4 Blast Spider',
     ]
 }
