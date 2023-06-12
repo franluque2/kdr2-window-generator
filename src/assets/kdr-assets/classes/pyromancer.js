@@ -2,7 +2,7 @@ export default {
     name: 'Pyromancer',
     icon: 'mdi-fire',
     special:null,
-    tip_min:13,
+    tip_min:16,
     tip_max:25,
     class_skills: [
         'Guardian Firestorm (Once per Duel): While you have 4 or more FIRE monsters in your GY, you can add 1 “Royal Firestorm Guards” from your Deck to your hand. You can Normal Summon 1 FIRE monster in addition to your Normal Summon/Set. “Royal Firestorm Guards” you control gain 100 ATK/DEF for each FIRE monster in the GY.',
@@ -54,18 +54,18 @@ export default {
 
     ],
     loot_high: [
-'Pyrorex the Elemental Lord',
+'Volcanic Trooper / Volcanic Rimfire',
 'Volcanic Doomfire / Tri-Blaze Accelerator / Volcanic Scattershot / Wild Fire / Tax +1',
-'Duel Academy / Graveyard of Wandering Souls',
-'Cataclysmic Scorching Sunburner',
+'Duel Academy',
+'Cataclysmic Scorching Sunburner / Hiita the Fire Channeler',
 'Fire King Avatar Barong / Fire King Avatar Arvata / Fire King Island',
 'Fire King High Avatar Garunix / Onslaught of the Fire Kings',
-'Battlin\' Boxer Glassjaw / Battlin\' Boxer Switchitter / Battlin\' Boxer Sparrer / Battlin\' Boxer Counterpunch / Battlin\' Boxer Lead Yoke',
+'Battlin\' Boxer Uppercutter / Battlin\' Boxer Glassjaw / Battlin\' Boxer Switchitter / Battlin\' Boxer Sparrer / Battlin\' Boxer Counterpunch / Battlin\' Boxer Lead Yoke',
 'Number 60: Dugares the Timeless / Lavalval Chain / Tax +1',
 'True King Agnimazud, the Vanisher / Tax +2',
 'Blaster, Dragon Ruler of Infernos / Tax +2',
-'Magic Planter / Pot of Avarice',
-'Fire Ant Ascator / Ascator, Dawnwalker / Sun Dragon Inti',
+'Battlin\' Boxer Big Bandage / Battlin\' Boxer Veil / Battlin\' Boxer Headgeared / Battlin\' Boxer Promoter / Number 79: Battlin\' Boxer Nova Kaiser / Battlin\' Boxer King Dempsey',
+'Volcanic Emperor / Emperor Time: "Volcanic Emperor" on the field have their effects negated. This Skill cannot leave your inventory.',
 ]
 
 }
