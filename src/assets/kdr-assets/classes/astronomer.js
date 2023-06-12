@@ -54,7 +54,7 @@ export default {
 'Kozmo Strawman / Kozmo Delta Shuttle',
 ],
     loot_high: [
-'Starry Knight Astel / Starry Knight Arrival / Starry Night, Starry Dragon,'
+'Starry Knight Astel / Starry Knight Arrival / Starry Night, Starry Dragon',
 'Jet Synchron / Jet Warrior',
 'Stardust Synchron / Stardust Trail / Stardust Illumination / Stardust Charge Warrior',
 'Kozmo Dark Destroyer / Kozmo Soartroopers / Level Eater',
@@ -62,7 +62,7 @@ export default {
 'Shooting Quasar Dragon / Formula Synchron / Righty Driver / Lefty Driver',
 'Revolution Synchron / Doppelwarrior / Tuning / Ancient Fairy Dragon / Starlight Junktion / Synchro World',
 'Crystron Halqifibrax / Crystron Quan / Crystron Entry / Crystron Quandax / Crystron Ametrix / Crystron Time-Space Drive: “Crystron Halqifibrax” must be Link Summoned using at least 1 “Crystron” monster. Also, “Crystron Halqifibrax” is treated as a Machine-Type Synchro Monster for the effects of the “Crystron” monsters. This Skill cannot leave the inventory.',
-'Crystron Phoenix / Crystron Citree / Crystron Thystvern / Crystron Sulfefnir / Crystron Smiger / Crystron Prasiortle / Clipped Wings: The effect of “Crystron Phoenix” when it's Synchro Summoned banishes 1 Spell/Trap card on the field and in the GY instead. This Skill cannot leave the inventory.',
+'Crystron Phoenix / Crystron Citree / Crystron Thystvern / Crystron Sulfefnir / Crystron Smiger / Crystron Prasiortle / Clipped Wings: The effect of “Crystron Phoenix” when it\'s Synchro Summoned banishes 1 Spell/Trap card on the field and in the GY instead. This Skill cannot leave the inventory.',
 'Brionac, Dragon of the Ice Barrier / Dewloren, Tiger King of the Ice Barrier / Colossal Fighter',
 'Beckoned by the World Chalice / Chosen by the World Chalice / Crowned by the World Chalice / World Legacy - "World Chalice" / Ib the World Chalice Justiciar',
 'The Crimson Dragon / Synchro Over Top / Duelist Genesis',
