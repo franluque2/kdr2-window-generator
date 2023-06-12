@@ -64,7 +64,7 @@ export default {
 'Dynatherium / Diamond Dire Wolf',
 'Tri-Brigade Kitt / Tri-Brigade Bearbrumm the Rampant Rampager / Tri-Brigade Rendezvous / Beast Rage',
 'Tri-Brigade Ferrijit the Barren Blossom / Tri-Brigade Revolt',
-'Guardian Chimera / Tax +3',
+'Behemoth the King of All Wars / Urua the Magic Star',
 'Crystal Beast Rainbow Dragon / Rainbow Dragon / Awakening of the Crystal Ultimates / Rainbow Bridge / Crystal Bond / Hidden Gems: Add all Low Quality "Crystal Beast" loot pools to your inventory.',
 'Fabled Marcosia / The Fabled Cerburrel / The Fabled Abanc / Fabled Lurrie / Fabled Ragin / Fabled Hunting: "Fabled" monsters in your possession can be treated as Beast monsters or as their original type.',
 ]
