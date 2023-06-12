@@ -35,8 +35,8 @@ export default {
 'Really Poor due to Low Employment: Gain a Treasure.',
 ],
     loot_mid: [
-'Krebons / Pandaborg',
-'Kozmoll Wickedwitch',
+'Gold Pride - Captain Carrie / Gold Pride - Chariot Carrie / Gold Pride - It\'s Neck and Neck!',
+'Gold Pride - Leon / Gold Pride - Star Leon / Gold Pride - Better Luck Next Time!',
 'Foolish Burial Goods / Metalfoes Fusion',
 'Mind Master',
 'Time Thief Chronocorder / Time Thief Regulator / Time Thief Bezel Ship / Time Thief Startup',
@@ -47,10 +47,9 @@ export default {
 'Psychic Fervor',
 'ESP Amplifier',
 'Hyper Psychic Blaster / Thought Ruler Archfiend / Hyper Psychic Riser',
-'Kozmo Soartroopers / Kozmoll Dark Lady',
+'Gold Pride - Nytro Head / Gold Pride - Nytro Blaster / Gold Pride - That Came Out of Nowhere!',
 'Miracle Synchro Fusion / Ultimate Axon Kicker',
 'Gravity Controller',
-
 ],
     loot_high: [
 'Emergency Teleport / Psychic Wheeleder / Tax +2',
