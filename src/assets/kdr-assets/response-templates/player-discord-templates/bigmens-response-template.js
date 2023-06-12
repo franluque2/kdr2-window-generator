@@ -46,17 +46,17 @@ export default {
         '\n'+
         '**Generic Loot!** (This is loot any class can get)'+
             '\n' +
-        '*Low Quality* (generic_low_cost Gold):\n' +
+        '*Staples* (generic_low_cost Gold):\n' +
         'poor_loot_generic_1\n' +
         'poor_loot_generic_2\n' +
         'poor_loot_generic_3\n' +
         '\n' +
-        '*Medium Quality* (generic_mid_cost Gold):\n' +
+        '*Removal/Disruption* (generic_mid_cost Gold):\n' +
         'med_loot_generic_1\n' +
         'med_loot_generic_2\n' +
         'med_loot_generic_3\n' +
         '\n' +
-        '*High Quality* (generic_high_cost Gold):\n' +
+        '*Engine* (generic_high_cost Gold):\n' +
         'high_loot_generic_1\n' +
         'high_loot_generic_2\n' +
         '\n',
