@@ -30,21 +30,21 @@
         <br>
 
         <div class="red">Generic Loot</div>
-        <div class="brown">Loot (Low Quality, {{game_variables.loot_costs.generic.low}} Gold)</div>
+        <div class="brown">Loot (Staples, {{game_variables.loot_costs.generic.low}} Gold)</div>
         <div class="text--primary">
             <v-textarea v-text="loot_poor_generic_1"/>
             <v-textarea v-text="loot_poor_generic_2"/>
             <v-textarea v-text="loot_poor_generic_3"/>
         </div>
         <br>
-        <div class="green">Loot (Medium Quality, {{game_variables.loot_costs.generic.mid}} Gold)</div>
+        <div class="green">Loot (Removal/Disruption, {{game_variables.loot_costs.generic.mid}} Gold)</div>
         <div class="text--primary">
             <v-textarea v-text="loot_mid_generic_1"/>
             <v-textarea v-text="loot_mid_generic_2"/>
             <v-textarea v-text="loot_mid_generic_3"/>
         </div>
         <br>
-        <div class="yellow">Loot (High Quality, {{game_variables.loot_costs.generic.high}} Gold)</div>
+        <div class="yellow">Loot (Engine, {{game_variables.loot_costs.generic.high}} Gold)</div>
         <div class="text--primary">
             <v-textarea v-text="loot_high_generic_1"/>
             <v-textarea v-text="loot_high_generic_2"/>
