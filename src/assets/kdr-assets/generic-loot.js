@@ -37,7 +37,7 @@ export default
 'Dust Tornado / Bait Doll',
 'Twin Twisters',
 'Galaxy Cyclone',
-'Cosmic Cyclone'
+'Cosmic Cyclone',
 'Night Beam',
 'Hammer Shot',
 'Shield Crush',
