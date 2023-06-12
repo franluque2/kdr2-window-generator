@@ -43,7 +43,7 @@ export default {
 'Fluffal Sheep / Edge Imp Scythe / Scythe and Dice: If you would activate the effect of "Edge Imp Scythe", you can discard it and use Patchwork instead. / Tax +1',
 'Keeper of Dragon Magic / Dark Magician / Amulet Dragon',
 'Frightfur Meister / Fluffal Cat / Suture Rebirth',
-'Wind-Up Magician / Wind-Up Shark / Wind-Up Rat / Wind-Up Zenmaintenance / Wind-Up Zenmaity / Wind-Up Zenmaines',
+'Wind-Up Magician / Wind-Up Shark / Wind-Up Rat / Wind-Up Zenmaintenance / Wind-Up Zenmaines',
 'Frightfur March / Frightfur Repair / Frightfur Chimera',
 'Toy Parade / Designer Frightfur',
 'Elemental HERO Blazeman / Elemental HERO Necroshade / Elemental HERO Wildheart / Elemental HERO Bladedge / Elemental HERO Wildedge / A Hero Lives',
