@@ -2,7 +2,7 @@ export default {
     name: 'Pirate',
     icon: 'fa-skull-crossbones',
     special:null,
-    tip_min:15,
+    tip_min:18,
     tip_max:23,
     class_skills: [
         'Bountiful Booty: You get 6 Treasures each Shop Phase instead of 3.',
