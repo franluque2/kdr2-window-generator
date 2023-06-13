@@ -3,9 +3,9 @@ export default {
         {
             generic:
                 {
-                    low: 2,
-                    mid: 3,
-                    high: 8,
+                    low: 3,
+                    mid: 4,
+                    high: 6,
                 },
             class_loot:
                 {
