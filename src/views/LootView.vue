@@ -206,10 +206,6 @@
         playerfilter(player){
             return (player.classid===this.selectedItem)
         },
-          onchangekdr: function (kdr){
-        console.log(kdr)
-          this.selectedkdr=kdr.playerid
-        },
             generate_loot: function (kdr_class) {
                 
                 const selecteditem=this.selectedItem;
@@ -418,8 +414,15 @@
 
 
         },
-      mounted(){
-        this.kdrs=this.players.filter(this.playerfilter);
+      async mounted(){
+          let kdrarray=[]
+        let promisedkdr=await db.ref('players').once('value')
+        let finishedkdrs=await promisedkdr.val();
+        Object.keys(finishedkdrs).forEach((key) => {
+          kdrarray.push(finishedkdrs[key]);
+        });
+        this.kdrs=kdrarray.filter(this.playerfilter)
+        console.log(kdrarray)
       }
     }
 </script>
