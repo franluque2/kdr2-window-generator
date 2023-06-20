@@ -4,25 +4,48 @@
             <v-col cols="4">
                 <v-card>
                     <v-container>
-                        <v-list shaped>
-                            <v-subheader>KDRS</v-subheader>
-                            <v-list-item-group
-                                    v-model="selectedkdr"
-                                    color="primary"
-                            >
-                                <v-list-item
-                                        v-for="(item, i) in players.filter(playerfilter)"
-                                        :key="i"
-                                >
-                                    <v-list-item-icon>
-                                        <v-img  :src="'/avatars/kdr' + i.toString() + '.jpg'" height="120px" width="80px"></v-img>
-                                    </v-list-item-icon>
-                                    <v-list-item-content>
-                                        <v-list-item-title v-text="i+1"></v-list-item-title>
-                                    </v-list-item-content>
-                                </v-list-item>
-                            </v-list-item-group>
-                        </v-list>
+                          <v-select
+                              v-model="selectedkdr"
+                              :items="kdrs"
+                              label="Select KDR"
+                              item-value="playerid"
+                          >
+                            <template v-slot:selection="{ item }">
+                              <v-list-item-icon>
+                                <v-img  :src="'/avatars/kdr' + item.playerid + '.jpg'" height="120px" width="80px"></v-img>
+                              </v-list-item-icon>
+                              <v-list-item-title v-text="item.playerid+1"></v-list-item-title>
+
+                            </template>
+                            <template v-slot:item="{ item }">
+                              <v-img  :src="'/avatars/kdr' + item.playerid + '.jpg'" height="120px" width="80px"></v-img>
+                              <v-list-item-title v-text="'KDR '+ (item.playerid+1)"></v-list-item-title>
+
+                            </template>
+                          </v-select>
+<!--                        <v-menu-->
+<!--                            :close-on-content-click="false"-->
+<!--                            style="z-index: 12"-->
+<!--                        >-->
+<!--                            <template v-slot:activator="{ on }">-->
+<!--                            <v-btn-->
+<!--                                    color="primary"-->
+<!--                                    v-on="on"-->
+<!--                            >-->
+<!--                                Select KDR, Current KDR: {{selectedItem+1}}-->
+<!--                            </v-btn>-->
+<!--                            </template>-->
+<!--                                <v-list-item-->
+<!--                                        v-for="(item, i) in players.filter(playerfilter)"-->
+<!--                                        :key="i"-->
+
+<!--                                >-->
+<!--                                    <v-list-item-icon>-->
+<!--                                        <v-img  :src="'/avatars/kdr' + i.toString() + '.jpg'" height="120px" width="80px"></v-img>-->
+<!--                                    </v-list-item-icon>-->
+<!--                                  <v-list-item-title v-text="i+1"></v-list-item-title>-->
+<!--                                </v-list-item>-->
+<!--                        </v-menu>-->
                     </v-container>
                 </v-card>
                 <v-card>
@@ -174,6 +197,7 @@
             selectedkdr:0,
             selectedclassspecial:null,
             selectedclasstext:null,
+            kdrs:[],
         }),
     firebase: {
         players: db.ref('players')
@@ -182,12 +206,16 @@
         playerfilter(player){
             return (player.classid===this.selectedItem)
         },
+          onchangekdr: function (kdr){
+        console.log(kdr)
+          this.selectedkdr=kdr.playerid
+        },
             generate_loot: function (kdr_class) {
                 
                 const selecteditem=this.selectedItem;
                 const selectedkdr=this.selectedkdr;
                 this.blacklist=this.players.filter(function (player){return player.classid===selecteditem}).find(function(player){return player.playerid===selectedkdr}).blacklist.split('\n');
-
+                console.log(this.selectedkdr)
                 let difference_loot_poor_class = kdr_class.loot_poor.filter(x => !this.blacklist.includes(x));
                 let difference_loot_mid_class = kdr_class.loot_mid.filter(x => !this.blacklist.includes(x));
                 let difference_loot_high_class = kdr_class.loot_high.filter(x => !this.blacklist.includes(x));
@@ -389,7 +417,10 @@
             }
 
 
-        }
+        },
+      mounted(){
+        this.kdrs=this.players.filter(this.playerfilter);
+      }
     }
 </script>
 

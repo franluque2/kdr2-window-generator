@@ -146,7 +146,8 @@
             key: 0,
             blacklist:'',
             tip_to_add:0,
-            db:db
+            db:db,
+
 
         }),
         firebase: {
@@ -167,7 +168,7 @@
                         )){
                 db.ref('players/').remove();
                 for (let j = 0; j < this.items.length; j++) {
-                    for (let i = 0; i < 2; i++) {
+                    for (let i = 2; i < 8; i++) {
                         let max_tip=this.items[j].tip_max;
                         let min_tip=this.items[j].tip_min;
                        db.ref("players").push({
