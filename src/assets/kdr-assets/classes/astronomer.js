@@ -38,8 +38,8 @@ export default {
 ],
     loot_mid: [
 'Crystron Phoenix / Crystron Citree / Crystron Thystvern / Crystron Sulfefnir / Crystron Smiger / Crystron Prasiortle / Clipped Wings: The effect of “Crystron Phoenix” when it\'s Synchro Summoned banishes 1 Spell/Trap card on the field and in the GY instead. This Skill cannot leave the inventory.',
-'B.E.S. Big Core MK-2 / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: “B.E.S. monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
-'B.E.S. Big Core / B.E.S. Crystal Core / B.E.S. Tetran / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: “B.E.S. monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
+'B.E.S. Big Core MK-2 / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: "B.E.S." monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
+'B.E.S. Big Core / B.E.S. Crystal Core / B.E.S. Tetran / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: "B.E.S." monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
 'Synchron Explorer / Quickdraw Synchron / Unknown Synchron / Road Warrior / Nitro Warrior / Drill Warrior',
 'Satellite Synchron / Armory Arm',
 'Junk Archer / Junk Berserker / Junk Defender',
