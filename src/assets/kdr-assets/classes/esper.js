@@ -14,7 +14,7 @@ export default {
 'Magical Android',
 'Heraldic Beast Leo / Heraldic Beast Eale / Heraldic Beast Twin-Headed Eagle / Heraldic Beast Amphisbaena / Number 8: Heraldic King Genom-Heritage',
 'Heraldic Beast Unicorn / Heraldic Beast Basilisk / Heraldic Beast Aberconway / Number 18: Heraldry Patriarch / Number 69: Heraldry Crest / Charged-Up Heraldry',
-'Number C69: Heraldry Crest of Horror / Heraldry Change / Augmented Heraldry / Advanced Heraldry Art / Heraldry Reborn / Rank-Up-Magic Barian's Force / Big Brain Time: All “Heraldic” monsters in your possession are also all Psychic types.',
+'Number C69: Heraldry Crest of Horror / Heraldry Change / Augmented Heraldry / Advanced Heraldry Art / Heraldry Reborn / Rank-Up-Magic Barian\'s Force / Big Brain Time: All “Heraldic” monsters in your possession are also all Psychic types.',
 'Short-staffed: Gain a skill.',
 'Winda, Priestess of Gusto / Gusto Egul / Kamui, Hope of Gusto / Gusto Gulldo / Gusto Falco / Daigusto Falcos',
 'Gusto Codor / Gusto Squirro / Windaar, Sage of Gusto / Daigusto Eguls / Daigusto Laplampilica / Gusto Vedir / Gusto Thunbolt / Reeze, Whirlwind of Gusto / Caam, Serenity of Gusto',
