@@ -2,10 +2,10 @@ export default {
     name: 'Stormtrooper',
     icon: 'mdi-hard-hat',
     special:null,
-    tip_min:1,
-    tip_max:9,
+    tip_min:5,
+    tip_max:13,
     class_skills: [
-    'Aimed Shot: (Once per Duel): Negate your Unique Skill until the end of the turn.',
+    'Aimed Shot: (Once per Duel): Negate your Unique Skill until a monster you control battles this turn.',
     'Jedi Stormtrooper?? CANON?? DISNEY????: (Once per Duel): You can banish 1 monster on the field until the 2nd Standby Phase after this skill’s effect activation.',
     'TR8T0R: (Once per turn): If you destroy an opponent\'s monster by battle, you can Special Summon it.'
     ],
