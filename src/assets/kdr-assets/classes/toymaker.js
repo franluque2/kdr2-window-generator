@@ -56,9 +56,9 @@ export default {
     loot_high: [
 'Fluffal Bear / Fluffal Wings / Fluffal Dolphin / Toy Vendor / Foolish Burial Goods',
 'Elemental HERO Magma Neos / Elemental HERO Nebula Neos / Elemental HERO Air Neos / Elemental HERO Aqua Neos / Neo Space / Rip in Neo Spacetime: If a "Neos" Fusion monster would shuffle itself into the Extra Deck it is banished instead. This Skill cannot leave your inventory.',
-'Edge Imp Chain / Frightfur Patchwork / Frightfur Daredevil',
+'Edge Imp Chain / Frightfur Patchwork / Frightfur Daredevil / Tax +1',
 'Resh Shaddoll Incarnation / Reeshaddoll Wendi',
-'Instant Fusion / Frightfur Sheep / Frightfur Sabre-Tooth / Missing Piece: You cannot Fusion Summon "Frightfur Sabre-Tooth" using more than 2 Fusion Materials. This Skill cannot leave your inventory.',
+'Instant Fusion / Frightfur Sheep / Frightfur Sabre-Tooth / Missing Piece: You cannot Fusion Summon "Frightfur Sabre-Tooth" using more than 2 Fusion Materials. This Skill cannot leave your inventory / Tax +1.',
 'Toon Bookmark / Toon Dark Magician / Toon Harpie Lady / Toon Page-Flip / Toon Black Luster Soldier / Red-Eyes Toon Dragon',
 'Starving Venemy Dragon / Masquerade the Blazing Dragon',
 'Elemental HERO Prisma / Elemental HERO Escuridao / Frightfur Bear',

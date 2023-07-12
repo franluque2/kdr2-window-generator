@@ -12,7 +12,7 @@ export default {
     loot_poor: [
 'Abyss Stungray',
 'Thunder King, the Lightningstrike Kaiju',
-'Rai-Mei / Rai-Jin',
+'Rai-Jin',
 'Vylon Prism / Mist Wurm',
 'Wattdragonfly / Wattcobra / Wattkeeper / Wattkiwi / Watthydra',
 'Wattrain / Wattmole / Wattsquirrel / Wattgiraffe / Wattcastle',

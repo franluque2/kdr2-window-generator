@@ -60,10 +60,10 @@ export default {
 'Return of the Dragon Lords',
 'Tempest, Dragon Ruler of Storms / Lightning, Dragon Ruler of Drafts / Tax +1',
 'Dragon Revival Rhapsody / The King of D.',
-'Dragonmaid Lorpar / Parlor Dragonmaid / Dragonmaid Tinkhec / Kitchen Dragonmaid / Dragonmaid Welcome / Tax + 1',
+'Blaster, Dragon Ruler of Infernos / Burner, Dragon Ruler of Sparks / Tax +1',
 'Red-Eyes Darkness Metal Dragon / Tax +2',
 'Armed Dragon LV3 / Armed Dragon LV5 / Armed Dragon LV7 / Armed Dragon LV 10 / Armed Dragon Flash',
-'Dragonmaid Ernus / Nurse Dragonmaid / Dragonmaid Nudyarl / Laundry Dragonmaid / House Dragonmaid / Dragonmaid Changeover / Working Hours Only: The second effect of "House Dragonmaid" can only be activated during your turn and only once that turn. This Skill cannot leave your inventory. / Tax +2',
+'Tidal, Dragon Ruler of Waterfalls / Stream, Dragon Ruler of Droplets / Tax +1',
 'Guardragon Andrake / Guadragon Promineses / Guadragon Elpy / Guadragon Pisty / Galaxy Satellite Dragon / World Legacy Guardragon / Guardragon Link: You cannot Special Summon monsters by the effects of "Guardragon" Link monsters except "Guardragon" monsters. This Skill cannot leave your inventory.',
     ]
 

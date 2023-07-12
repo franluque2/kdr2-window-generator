@@ -2,10 +2,10 @@ export default {
     name: 'Stormtrooper',
     icon: 'mdi-hard-hat',
     special:null,
-    tip_min:1,
-    tip_max:9,
+    tip_min:5,
+    tip_max:13,
     class_skills: [
-    'Aimed Shot: (Once per Duel): Negate your Unique Skill until the end of the turn.',
+    'Aimed Shot: (Once per Duel): Negate your Unique Skill until a monster you control battles this turn.',
     'Jedi Stormtrooper?? CANON?? DISNEY????: (Once per Duel): You can banish 1 monster on the field until the 2nd Standby Phase after this skill’s effect activation.',
     'TR8T0R: (Once per turn): If you destroy an opponent\'s monster by battle, you can Special Summon it.'
     ],
@@ -37,9 +37,9 @@ export default {
 'Yokotuner / Cupid Pitch',
 ],
     loot_mid: [
-'Terraforming / Pseudo-Space / Kozmotown / Kozmo Sliprider / Kozmo Tincan',
-'B.E.S. Big Core MK-2 / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: “B.E.S. monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
-'B.E.S. Big Core / B.E.S. Crystal Core / B.E.S. Tetran / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: “B.E.S. monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
+'Crystron Phoenix / Crystron Citree / Crystron Thystvern / Crystron Sulfefnir / Crystron Smiger / Crystron Prasiortle / Clipped Wings: The effect of “Crystron Phoenix” when it\'s Synchro Summoned banishes 1 Spell/Trap card on the field and in the GY instead. This Skill cannot leave the inventory.',
+'B.E.S. Big Core MK-2 / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: "B.E.S." monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
+'B.E.S. Big Core / B.E.S. Crystal Core / B.E.S. Tetran / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: "B.E.S." monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
 'Synchron Explorer / Quickdraw Synchron / Unknown Synchron / Road Warrior / Nitro Warrior / Drill Warrior',
 'Satellite Synchron / Armory Arm',
 'Junk Archer / Junk Berserker / Junk Defender',
@@ -54,7 +54,7 @@ export default {
 'Kozmo Strawman / Kozmo Delta Shuttle',
 ],
     loot_high: [
-'Starry Knight Astel / Starry Knight Arrival / Starry Night, Starry Dragon',
+'Starry Knight Astel / Starry Knight Arrival / Starry Night, Starry Dragon,'
 'Jet Synchron / Jet Warrior',
 'Stardust Synchron / Stardust Trail / Stardust Illumination / Stardust Charge Warrior',
 'Kozmo Dark Destroyer / Kozmo Soartroopers / Level Eater',
@@ -62,7 +62,7 @@ export default {
 'Shooting Quasar Dragon / Formula Synchron / Righty Driver / Lefty Driver',
 'Revolution Synchron / Doppelwarrior / Tuning / Ancient Fairy Dragon / Starlight Junktion / Synchro World',
 'Crystron Halqifibrax / Crystron Quan / Crystron Entry / Crystron Quandax / Crystron Ametrix / Crystron Time-Space Drive: “Crystron Halqifibrax” must be Link Summoned using at least 1 “Crystron” monster. Also, “Crystron Halqifibrax” is treated as a Machine-Type Synchro Monster for the effects of the “Crystron” monsters. This Skill cannot leave the inventory.',
-'Crystron Phoenix / Crystron Citree / Crystron Thystvern / Crystron Sulfefnir / Crystron Smiger / Crystron Prasiortle / Clipped Wings: The effect of “Crystron Phoenix” when it\'s Synchro Summoned banishes 1 Spell/Trap card on the field and in the GY instead. This Skill cannot leave the inventory.',
+'Terraforming / Pseudo-Space / Kozmotown / Kozmo Sliprider / Kozmo Tincan',
 'Brionac, Dragon of the Ice Barrier / Dewloren, Tiger King of the Ice Barrier / Colossal Fighter',
 'Beckoned by the World Chalice / Chosen by the World Chalice / Crowned by the World Chalice / World Legacy - "World Chalice" / Ib the World Chalice Justiciar',
 'The Crimson Dragon / Synchro Over Top / Duelist Genesis',

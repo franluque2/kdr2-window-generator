@@ -64,7 +64,7 @@ export default {
 'Incredible Ecclesia, the Virtuous / Fallen of Albaz / Despian Luluwalilith',
 'Mental Tuner / Chaos Ruler, the Chaotic Magical Dragon / Tax +2',
 'Manadome Riumheart / Manadome Hearless / Manadome Meek / Manadome Prime-Heart',
-'Chaos Mirage Dragon / Mirage Dragon / Dual Mirage: You can send 1 "Mirage Dragon" from your Deck to the GY to add 1 "Chaos Mirage Dragon" from your Deck to your hand. "Chaos Mirage Dragon" cannot activate its effect in the GY. This Skill cannot leave your inventory.',
+'Chaos Mirage Dragon / Mirage Dragon / Dual Mirage: (Once per Duel): You can send 1 "Mirage Dragon" from your Deck to the GY to add 1 "Chaos Mirage Dragon" from your Deck to your hand. "Chaos Mirage Dragon" cannot activate its effect in the GY. This Skill cannot leave your inventory.',
 'Bystial Magnamhut / Bystial Saronir / Best Isles: The effects of “Bystial” monsters can only target monsters in your GY. This Skill cannot leave your inventory. / Tax +1',
 ]
 
