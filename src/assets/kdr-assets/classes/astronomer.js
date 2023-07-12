@@ -38,8 +38,8 @@ export default {
 ],
     loot_mid: [
 'Terraforming / Pseudo-Space / Kozmotown / Kozmo Sliprider / Kozmo Tincan',
-'B.E.S. Big Core MK-2 / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: “B.E.S. monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
-'B.E.S. Big Core / B.E.S. Crystal Core / B.E.S. Tetran / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: “B.E.S. monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
+'B.E.S. Big Core MK-2 / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: "B.E.S." monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
+'B.E.S. Big Core / B.E.S. Crystal Core / B.E.S. Tetran / Boss Rush / B.E.F. Zelos / Boss Enough for KDR: "B.E.S." monsters must lose 2 counters for their effect if they are able to, instead of 1. This Skill cannot leave your inventory.',
 'Synchron Explorer / Quickdraw Synchron / Unknown Synchron / Road Warrior / Nitro Warrior / Drill Warrior',
 'Satellite Synchron / Armory Arm',
 'Junk Archer / Junk Berserker / Junk Defender',
