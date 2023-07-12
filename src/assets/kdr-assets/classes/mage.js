@@ -7,7 +7,7 @@ export default {
     class_skills: [
         'Don’t Talk to Me, OR my Son! (Once per turn): If you Summon “Neo Aqua Madoor”, you can also Special Summon 1 “Aqua Madoor” from your hand, Deck, or GY. “Aqua Madoor” counts for your skill, relic, or quest, etc as if he was your Legendary Monster.',
         'Look Ma, Too Many Hands!: You now draw 4 cards for your normal draw during each of your Draw Phases while you control “Neo Aqua Madoor”, also, the effect to draw 4 for your draw phase is now optional, and you can choose to not draw at all instead.',
-        'Spell Infusion: Gain the “Spell Overflow” skill. Your minimum deck size is now 60. (During your first Draw Phase): Send 5 Spells from your Deck to your GY.'
+        'Spell Infusion: Your minimum deck size is now 60. (During your first Draw Phase) (Once per Duel): Send 5 Spells from your Deck to your GY. (Once per turn): At the end of your turn, gain LP equal to the number of Spell Cards in your GY x 200.'
     ],
     loot_poor: [
 'Dark Elf',
