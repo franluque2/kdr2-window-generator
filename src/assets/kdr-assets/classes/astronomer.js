@@ -1,13 +1,13 @@
 export default {
-    name: 'Stormtrooper',
-    icon: 'mdi-hard-hat',
+    name: 'Astronomer',
+    icon: 'mdi-weather-night',
     special:null,
     tip_min:1,
     tip_max:9,
     class_skills: [
-    'Aimed Shot: (Once per Duel): Negate your Unique Skill until the end of the turn.',
-    'Jedi Stormtrooper?? CANON?? DISNEY????: (Once per Duel): You can banish 1 monster on the field until the 2nd Standby Phase after this skill’s effect activation.',
-    'TR8T0R: (Once per turn): If you destroy an opponent\'s monster by battle, you can Special Summon it.'
+    'Regular Tuners (Once per turn): If you Synchro Summon using a non-Effect monster as Synchro Material you can add 1 Tuner monster from your Deck to your hand.',
+    'Big B.e.e.f.: “B.E.S.” and “Big Core” monsters you control lose 500 ATK/DEF. Add all “Big Core”, “B.E.S.” cards to your inventory, as well as “B.E.F. Zelos” and “Boss Rush”. You can Normal Summon/Set even while “Boss Rush” is on the field.',
+    'Tuning your Tunes (Once per turn): You can make 1 Tuner a non-Tuner or vice versa. If you Synchro Summon using that monster this turn, draw 1 card.'
     ],
     loot_poor: [
 'Chronomaly Tula Guardian / Chronomaly Nebra Disk / Chronomaly Moai / Chronomaly City Babylon',
