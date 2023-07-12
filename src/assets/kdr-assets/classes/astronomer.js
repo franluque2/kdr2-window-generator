@@ -54,7 +54,7 @@ export default {
 'Kozmo Strawman / Kozmo Delta Shuttle',
 ],
     loot_high: [
-'Starry Knight Astel / Starry Knight Arrival / Starry Night, Starry Dragon,'
+'Starry Knight Astel / Starry Knight Arrival / Starry Night, Starry Dragon',
 'Jet Synchron / Jet Warrior',
 'Stardust Synchron / Stardust Trail / Stardust Illumination / Stardust Charge Warrior',
 'Kozmo Dark Destroyer / Kozmo Soartroopers / Level Eater',
