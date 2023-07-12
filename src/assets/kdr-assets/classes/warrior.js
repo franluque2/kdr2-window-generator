@@ -2,12 +2,12 @@ export default {
     name: 'Warrior',
     icon: 'mdi-fencing',
     special:null,
-    tip_min:17,
-    tip_max:30,
+    tip_min:15,
+    tip_max:25,
     class_skills: [
-        'Reinforcements!: After you’ve completed your Legendary Quest, you can activate this skill. (Once per turn): If you equip an Equip Spell to a monster you control; you can Special Summon 1 Level 4 or lower Warrior type monster from your Deck.',
-        'Gaia Knights: All “Gaia” monsters in your hand, field, or GY original names are treated as “Gaia the Fierce Knight”.',
-        'Terrifying Battle Spirit: (Once per Duel): If your “Gaia” monster battles an opponent’s monster, you can change that monster to Defense position. “Gaia” monsters you control inflict piercing battle damage.',
+        'Reinforcements!: After you’ve completed your Legendary Quest, you can activate this skill. (Once per Duel): If you equip an Equip Spell to a monster you control; you can Special Summon 1 Level 4 or lower Warrior type monster from your Deck.',
+        'Armour Up!: Add “Hard Armor” to your inventory. It becomes one of your Legendary Monsters, grants your monster 200 ATK/DEF, and you can equip it to a monster you control with the effect:\n- If this card is equipped to a monster: you can change its battle position. The first time the equipped monster would be destroyed each turn, it is not destroyed. If this card is sent to the GY because the equipped monster was destroyed: Target 1 Spell/Trap in your GY; add it to your hand.',
+        'I Like Big Boys: You can Tribute Summon using Equip Spells as Tributes. (Once per turn): Immediately after you Tribute Summon, you can send 1 additional Equip Spell from your hand or field to the GY; You can Normal Summon/Set 1 Warrior-type monster in addition to your Normal Summon/Set this turn.',
 ],
     loot_poor: [
 'Cyber Tutubon',
